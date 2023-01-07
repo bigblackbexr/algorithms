@@ -4,6 +4,6 @@
 
 <template>
   <div class="bg-background">
-    <colorPalette msg="Vite + Vue" />
+    <colorPalette />
   </div>
 </template>
