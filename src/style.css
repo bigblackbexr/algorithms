@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-  @apply text-white;
+  @apply text-foreground;
   @apply text-sm
 }
 
