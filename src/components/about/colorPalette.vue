@@ -24,7 +24,7 @@
             <td class="px-12 py-2">
               <div class="flex items-center rounded-full bg-background-light px-3 py-1.5">
                 <div class="mt-1 ml-2 text-background-dark">
-                  {{ colors.background.light }}
+                  {{ background.light }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-background-dark px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -37,7 +37,7 @@
             <td class="px-12 py-2">
               <div class="flex items-center rounded-full bg-background px-3 py-1.5">
                 <div class="mt-1 ml-2">
-                  {{ colors.background.DEFAULT }}
+                  {{ background.DEFAULT }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-foreground px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -50,7 +50,7 @@
             <td class="px-12 py-2 rounded-r-full">
               <div class="flex items-center rounded-full bg-background-dark px-3 py-1.5">
                 <div class="mt-1 ml-2 text-background-light">
-                  {{ colors.background.dark }}
+                  {{ background.dark }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-background-light px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -71,8 +71,8 @@
             </td>
             <td class="px-12 py-2">
               <div class="flex items-center rounded-full bg-currentLine-light px-3 py-1.5">
-                <div class="mt-1 ml-2">
-                  #FFBCE2
+                <div class="mt-1 ml-2 text-currentLine-dark">
+                  {{ currentLine.light }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-currentLine-dark px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -85,7 +85,7 @@
             <td class="px-12 py-2">
               <div class="flex items-center rounded-full bg-currentLine px-3 py-1.5">
                 <div class="mt-1 ml-2">
-                  #FFBCE2
+                  {{ currentLine.DEFAULT }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-foreground px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -97,8 +97,8 @@
             </td>
             <td class="px-12 py-2 rounded-r-full">
               <div class="flex items-center rounded-full bg-currentLine-dark px-3 py-1.5">
-                <div class="mt-1 ml-2">
-                  #FFBCE2
+                <div class="mt-1 ml-2 text-currentLine-light">
+                  {{ currentLine.dark }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-currentLine-light px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -119,8 +119,8 @@
             </td>
             <td class="px-12 py-2">
               <div class="flex items-center rounded-full bg-foreground-light px-3 py-1.5">
-                <div class="mt-1 ml-2">
-                  #FFBCE2
+                <div class="mt-1 ml-2 text-foreground-dark">
+                  {{ foreground.light }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-foreground-dark px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -132,11 +132,11 @@
             </td>
             <td class="px-12 py-2">
               <div class="flex items-center rounded-full bg-foreground px-3 py-1.5">
-                <div class="mt-1 ml-2">
-                  #FFBCE2
+                <div class="mt-1 ml-2 text-foreground-inverted">
+                  {{ foreground.DEFAULT }}
                 </div>
-                <div class="ml-2 rounded-full hover:ring-2 hover:ring-foreground px-3 py-1">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                <div class="ml-2 rounded-full hover:ring-2 hover:ring-foreground-inverted px-3 py-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="dark" class="w-6 h-6">
                     <path fill-rule="evenodd" d="M7.502 6h7.128A3.375 3.375 0 0118 9.375v9.375a3 3 0 003-3V6.108c0-1.505-1.125-2.811-2.664-2.94a48.972 48.972 0 00-.673-.05A3 3 0 0015 1.5h-1.5a3 3 0 00-2.663 1.618c-.225.015-.45.032-.673.05C8.662 3.295 7.554 4.542 7.502 6zM13.5 3A1.5 1.5 0 0012 4.5h4.5A1.5 1.5 0 0015 3h-1.5z" clip-rule="evenodd" />
                     <path fill-rule="evenodd" d="M3 9.375C3 8.339 3.84 7.5 4.875 7.5h9.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V9.375zM6 12a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V12zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75zM6 15a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V15zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75zM6 18a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V18zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
                   </svg>
@@ -145,8 +145,8 @@
             </td>
             <td class="px-12 py-2 rounded-r-full">
               <div class="flex items-center rounded-full bg-foreground-dark px-3 py-1.5">
-                <div class="mt-1 ml-2">
-                  #FFBCE2
+                <div class="mt-1 ml-2 text-foreground-light">
+                  {{ foreground.dark }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-foreground-light px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -167,8 +167,8 @@
             </td>
             <td class="px-12 py-2">
               <div class="flex items-center rounded-full bg-comment-light px-3 py-1.5">
-                <div class="mt-1 ml-2">
-                  #FFBCE2
+                <div class="mt-1 ml-2 text-comment-dark">
+                  {{ comment.light }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-comment-dark px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -181,9 +181,9 @@
             <td class="px-12 py-2">
               <div class="flex items-center rounded-full bg-comment px-3 py-1.5">
                 <div class="mt-1 ml-2">
-                  #FFBCE2
+                  {{ comment.DEFAULT }}
                 </div>
-                <div class="ml-2 rounded-full hover:ring-2 hover:ring-comment px-3 py-1">
+                <div class="ml-2 rounded-full hover:ring-2 hover:ring-foreground px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                     <path fill-rule="evenodd" d="M7.502 6h7.128A3.375 3.375 0 0118 9.375v9.375a3 3 0 003-3V6.108c0-1.505-1.125-2.811-2.664-2.94a48.972 48.972 0 00-.673-.05A3 3 0 0015 1.5h-1.5a3 3 0 00-2.663 1.618c-.225.015-.45.032-.673.05C8.662 3.295 7.554 4.542 7.502 6zM13.5 3A1.5 1.5 0 0012 4.5h4.5A1.5 1.5 0 0015 3h-1.5z" clip-rule="evenodd" />
                     <path fill-rule="evenodd" d="M3 9.375C3 8.339 3.84 7.5 4.875 7.5h9.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V9.375zM6 12a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V12zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75zM6 15a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V15zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75zM6 18a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V18zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
@@ -193,10 +193,10 @@
             </td>
             <td class="px-12 py-2 rounded-r-full">
               <div class="flex items-center rounded-full bg-comment-dark px-3 py-1.5">
-                <div class="mt-1 ml-2">
-                  #FFBCE2
+                <div class="mt-1 ml-2 text-comment-light">
+                  {{ comment.dark }}
                 </div>
-                <div class="ml-2 rounded-full hover:ring-2 hover:ring-foreground-light px-3 py-1">
+                <div class="ml-2 rounded-full hover:ring-2 hover:ring-comment-light px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                     <path fill-rule="evenodd" d="M7.502 6h7.128A3.375 3.375 0 0118 9.375v9.375a3 3 0 003-3V6.108c0-1.505-1.125-2.811-2.664-2.94a48.972 48.972 0 00-.673-.05A3 3 0 0015 1.5h-1.5a3 3 0 00-2.663 1.618c-.225.015-.45.032-.673.05C8.662 3.295 7.554 4.542 7.502 6zM13.5 3A1.5 1.5 0 0012 4.5h4.5A1.5 1.5 0 0015 3h-1.5z" clip-rule="evenodd" />
                     <path fill-rule="evenodd" d="M3 9.375C3 8.339 3.84 7.5 4.875 7.5h9.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V9.375zM6 12a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V12zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75zM6 15a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V15zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75zM6 18a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V18zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
@@ -215,8 +215,8 @@
             </td>
             <td class="px-12 py-2">
               <div class="flex items-center rounded-full bg-cyan-light px-3 py-1.5">
-                <div class="mt-1 ml-2">
-                  #FFBCE2
+                <div class="mt-1 ml-2 text-cyan-dark">
+                  {{ cyan.light }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-cyan-dark px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -229,7 +229,7 @@
             <td class="px-12 py-2">
               <div class="flex items-center rounded-full bg-cyan px-3 py-1.5">
                 <div class="mt-1 ml-2">
-                  #FFBCE2
+                  {{ cyan.DEFAULT }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-foreground px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -241,8 +241,8 @@
             </td>
             <td class="px-12 py-2 rounded-r-full">
               <div class="flex items-center rounded-full bg-cyan-dark px-3 py-1.5">
-                <div class="mt-1 ml-2">
-                  #FFBCE2
+                <div class="mt-1 ml-2 text-cyan-light">
+                  {{ cyan.dark }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-cyan-light px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -263,8 +263,8 @@
             </td>
             <td class="px-12 py-2">
               <div class="flex items-center rounded-full bg-green-light px-3 py-1.5">
-                <div class="mt-1 ml-2">
-                  #FFBCE2
+                <div class="mt-1 ml-2 text-green-dark">
+                  {{ green.light }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-green-dark px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -277,7 +277,7 @@
             <td class="px-12 py-2">
               <div class="flex items-center rounded-full bg-green px-3 py-1.5">
                 <div class="mt-1 ml-2">
-                  #FFBCE2
+                  {{ green.DEFAULT }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-foreground px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -289,8 +289,8 @@
             </td>
             <td class="px-12 py-2 rounded-r-full">
               <div class="flex items-center rounded-full bg-green-dark px-3 py-1.5">
-                <div class="mt-1 ml-2">
-                  #FFBCE2
+                <div class="mt-1 ml-2 text-green-light">
+                  {{ green.dark}}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-green-light px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -311,8 +311,8 @@
             </td>
             <td class="px-12 py-2">
               <div class="flex items-center rounded-full bg-orange-light px-3 py-1.5">
-                <div class="mt-1 ml-2">
-                  #FFBCE2
+                <div class="mt-1 ml-2 text-orange-dark">
+                  {{ orange.light }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-orange-dark px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -325,7 +325,7 @@
             <td class="px-12 py-2">
               <div class="flex items-center rounded-full bg-orange px-3 py-1.5">
                 <div class="mt-1 ml-2">
-                  #FFBCE2
+                  {{ orange.DEFAULT }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-foreground px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -337,8 +337,8 @@
             </td>
             <td class="px-12 py-2 rounded-r-full">
               <div class="flex items-center rounded-full bg-orange-dark px-3 py-1.5">
-                <div class="mt-1 ml-2">
-                  #FFBCE2
+                <div class="mt-1 ml-2 text-orange-light">
+                  {{ orange.dark }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-orange-light px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -359,8 +359,8 @@
             </td>
             <td class="px-12 py-2">
               <div class="flex items-center rounded-full bg-pink-light px-3 py-1.5">
-                <div class="mt-1 ml-2">
-                  #FFBCE2
+                <div class="mt-1 ml-2 text-pink-dark">
+                  {{ pink.light }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-pink-dark px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -373,7 +373,7 @@
             <td class="px-12 py-2">
               <div class="flex items-center rounded-full bg-pink px-3 py-1.5">
                 <div class="mt-1 ml-2">
-                  #FFBCE2
+                  {{ pink.DEFAULT }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-foreground px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -385,8 +385,8 @@
             </td>
             <td class="px-12 py-2 rounded-r-full">
               <div class="flex items-center rounded-full bg-pink-dark px-3 py-1.5">
-                <div class="mt-1 ml-2">
-                  #FFBCE2
+                <div class="mt-1 ml-2 text-pink-light">
+                  {{ pink.dark }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-pink-light px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -407,8 +407,8 @@
             </td>
             <td class="px-12 py-2">
               <div class="flex items-center rounded-full bg-purple-light px-3 py-1.5">
-                <div class="mt-1 ml-2">
-                  #FFBCE2
+                <div class="mt-1 ml-2 text-purple-dark">
+                  {{ purple.light }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-purple-dark px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -421,7 +421,7 @@
             <td class="px-12 py-2">
               <div class="flex items-center rounded-full bg-purple px-3 py-1.5">
                 <div class="mt-1 ml-2">
-                  #FFBCE2
+                  {{ purple.DEFAULT }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-foreground px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -433,8 +433,8 @@
             </td>
             <td class="px-12 py-2 rounded-r-full">
               <div class="flex items-center rounded-full bg-purple-dark px-3 py-1.5">
-                <div class="mt-1 ml-2">
-                  #FFBCE2
+                <div class="mt-1 ml-2 text-purple-light">
+                  {{ purple.dark }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-purple-light px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -455,8 +455,8 @@
             </td>
             <td class="px-12 py-2">
               <div class="flex items-center rounded-full bg-red-light px-3 py-1.5">
-                <div class="mt-1 ml-2">
-                  #FFBCE2
+                <div class="mt-1 ml-2 text-red-dark">
+                  {{ red.light }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-red-dark px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -469,7 +469,7 @@
             <td class="px-12 py-2">
               <div class="flex items-center rounded-full bg-red px-3 py-1.5">
                 <div class="mt-1 ml-2">
-                  #FFBCE2
+                  {{ red.DEFAULT }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-foreground px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -481,8 +481,8 @@
             </td>
             <td class="px-12 py-2 rounded-r-full">
               <div class="flex items-center rounded-full bg-red-dark px-3 py-1.5">
-                <div class="mt-1 ml-2">
-                  #FFBCE2
+                <div class="mt-1 ml-2 text-red-light">
+                  {{ red.dark }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-red-light px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -503,8 +503,8 @@
             </td>
             <td class="px-12 py-2">
               <div class="flex items-center rounded-full bg-vampire-light px-3 py-1.5">
-                <div class="mt-1 ml-2">
-                  #FFBCE2
+                <div class="mt-1 ml-2 text-vampire-dark">
+                  {{ vampire.light }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-vampire-dark px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -517,7 +517,7 @@
             <td class="px-12 py-2">
               <div class="flex items-center rounded-full bg-vampire px-3 py-1.5">
                 <div class="mt-1 ml-2">
-                  #FFBCE2
+                  {{ vampire.DEFAULT }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-foreground px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -529,8 +529,8 @@
             </td>
             <td class="px-12 py-2 rounded-r-full">
               <div class="flex items-center rounded-full bg-vampire-dark px-3 py-1.5">
-                <div class="mt-1 ml-2">
-                  #FFBCE2
+                <div class="mt-1 ml-2 text-vampire-light">
+                  {{ vampire.dark }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-vampire-light px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -551,11 +551,11 @@
             </td>
             <td class="px-12 py-2">
               <div class="flex items-center rounded-full bg-yellow-light px-3 py-1.5">
-                <div class="mt-1 ml-2">
-                  #FFBCE2
+                <div class="mt-1 ml-2 text-yellow-dark">
+                  {{ yellow.light }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-yellow-dark px-3 py-1">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="darkkhaki" class="w-6 h-6">
                     <path fill-rule="evenodd" d="M7.502 6h7.128A3.375 3.375 0 0118 9.375v9.375a3 3 0 003-3V6.108c0-1.505-1.125-2.811-2.664-2.94a48.972 48.972 0 00-.673-.05A3 3 0 0015 1.5h-1.5a3 3 0 00-2.663 1.618c-.225.015-.45.032-.673.05C8.662 3.295 7.554 4.542 7.502 6zM13.5 3A1.5 1.5 0 0012 4.5h4.5A1.5 1.5 0 0015 3h-1.5z" clip-rule="evenodd" />
                     <path fill-rule="evenodd" d="M3 9.375C3 8.339 3.84 7.5 4.875 7.5h9.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V9.375zM6 12a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V12zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75zM6 15a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V15zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75zM6 18a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V18zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
                   </svg>
@@ -564,11 +564,11 @@
             </td>
             <td class="px-12 py-2">
               <div class="flex items-center rounded-full bg-yellow px-3 py-1.5">
-                <div class="mt-1 ml-2">
-                  #FFBCE2
+                <div class="mt-1 ml-2 text-foreground-dark">
+                  {{ yellow.DEFAULT }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-foreground px-3 py-1">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="darkkhaki" class="w-6 h-6">
                     <path fill-rule="evenodd" d="M7.502 6h7.128A3.375 3.375 0 0118 9.375v9.375a3 3 0 003-3V6.108c0-1.505-1.125-2.811-2.664-2.94a48.972 48.972 0 00-.673-.05A3 3 0 0015 1.5h-1.5a3 3 0 00-2.663 1.618c-.225.015-.45.032-.673.05C8.662 3.295 7.554 4.542 7.502 6zM13.5 3A1.5 1.5 0 0012 4.5h4.5A1.5 1.5 0 0015 3h-1.5z" clip-rule="evenodd" />
                     <path fill-rule="evenodd" d="M3 9.375C3 8.339 3.84 7.5 4.875 7.5h9.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V9.375zM6 12a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V12zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75zM6 15a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V15zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75zM6 18a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V18zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
                   </svg>
@@ -577,8 +577,8 @@
             </td>
             <td class="px-12 py-2 rounded-r-full">
               <div class="flex items-center rounded-full bg-yellow-dark px-3 py-1.5">
-                <div class="mt-1 ml-2">
-                  #FFBCE2
+                <div class="mt-1 ml-2 text-yellow-light">
+                  {{ yellow.dark }}
                 </div>
                 <div class="ml-2 rounded-full hover:ring-2 hover:ring-yellow-light px-3 py-1">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -596,11 +596,68 @@
   </div>
 </template>
 
-<script setup>
+<script>
   import resolveConfig from 'tailwindcss/resolveConfig'
   import tailwindConfig from 'tailwind-config'
+  
+  export default {
+    data () {
+      return {
+        background: {},
+        currentLine: {},
+        foreground: {},
+        comment: {},
+        cyan: {},
+        green: {},
+        orange: {},
+        pink: {},
+        purple: {},
+        red: {},
+        vampire: {},
+        yellow: {}
+      }
+    },
+    methods: {
+      getColors () {
 
-  const fullConfig = resolveConfig(tailwindConfig)
-  const colors = fullConfig.theme.colors
-  console.log(colors);
+        const fullConfig = resolveConfig(tailwindConfig)
+
+        let { background,
+              currentLine,
+              foreground,
+              comment,
+              cyan,
+              green,
+              orange,
+              pink,
+              purple,
+              red,
+              vampire,
+              yellow          
+            } = fullConfig.theme.colors
+
+        this.background = this.convertToUppercase(background)
+        this.currentLine = this.convertToUppercase(currentLine)
+        this.foreground = this.convertToUppercase(foreground)
+        this.comment = this.convertToUppercase(comment)
+        this.cyan = this.convertToUppercase(cyan)
+        this.green = this.convertToUppercase(green)
+        this.orange = this.convertToUppercase(orange)
+        this.pink = this.convertToUppercase(pink)
+        this.purple = this.convertToUppercase(purple)
+        this.red = this.convertToUppercase(red)
+        this.vampire = this.convertToUppercase(vampire)
+        this.yellow = this.convertToUppercase(yellow)
+
+      },
+      convertToUppercase (object) {
+        return Object.fromEntries(
+          Object.entries(object).map(([key, value]) => [key, value.toUpperCase()])
+        )
+      },
+    },
+    mounted () {
+      this.getColors()
+    }
+  }
 </script>
