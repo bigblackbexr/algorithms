@@ -13,18 +13,7 @@
           </tr>
         </thead>
         <tbody>
-          <Color :color="background" colorName="background" fill="silver" />
-          <Color :color="currentLine" colorName="currentLine" fill="silver" />
-          <Color :color="foreground" colorName="foreground" fill="silver" />
-          <Color :color="comment" colorName="comment" fill="silver" />
-          <Color :color="cyan" colorName="cyan" fill="silver" />
-          <Color :color="green" colorName="green" fill="silver" />
-          <Color :color="orange" colorName="orange" fill="silver" />
-          <Color :color="pink" colorName="pink" fill="silver" />
-          <Color :color="purple" colorName="purple" fill="silver" />
-          <Color :color="red" colorName="red" fill="silver" />
-          <Color :color="vampire" colorName="vampire" fill="silver" />
-          <Color :color="yellow" colorName="yellow" fill="silver" />
+          <Color :color="light" colorName="background" fill="silver" />
         </tbody>
       </table>
 	  </div>
@@ -55,6 +44,10 @@
         red: {},
         vampire: {},
         yellow: {},
+
+        light: null,
+        default: null,
+        dark: null,
       }
     },
     methods: {
@@ -86,6 +79,9 @@
         this.red = this.convertToUppercase(red)
         this.vampire = this.convertToUppercase(vampire)
         this.yellow = this.convertToUppercase(yellow)
+
+        this.light = '[' + this.red.light + ']'
+        console.log(this.light);
       },
       convertToUppercase (object) {
         return Object.fromEntries(

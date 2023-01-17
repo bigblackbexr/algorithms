@@ -1,14 +1,14 @@
 <template>
-	<tr class="bg-background-light">
+	<tr v-for="item in colorss" class="bg-background-light">
 		<td class="px-12 py-2 rounded-l-full">
 			<div class="mt-1">
-				{{ nameColor }}
+				{{ getName(item) }}
 			</div>
 		</td>
 		<td class="px-12 py-2">
-			<div class="flex items-center rounded-full px-3 py-1.5" :class="bgColorLight">
+			<div class="flex items-center rounded-full px-3 py-1.5" :class="{ [`bg-${light}`]: true }">
 				<div class="mt-1 ml-2" :class="txColorDark">
-					{{ color.light }}
+					{{ getLight(item) }}
 				</div>
 				<div class="ml-2 rounded-full hover:ring-2 px-3 py-1" :class="rgColotDark">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" :fill="fill" class="w-6 h-6">
@@ -21,7 +21,7 @@
 		<td class="px-12 py-2">
 			<div class="flex items-center rounded-full px-3 py-1.5" :class="bgColor">
 				<div class="mt-1 ml-2">
-					{{ color.DEFAULT }}
+					{{ getDefault(item) }}
 				</div>
 				<div class="ml-2 rounded-full hover:ring-2 hover:ring-foreground px-3 py-1">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" :fill="fill" class="w-6 h-6">
@@ -34,7 +34,7 @@
 		<td class="px-12 py-2 rounded-r-full">
 			<div class="flex items-center rounded-full px-3 py-1.5" :class="bgColorDark">
 				<div class="mt-1 ml-2" :class="txColorLight">
-					{{ color.dark }}
+					{{ getDark(item) }}
 				</div>
 				<div class="ml-2 rounded-full hover:ring-2 px-3 py-1" :class="rgColotLight">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" :fill="fill" class="w-6 h-6">
@@ -48,10 +48,14 @@
 </template>
 
 <script>
+  import resolveConfig from 'tailwindcss/resolveConfig'
+  import tailwindConfig from 'tailwind-config'
+  const fullConfig = resolveConfig(tailwindConfig)
+
 	export default {
 		props: [
-			'color',
-			'colorName',
+      'color',
+      'colorName',
 			'fill'
 		],
 		data () {
@@ -71,7 +75,62 @@
 				bgColorDark: `bg-${this.colorName}-dark`,
 				txColorLight: `text-${this.colorName}-light`,
 				rgColotLight: `hover:ring-${this.colorName}-light`,
+
+        x : this.color,
+
+        colors: {},
+        colorss: [],
+
+        light: '[#C4F3FE]'
 			}
-		}
+		},
+    methods: {
+      getColorsConfig () {
+        this.colorss = Object.entries(fullConfig.theme.colors).map( element => (
+            { [element[0]]: element[1] }
+          )
+        )
+
+		    let keys = Object.keys(fullConfig.theme.colors)
+
+        // Don't need transparent & currentColor
+        for (let index = 0; index < 2; index++) {
+          this.colorss.shift()
+		      keys.shift()
+        }
+
+        for (let index = 0; index < keys.length; index++) {
+			    this.colors[keys[index]] = Object.values(this.colorss[index])
+        }
+      },
+      getName (item) {
+        let name = Object.keys(item).toString()
+        name = name.charAt(0).toUpperCase() + name.slice(1)
+        name = name.replace(/([a-z])([A-Z])/g, '$1 $2').trim()
+        return name
+      },
+      getLight (item) {
+        let keyName = Object.keys(item).toString()
+        let hexLight = item[keyName]
+        hexLight = hexLight.light
+        return hexLight
+      },
+      getDefault (item) {
+        let keyName = Object.keys(item).toString()
+        let hexDefault = item[keyName]
+        hexDefault = hexDefault.DEFAULT
+        return hexDefault
+      },
+      getDark (item) {
+        let keyName = Object.keys(item).toString()
+        let hexDark = item[keyName]
+        hexDark = hexDark.dark
+        return hexDark
+      }
+    },
+    mounted () {
+      this.getColorsConfig()
+      console.log(this.color);
+    }
 	}
 </script>
