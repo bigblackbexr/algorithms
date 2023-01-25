@@ -1,26 +1,29 @@
 <template>
-	<div class="
-		bg-vampire
-		rounded
-		m-4
-		">
-		<div class="flex flex-row items-center justify-between m-2 p-2">
-			<a class="ml-9" href="/">
-				Algorithms
-			</a>
-			<button @click="open = !open">
-				<div class="flex flex-row items-center justify-between">
+	<div class="bg-vampire rounded m-4">
+		<div class="md:flex md:items-center md:flex-row">
+			<!-- Logo & Button -->
+			<div class="flex flex-row items-center justify-between m-2 p-2">
+				<a class="ml-9 max-md:text-xl" href="#">
+					Algorithms
+				</a>
+				<button class="md:hidden" @click="open = !open">
 					<svg :class="{'hidden': open}" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
 						<path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
 					</svg>
 					<svg :class="{'hidden': !open}" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
 						<path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
 					</svg>
-				</div>
-			</button>
-		</div>
-		<div :class="{'flex': open, 'hidden': !open}">
-			Hola
+				</button>
+			</div>
+
+			<!-- Menu -->
+			<div :class="{'flex': open, 'hidden': !open}"
+			class="flex flex-col grow pb-4 md:flex md:flex-row md:justify-end md:pb-0 text-base max-md:text-sm">
+				<a class="md:p-4" href="#">Portafolio</a>
+				<a class="md:p-4" href="#">About</a>
+				<a class="md:p-4" href="#">Contact</a>
+				<a class="md:p-4 md:pr-10" href="#">More</a>
+			</div>
 		</div>
 	</div>
 </template>
