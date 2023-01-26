@@ -1,5 +1,5 @@
 <template>
-	<div class="bg-vampire rounded m-4">
+	<div class="bg-vampire rounded-lg m-4 py-2">
 		<div class="md:flex md:items-center md:flex-row">
 			<!-- Logo & Button -->
 			<div class="flex flex-row items-center justify-between m-2 p-2">
@@ -19,9 +19,12 @@
 			<!-- Menu -->
 			<div :class="{'flex': open, 'hidden': !open}"
 			class="flex flex-col grow pb-4 md:flex md:flex-row md:justify-end md:pb-0 text-base max-md:text-sm">
-				<a class="md:p-4" href="#">Portafolio</a>
-				<a class="md:p-4" href="#">About</a>
-				<a class="md:p-4" href="#">Contact</a>
+				<a class="focus:bg-vampire-light focus:rounded-lg hover:underline decoration-2 underline-offset-8 focus:underline md:p-4" href="#">Portafolio</a>
+				
+				<a class="md:p-4" href="#">Try</a>
+
+				<a class="rounded-l-lg bg-foreground text-orange focus:underline decoration-2 underline-offset-8 md:p-4" href="#">About</a>
+				<a class="rounded-r-lg bg-foreground text-orange focus:underline decoration-2 underline-offset-8 md:p-4" href="#">Contact</a>
 				<a class="md:p-4 md:pr-10" href="#">More</a>
 			</div>
 		</div>
