@@ -18,18 +18,18 @@
 
 			<!-- Menu -->
 			<div :class="{'flex': open, 'hidden': !open}"
-			class="flex flex-col grow pb-4 md:flex md:flex-row md:justify-end md:pb-0 text-base max-md:text-sm md:pr-16">
+			class="flex flex-col grow pb-2 md:flex md:flex-row md:justify-end md:pb-0 text-base max-md:text-sm md:pr-16">
 
 				<!--
 					First row is md light 
 					Second row is md dark
-					Third row is sm light
-					Fourth row is sm dark
+					Third row is for sm light & dark
 				-->
 
 				<a class="
 					rounded-l-lg bg-green-light text-green-dark hover:underline focus:underline decoration-2 underline-offset-8 md:py-4 md:px-9
 					dark:bg-purple-light dark:text-purple-dark
+					max-md:my-2 max-md:mx-4 max-md:p-3 max-md:rounded-lg
 					"
 					href="#">
 						Menu
@@ -37,6 +37,7 @@
 				<a class="
 					bg-green-light text-green-dark hover:underline focus:underline decoration-2 underline-offset-8 md:py-4 md:px-9
 					dark:bg-purple-light dark:text-purple-dark
+					max-md:my-2 max-md:mx-4 max-md:p-3 max-md:rounded-lg
 					"
 					href="#">
 						About
@@ -44,6 +45,7 @@
 				<a class="
 					bg-green-light text-green-dark hover:underline focus:underline decoration-2 underline-offset-8 md:py-4 md:px-9
 					dark:bg-purple-light dark:text-purple-dark
+					max-md:my-2 max-md:mx-4 max-md:p-3 max-md:rounded-lg
 					"
 					href="#">
 						Contact
@@ -51,6 +53,7 @@
 				<a class="
 					rounded-r-lg bg-green-light text-green-dark hover:underline focus:underline decoration-2 underline-offset-8 md:py-4 md:px-9
 					dark:bg-purple-light dark:text-purple-dark
+					max-md:my-2 max-md:mx-4 max-md:p-3 max-md:rounded-lg
 					"
 					href="#">
 						More
