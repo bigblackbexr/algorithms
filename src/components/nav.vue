@@ -1,5 +1,5 @@
 <template>
-	<div class="bg-vampire rounded-lg m-4 py-2">
+	<div class="inset-x-0 top-0 bg-vampire rounded-lg m-4 py-2">
 		<div class="md:flex md:items-center md:flex-row">
 			<!-- Logo & Button -->
 			<div class="flex flex-row items-center justify-between m-2 p-2">
