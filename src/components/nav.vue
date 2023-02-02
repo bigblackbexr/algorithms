@@ -18,7 +18,7 @@
 
 			<!-- Menu -->
 			<div :class="{'flex': open, 'hidden': !open}"
-			class="flex flex-col grow pb-2 md:flex md:flex-row md:justify-end md:pb-0 text-base max-md:text-sm md:pr-16">
+			class="flex flex-col grow pb-2 md:flex md:flex-row md:justify-end md:pb-0 text-base max-md:text-sm md:pr-4">
 
 				<!--
 					First row is md light 
