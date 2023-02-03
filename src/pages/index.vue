@@ -4,7 +4,7 @@
 		<Nav />
 	</nav>
 
-	<main class="absolute inset-x-4 top-28 bottom-24 bg-background-dark">
+	<main class="absolute inset-x-4 top-28 bottom-24 bg-vampire">
 		<div class="grid place-items-center h-full">
 			<div class="flex animate-pulse">
 				<p>.</p>
