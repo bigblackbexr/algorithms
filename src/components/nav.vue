@@ -60,7 +60,7 @@
 				</a>
 
 				<a class="
-					md:hidden relative
+					hidden relative
 					rounded-r-lg bg-green-light text-green-dark hover:underline focus:underline decoration-2 underline-offset-8 md:py-4 md:px-9
 					dark:bg-purple-light dark:text-purple-dark
 					max-md:my-2 max-md:mx-4 max-md:p-3 max-md:rounded-lg
