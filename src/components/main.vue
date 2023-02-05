@@ -10,7 +10,7 @@
           >
             Algorithms
           </div>
-          <div class="text-md ml-80 max-md:ml-56">
+          <div class="text-md ml-72 max-md:ml-48">
             <span class="relative">
               v0.0
               <span class="animate-pulse absolute mt-1 text-4xl rounded-full bg-orange-dark dark:bg-cyan-dark h-1.5 w-1.5"> </span>
