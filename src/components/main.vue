@@ -1,14 +1,21 @@
 <template>
   <div class="h-full">
-    <div class="text-orange dark:text-cyan">
+    <div>
       <nav class="grid place-items-center my-4">
 
         
           <div class="
-            rounded-xl bg-orange text-foreground dark:bg-cyan dark:text-background text-5xl p-10
+            rounded-xl text-5xl p-10
             max-md:text-4xl max-md:p-8"
           >
-            Algorithms
+
+              <div class="bg-logo-light dark:bg-logo-dark mx-auto w-48 h-48">
+                &nbsp
+              </div>
+
+            <button>
+              Algorithms
+            </button>
           </div>
           <div class="text-md ml-72 max-md:ml-48">
             <span class="relative">

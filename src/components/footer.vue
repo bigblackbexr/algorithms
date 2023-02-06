@@ -7,7 +7,7 @@
           Algorithms™.
         <span class="flex text-sm max-md:text-[10px]">
           All Rights Reserved.
-          <span class="text-xs leading-[22px] max-md:text-[8px]">
+          <span class="text-xs leading-[22px] max-md:leading-[20px] max-md:text-[8px]">
             David C.
           </span>
         </span>

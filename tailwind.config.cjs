@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: 'class',
+  lightMode: 'class',
   content: [
     "./index.html",
     "./src/**/*{vue,js,ts,jsx,tsx}"
@@ -93,7 +94,17 @@ module.exports = {
         inverted: '#0E0573',
       },
     },
-    extend: {},
+    extend: {
+      backgroundImage: (theme) => ({
+        'logo-light': "url('./logoLightwb.png')",
+        'logo-dark': "url('./logoDarkwb.png')",
+      })
+    },
+  },
+  variants: {
+    extend: {
+      backgroundImage: ['dark']
+    }
   },
   plugins: [],
 }
