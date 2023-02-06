@@ -1,26 +1,22 @@
 <template>
   <div class="h-full">
     <div>
-      <nav class="grid place-items-center my-4">
+      <nav class="grid place-items-center -my-10">
 
         
           <div class="
-            rounded-xl text-5xl p-10
-            max-md:text-4xl max-md:p-8"
+            rounded-xl text-5xl p-10 pb-0
+            max-md:text-4xl max-md:p-8 max-md:pb-0"
           >
-
-              <div class="bg-logo-light dark:bg-logo-dark mx-auto w-48 h-48">
-                &nbsp
-              </div>
-
-            <button>
-              Algorithms
-            </button>
+            <div class="bg-logo-light dark:bg-logo-dark mx-auto w-52 h-52">
+              &nbsp
+            </div>
+            Algorithms
           </div>
-          <div class="text-md ml-72 max-md:ml-48">
+          <div class="text-md ml-48 max-md:ml-40">
             <span class="relative">
               v0.0
-              <span class="animate-pulse absolute mt-1 text-4xl rounded-full bg-orange-dark dark:bg-cyan-dark h-1.5 w-1.5"> </span>
+              <span class="animate-pulse absolute mt-0.5 ml-0.5 text-4xl rounded-full bg-green-light dark:bg-purple-light h-1.5 w-1.5"> </span>
             </span>
           </div>
 
