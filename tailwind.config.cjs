@@ -87,12 +87,12 @@ module.exports = {
         dark: '#1C1C2C',
         inverted: '#C7C5A6',
       },
-      'yellow' : {
+      /* 'yellow' : {
         light: '#F8FCC5',
         DEFAULT: '#F1FA8C',
         dark: '#ACBA08',
         inverted: '#0E0573',
-      },
+      }, */
     },
     extend: {
       backgroundImage: (theme) => ({
