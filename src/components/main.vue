@@ -20,10 +20,38 @@
       </nav>
 
       <main>
-        <div class="bg-cyan">
-          hi
-        </div>
+        <button @click="getFolders()" class="bg-cyan">
+          botones
+        </button>
       </main>
     </div>
   </div>
 </template>
+
+<script>
+  import fs from 'fs'
+
+  export default {
+    data () {
+      return {
+        folders: [],
+      }
+    },
+    methods: {
+      getFolders () {
+        console.log('si entre');
+        const testFolder = '.';
+
+        fs.readdir(testFolder, (err, files) => {
+          files.forEach(file => {
+            console.log(file);
+          });
+        });
+      }
+    },
+    mounted () {
+      console.log('hola');
+      // this.getFolders()
+    }
+  }
+</script>
