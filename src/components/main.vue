@@ -20,33 +20,38 @@
       </nav>
 
       <main>
-        <button @click="getFolders()" class="bg-cyan">
-          botones
-        </button>
+        <div class="columns-3">
+          <div v-for="folder in folders" class="bg-purple-light m-2">
+            {{ folder }}
+          </div>
+        </div>
       </main>
     </div>
   </div>
 </template>
 
 <script>
-  import fs from 'fs'
 
   export default {
     data () {
       return {
-        folders: [],
+        folders: [
+          'encrypt',
+          'graph',
+          'list',
+          'math',
+          'no',
+          'search',
+          'set',
+          'sort',
+          'string',
+          'tree'
+        ],
       }
     },
     methods: {
       getFolders () {
         console.log('si entre');
-        const testFolder = '.';
-
-        fs.readdir(testFolder, (err, files) => {
-          files.forEach(file => {
-            console.log(file);
-          });
-        });
       }
     },
     mounted () {
