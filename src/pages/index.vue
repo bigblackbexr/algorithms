@@ -4,7 +4,7 @@
 		<Nav />
 	</nav>
 
-	<main class="absolute inset-x-4 top-28 bottom-24">
+	<main class="absolute inset-x-4 top-28 bottom-24 overflow-auto">
 		<Main />
 	</main>
 

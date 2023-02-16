@@ -20,9 +20,13 @@
       </nav>
 
       <main>
-        <div class="columns-3">
-          <div v-for="folder in folders" class="bg-purple-light m-2">
-            {{ folder }}
+        <div class="columns-2 max-md:flex max-md:flex-col mt-8">
+          <div v-for="folder in folders" class="py-1 grid place-items-center">
+            <div class="w-10/12 max-md:w-full bg-purple-light p-2 rounded text-center text-purple-dark">
+              <p class="capitalize">
+                {{ folder }}
+              </p>
+            </div>
           </div>
         </div>
       </main>
