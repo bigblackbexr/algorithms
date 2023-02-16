@@ -1,17 +1,11 @@
 <template>
 	
-	<nav class="absolute inset-x-0 top-0">
+	<nav class="absolute inset-x-0 top-0 z-10">
 		<Nav />
 	</nav>
 
-	<main class="absolute inset-x-4 top-28 bottom-24 bg-background-dark">
-		<div class="grid place-items-center h-full">
-			<div class="flex animate-pulse">
-				<p>.</p>
-				<p>.</p>
-				<p>.</p>
-			</div>
-		</div>
+	<main class="absolute inset-x-4 top-28 bottom-24 overflow-auto">
+		<Main />
 	</main>
 
 	<footer class="absolute inset-x-0 bottom-0 ">
@@ -22,5 +16,6 @@
 
 <script setup>
 	import Nav from '../components/nav.vue'
+	import Main from '../components/main.vue'
 	import Foot from '../components/footer.vue'
 </script>
