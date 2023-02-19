@@ -1,5 +1,8 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+
+import { createWebHistory, createRouter } from 'vue-router';
+
 import './style.css'
 
 const themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
@@ -42,5 +45,15 @@ themeToggleBtn.addEventListener('click', function() {
     }
     
 });
+
+// const app = createApp(App)
+
+// const router = createRouter ({
+//   history: createWebHistory()
+// })
+
+// app.use(router)
+
+// app.mount('#app')
 
 createApp(App).mount('#app')
