@@ -1,7 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-
-import { createWebHistory, createRouter } from 'vue-router';
+import router from './router'
 
 import './style.css'
 
@@ -46,14 +45,10 @@ themeToggleBtn.addEventListener('click', function() {
     
 });
 
-// const app = createApp(App)
+const app = createApp(App)
 
-// const router = createRouter ({
-//   history: createWebHistory()
-// })
+app.use(router)
 
-// app.use(router)
+app.mount('#app')
 
-// app.mount('#app')
-
-createApp(App).mount('#app')
+//createApp(App).mount('#app')

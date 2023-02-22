@@ -21,11 +21,11 @@
       <main>
         <div class="columns-5 max-md:flex max-md:flex-col mt-20 max-md:mt-8">
           <div v-for="folder in folders" class="py-1 grid place-items-center">
-            <a :href="`${route}${folder}`" class="w-full p-2 rounded-full text-center bg-green-light text-green-dark dark:bg-purple-light dark:text-purple-dark">
+            <RouterLink :to="`${folder}`" class="w-full p-2 rounded-full text-center bg-green-light text-green-dark dark:bg-purple-light dark:text-purple-dark">
               <p class="capitalize">
                 {{ folder }}
               </p>
-            </a>
+            </RouterLink>
           </div>
         </div>
       </main>
@@ -34,11 +34,11 @@
 </template>
 
 <script>
+  import { RouterLink } from 'vue-router';
 
   export default {
     data () {
       return {
-        route: '/algorithms/',
         folders: [
           'encrypt',
           'graph',
