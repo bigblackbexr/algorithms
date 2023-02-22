@@ -11,22 +11,21 @@
           </div>
           Algorithms
         </div>
-        <div class="text-md ml-36 max-md:ml-28">
-          <span class="relative text-base">
+        <div class="text-md ml-40 max-md:ml-30">
+          <span class="relative text-base animate-pulse text-green-dark dark:text-purple-light">
             v0.0
-            <span class="animate-pulse absolute mt-0.5 ml-0.5 rounded-full bg-green-light dark:bg-purple-light h-1.5 w-1.5"> </span>
           </span>
         </div>
       </nav>
 
       <main>
-        <div class="columns-2 max-md:flex max-md:flex-col mt-8">
+        <div class="columns-5 max-md:flex max-md:flex-col mt-20 max-md:mt-8">
           <div v-for="folder in folders" class="py-1 grid place-items-center">
-            <div class="w-10/12 max-md:w-full bg-purple-light p-2 rounded text-center text-purple-dark">
+            <RouterLink :to="`${folder}`" class="w-full p-2 rounded-full text-center bg-green-light text-green-dark dark:bg-purple-light dark:text-purple-dark">
               <p class="capitalize">
                 {{ folder }}
               </p>
-            </div>
+            </RouterLink>
           </div>
         </div>
       </main>
@@ -35,6 +34,7 @@
 </template>
 
 <script>
+  import { RouterLink } from 'vue-router';
 
   export default {
     data () {
@@ -52,15 +52,7 @@
           'tree'
         ],
       }
-    },
-    methods: {
-      getFolders () {
-        console.log('si entre');
-      }
-    },
-    mounted () {
-      console.log('hola');
-      // this.getFolders()
     }
   }
+  
 </script>
