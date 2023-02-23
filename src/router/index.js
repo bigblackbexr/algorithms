@@ -13,6 +13,60 @@ const router = createRouter ({
       name: 'encrypt',
       component: () => import('../components/algorithm.vue'),
       props: true
+    },
+    {
+      path: '/graph',
+      name: 'graph',
+      component: () => import('../components/algorithm.vue'),
+      props: true
+    },
+    {
+      path: '/list',
+      name: 'list',
+      component: () => import('../components/algorithm.vue'),
+      props: true
+    },
+    {
+      path: '/math',
+      name: 'math',
+      component: () => import('../components/algorithm.vue'),
+      props: true
+    },
+    {
+      path: '/no',
+      name: 'no',
+      component: () => import('../components/algorithm.vue'),
+      props: true
+    },
+    {
+      path: '/search',
+      name: 'search',
+      component: () => import('../components/algorithm.vue'),
+      props: true
+    },
+    {
+      path: '/set',
+      name: 'set',
+      component: () => import('../components/algorithm.vue'),
+      props: true
+    },
+    {
+      path: '/sort',
+      name: 'sort',
+      component: () => import('../components/algorithm.vue'),
+      props: true
+    },
+    {
+      path: '/string',
+      name: 'string',
+      component: () => import('../components/algorithm.vue'),
+      props: true
+    },
+    {
+      path: '/tree',
+      name: 'tree',
+      component: () => import('../components/algorithm.vue'),
+      props: true
     }
   ]
 })

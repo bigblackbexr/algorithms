@@ -3,43 +3,43 @@
     <div class="absolute inset-x-4 top-28 bottom-24 overflow-auto">
   
       <div v-show="folder === 'encrypt'">
-        <encrypt />
+        <Encrypt />
       </div>
 
       <div v-show="folder === 'graph'">
-        <graph />
+        <Graph />
       </div>
 
       <div v-show="folder === 'list'">
-        <list />
+        <List />
       </div>
 
       <div v-show="folder === 'math'">
-        <math />
+        <Math />
       </div>
 
       <div v-show="folder === 'no'">
-        <no />
+        <No />
       </div>
 
       <div v-show="folder === 'search'">
-        <search />
+        <Search />
       </div>
 
       <div v-show="folder === 'set'">
-        <set />
+        <Set />
       </div>
 
       <div v-show="folder === 'sort'">
-        <sort />
+        <Sort />
       </div>
 
       <div v-show="folder === 'string'">
-        <string />
+        <String />
       </div>
 
       <div v-show="folder === 'tree'">
-        <tree />
+        <Tree />
       </div>
 
     </div>
@@ -47,20 +47,29 @@
 </template>
 
 <script>
-	import encrypt from './algorithms/encrypt/encrypt.vue'
-	import graph from './algorithms/graph/graph.vue'
-	import list from './algorithms/list/list.vue'
-	import math from './algorithms/math/math.vue'
-	import no from './algorithms/no/no.vue'
-	import search from './algorithms/search/search.vue'
-	import set from './algorithms/set/set.vue'
-	import sort from './algorithms/sort/sort.vue'
-	import string from './algorithms/string/string.vue'
-	import tree from './algorithms/tree/tree.vue'
+	import Encrypt from './algorithms/encrypt/encrypt.vue'
+	import Graph from './algorithms/graph/graph.vue'
+	import List from './algorithms/list/list.vue'
+	import Math from './algorithms/math/math.vue'
+	import No from './algorithms/no/no.vue'
+	import Search from './algorithms/search/search.vue'
+	import Set from './algorithms/set/set.vue'
+	import Sort from './algorithms/sort/sort.vue'
+	import String from './algorithms/string/string.vue'
+	import Tree from './algorithms/tree/tree.vue'
 
   export default {
     components: {
-      encrypt
+      Encrypt,
+      Graph,
+      List,
+      Math,
+      No,
+      Search,
+      Set,
+      Sort,
+      String,
+      Tree
     },
     data () {
       return {
@@ -70,6 +79,7 @@
     methods: {
       getFolder () {
         this.folder = this.$route.name
+        console.log(this.folder)
       }
     },
     mounted () {
