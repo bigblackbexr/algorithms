@@ -19,9 +19,9 @@
       </nav>
 
       <main>
-        <div class="columns-5 max-md:flex max-md:flex-col mt-20 max-md:mt-8">
-          <div v-for="folder in folders" class="py-1 grid place-items-center">
-            <RouterLink :to="`${folder}`" class="w-full p-2 rounded-full text-center bg-green-light text-green-dark dark:bg-purple-light dark:text-purple-dark">
+        <div class="columns-5 max-md:flex max-md:flex-col mt-16 max-md:mt-8">
+          <div v-for="folder in folders" class="max-md:py-1 py-2 grid place-items-center">
+            <RouterLink :to="`${folder}`" class="w-full max-md:p-2 p-6 rounded-lg text-center bg-green-light text-green-dark dark:bg-purple-light dark:text-purple-dark">
               <p class="capitalize">
                 {{ folder }}
               </p>
