@@ -3,55 +3,64 @@
     <div class="absolute inset-x-4 top-28 bottom-24 overflow-auto">
   
       <div class="relative">
-        <div class="absolute right-4">
-          <button @click="getBack()" class="rounded-lg w-20 h-8 bg-green-light text-green-dark
-                       dark:bg-purple-light dark:text-purple-dark">
+        <div class="absolute max-md:right-0 right-4">
+          <button @click="getBack()"
+            class="rounded-lg max-md:w-10 w-20 max-md:h-10 h-8 bg-green-light text-green-dark dark:bg-purple-light dark:text-purple-dark">
             <div class="grid place-content-center">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="max-md:w-4 max-md:h-4 w-5 h-5">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />
               </svg>
             </div>
           </button>
         </div>
 
-        <div v-show="folder === 'encrypt'">
-          <Encrypt />
-        </div>
+        <div class="max-md:pt-12 pt-10 max-md:mx-0 mx-4">
+          <div class="rounded-lg border-solid border-2 dark:border-purple-light max-md:h-[588px] h-[497px]">
+            <div class="bg-green-light dark:bg-purple-light m-2">
+              
+              <div v-show="folder === 'encrypt'">
+                <Encrypt />
+              </div>
+      
+              <div v-show="folder === 'graph'">
+                <Graph />
+              </div>
+        
+              <div v-show="folder === 'list'">
+                <List />
+              </div>
+        
+              <div v-show="folder === 'math'">
+                <Math />
+              </div>
+        
+              <div v-show="folder === 'no'">
+                <No />
+              </div>
+        
+              <div v-show="folder === 'search'">
+                <Search />
+              </div>
+        
+              <div v-show="folder === 'set'">
+                <Set />
+              </div>
+        
+              <div v-show="folder === 'sort'">
+                <Sort />
+              </div>
+        
+              <div v-show="folder === 'string'">
+                <String />
+              </div>
+        
+              <div v-show="folder === 'tree'">
+                <Tree />
+              </div>
+  
+            </div>
+          </div>
 
-        <div v-show="folder === 'graph'">
-          <Graph />
-        </div>
-  
-        <div v-show="folder === 'list'">
-          <List />
-        </div>
-  
-        <div v-show="folder === 'math'">
-          <Math />
-        </div>
-  
-        <div v-show="folder === 'no'">
-          <No />
-        </div>
-  
-        <div v-show="folder === 'search'">
-          <Search />
-        </div>
-  
-        <div v-show="folder === 'set'">
-          <Set />
-        </div>
-  
-        <div v-show="folder === 'sort'">
-          <Sort />
-        </div>
-  
-        <div v-show="folder === 'string'">
-          <String />
-        </div>
-  
-        <div v-show="folder === 'tree'">
-          <Tree />
         </div>
 
       </div>
