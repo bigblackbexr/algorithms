@@ -6,4 +6,32 @@
   html {
     font-family: 'Azeret Mono', monospace;
   }
+
+  /* ===== Scrollbar CSS ===== */
+  
+    /* Firefox */
+    * {
+      scrollbar-width: thin;
+      scrollbar-color: #530abb #dec8fc;
+    }
+
+    /* Chrome, Edge, and Safari */
+    *::-webkit-scrollbar {
+      width: 5px;
+    }
+
+    *::-webkit-scrollbar-track {
+      background: #dec8fc;
+      border-radius: 9999px;
+      margin-bottom: 35rem;
+    }
+
+    *::-webkit-scrollbar-thumb {
+      background-color: #530abb;
+      border-radius: 10px;
+      border: 1px solid #ffffff;
+      
+      border-top: 8px solid #dec8fc;
+      border-bottom: 8px solid #dec8fc;
+    }
 }
