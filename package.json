@@ -10,6 +10,7 @@
     "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
+    "animejs": "^3.2.1",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
   },
