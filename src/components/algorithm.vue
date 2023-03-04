@@ -43,7 +43,7 @@
 
 
         <div class="max-md:pt-12 pt-10 max-md:mx-0 mx-4">
-          <div class="rounded-lg border-solid border-2 dark:border-purple-light max-md:h-[588px] h-[497px]">
+          <div class="rounded-lg border-solid border-2 dark:border-purple-light]">
             <div class="m-2">
               
               <div v-show="folder === 'encrypt'">
