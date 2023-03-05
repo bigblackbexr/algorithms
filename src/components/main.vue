@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full">
+  <div class="h-full max-md:mr-2">
     <div>
       <nav class="grid place-items-center">
         <div class="
