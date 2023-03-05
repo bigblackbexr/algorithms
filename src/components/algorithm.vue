@@ -2,7 +2,7 @@
   <div>
     <div class="absolute inset-x-4 top-28 bottom-24 overflow-auto">
   
-      <div class="relative">
+      <div class="relative max-md:mr-2">
 
         <nav class="text-green-dark dark:text-purple-dark">
           <div class="absolute max-md:left-0 left-4">

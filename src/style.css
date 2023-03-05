@@ -23,15 +23,15 @@
     *::-webkit-scrollbar-track {
       background: #dec8fc;
       border-radius: 9999px;
-      margin-bottom: 35rem;
+      
     }
 
     *::-webkit-scrollbar-thumb {
       background-color: #530abb;
-      border-radius: 10px;
+      border-radius: 9999px;
       border: 1px solid #ffffff;
       
-      border-top: 8px solid #dec8fc;
-      border-bottom: 8px solid #dec8fc;
+      border-top: 12px solid #dec8fc;
+      border-bottom: 12px solid #dec8fc;
     }
 }
