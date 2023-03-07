@@ -67,7 +67,15 @@ const router = createRouter ({
       name: 'tree',
       component: () => import('../components/algorithm.vue'),
       props: true
-    }
+    },
+
+    {
+      path: '/list/direct-route',
+      name: 'direct-route',
+      component: () => import('../components/algorithms/list/listAlgorithms/direct-route.vue'),
+      props: true
+    },
+
   ]
 })
 
