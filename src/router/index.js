@@ -67,7 +67,29 @@ const router = createRouter ({
       name: 'tree',
       component: () => import('../components/algorithm.vue'),
       props: true
-    }
+    },
+
+    // ENCRYPT AlGORITHMS
+    {
+      path: '/encrypt/hash-polinomial',
+      name: 'hash-polinomial',
+      component: () => import('../components/algorithms/encrypt/algorithms/hash-polinomial.vue')
+    },
+
+    // LIST ALGORITHMS
+    {
+      path: '/list/direct-route',
+      name: 'direct-route',
+      component: () => import('../components/algorithms/list/algorithms/direct-route.vue'),
+      props: true
+    },
+    {
+      path: '/list/invert-route',
+      name: 'invert-route',
+      component: () => import('../components/algorithms/list/algorithms/invert-route.vue'),
+      props: true
+    },
+
   ]
 })
 

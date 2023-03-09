@@ -13,6 +13,23 @@
 
     <div class="mx-10 max-md:mx-6 my-5 text-cyan text-xl max-md:text-base text-justify">
       <span class="define" />
+
+      <br> <br>
+
+      <div id="show" class="hidden">
+
+        <div class="grid grid-cols-2 gap-4 place-content-stretch justify-items-center">
+          <div v-for="algorithm in algorithms" class="rounded-lg p-4 max-md:px-1 max-md:py-2 dark:bg-orange-light dark:text-orange-dark">
+            <RouterLink :to="`encrypt/${algorithm}`">
+              <p class="capitalize">
+                {{ algorithm }}
+              </p>
+            </RouterLink>
+          </div>
+        </div>
+
+      </div>
+
     </div>
 
   </div>
@@ -20,12 +37,16 @@
 
 <script>
   import Typed from 'typed.js'
+  import { RouterLink } from 'vue-router'
 
   export default {
     data () {
       return {
         item: null,
-        items: ['🌕','🌖','🌗','🌘','🌑','🌒','🌓','🌔']
+        items: ['🌕','🌖','🌗','🌘','🌑','🌒','🌓','🌔'],
+        algorithms: [
+          'hash-polinomial'
+        ]
       }
     },
     mounted () {
@@ -57,7 +78,15 @@
         strings: [textA + textB + textC + textD],
         typeSpeed: 25,
         cursorChar: this.item,
-        loop: false
+        loop: false,
+
+        onComplete: () => {
+          let show = document.getElementById('show')
+          console.log(show);
+
+          show.classList.remove('hidden')
+          console.log(show);
+        }
       })
     }
   }
