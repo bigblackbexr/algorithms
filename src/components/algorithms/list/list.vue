@@ -20,7 +20,7 @@
       <br>
 
       <div class="grid grid-cols-2 gap-4 place-content-stretch justify-items-center">
-        <div v-for="algorithm in listAlgorithm" class="rounded-lg p-4 max-md:px-1 max-md:py-2 dark:bg-orange-light dark:text-orange-dark">
+        <div v-for="algorithm in algorithms" class="rounded-lg p-4 max-md:px-1 max-md:py-2 dark:bg-orange-light dark:text-orange-dark">
           <RouterLink :to="`list/${algorithm}`">
             <p class="capitalize">
               {{ algorithm }}
@@ -34,12 +34,12 @@
 </template>
 
 <script>
-  import { RouterLink } from 'vue-router';
+  import { RouterLink } from 'vue-router'
 
   export default {
     data () {
       return {
-        listAlgorithm: [
+        algorithms: [
           'direct-route',
           'invert-route',
         ]
