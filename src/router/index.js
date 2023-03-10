@@ -90,6 +90,14 @@ const router = createRouter ({
       props: true
     },
 
+    // GRAPh ALGORITHMS
+    {
+      path: '/graph/invert-route',
+      name: 'invert-route',
+      component: () => import('../components/algorithms/list/algorithms/invert-route.vue'),
+      props: true
+    },
+
   ]
 })
 
