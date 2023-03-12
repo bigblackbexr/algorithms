@@ -20,18 +20,6 @@
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit quod fugit provident quis error est, eum, vero, architecto molestias repellendus pariatur voluptatem ab quasi dicta impedit animi commodi. Nobis, fugit.
               </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit quod fugit provident quis error est, eum, vero, architecto molestias repellendus pariatur voluptatem ab quasi dicta impedit animi commodi. Nobis, fugit.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit quod fugit provident quis error est, eum, vero, architecto molestias repellendus pariatur voluptatem ab quasi dicta impedit animi commodi. Nobis, fugit.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit quod fugit provident quis error est, eum, vero, architecto molestias repellendus pariatur voluptatem ab quasi dicta impedit animi commodi. Nobis, fugit.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit quod fugit provident quis error est, eum, vero, architecto molestias repellendus pariatur voluptatem ab quasi dicta impedit animi commodi. Nobis, fugit.
-              </p>
 
             </div>
           </div>
