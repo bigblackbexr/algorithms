@@ -4,9 +4,9 @@
   
       <div class="relative max-md:mr-2">
 
-        <nav class="text-green-dark dark:text-purple-dark">
+        <nav class="text-orange-dark dark:text-purple-dark">
           <div class="absolute max-md:left-0 left-4">
-            <div class="rounded-lg bg-green-light dark:bg-purple-light px-4">
+            <div class="rounded-lg bg-orange-light dark:bg-purple-light px-4">
               <ol class="inline-flex items-center space-x-1 md:space-x-3
                         max-md:h-10">
                 <li>
@@ -31,7 +31,7 @@
 
           <div class="absolute max-md:right-0 right-4">
             <button @click="getBack()"
-              class="rounded-lg max-md:w-10 w-20 max-md:h-10 h-8 bg-green-light text-green-dark dark:bg-purple-light dark:text-purple-dark">
+              class="rounded-lg max-md:w-10 w-20 max-md:h-10 h-8 bg-orange-light text-orange-dark dark:bg-purple-light dark:text-purple-dark">
               <div class="grid place-content-center">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="max-md:w-4 max-md:h-4 w-5 h-5">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />

@@ -12,7 +12,7 @@
           Algorithms
         </div>
         <div class="text-md ml-40 max-md:ml-30">
-          <span class="relative text-base animate-pulse text-green-dark dark:text-purple-light">
+          <span class="relative text-base animate-pulse text-orange-dark dark:text-purple-light">
             v0.0
           </span>
         </div>
@@ -21,7 +21,7 @@
       <main>
         <div class="columns-5 max-md:flex max-md:flex-col mt-16 max-md:mt-8">
           <div v-for="folder in folders" class="max-md:py-1 py-2 grid place-items-center">
-            <RouterLink :to="`${folder}`" class="w-full max-md:p-2 p-6 rounded-lg text-center bg-green-light text-green-dark dark:bg-purple-light dark:text-purple-dark">
+            <RouterLink :to="`${folder}`" class="w-full max-md:p-2 p-6 rounded-lg text-center bg-orange-light text-orange-dark dark:bg-purple-light dark:text-purple-dark">
               <p class="capitalize">
                 {{ folder }}
               </p>
