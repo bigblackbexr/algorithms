@@ -22,7 +22,7 @@
 
       <div class="grid grid-cols-2 gap-4 max-md:gap-2 place-content-stretch justify-items-center
                   max-md:flex max-md:flex-col text-center">
-        <RouterLink :to="`list/${algorithm}`" v-for="algorithm in algorithms" 
+        <RouterLink :to="`math/${algorithm}`" v-for="algorithm in algorithms" 
           class="w-full rounded-lg max-md:text-sm p-4 max-md:p-2 bg-orange-light text-orange-dark dark:bg-purple-light dark:text-vampire-dark
                  hover:animate-pulse">
             <p class="capitalize">
@@ -43,8 +43,21 @@
     data () {
       return {
         algorithms: [
-          'direct-route',
-          'invert-route',
+          'bit-manipulation',
+          'complex-numbers',
+          'discrete-fourier-transform',
+          'euclides',
+          'factorial',
+          'fast-exponentiation',
+          'fibonacci',
+          'integer-partition',
+          'is-power-two?',
+          'least-common-multiple',
+          'lui-hius-pi',
+          'pascals-triangle',
+          'primality-test',
+          'radians-and-degrees',
+          'sieve-eratosthenes'
         ]
       }
     }

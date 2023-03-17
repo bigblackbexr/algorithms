@@ -45,21 +45,20 @@ lui-hius-pi
 Transformada discreta de Fourier
 discrete-fourier-transform
 
-
 bit-manipulation
-factorial
-fibonacci
-primality-test
-euclides
-least-common-multiple
-sieve-eratosthenes
-is-power-two
-pascals-triangle
 complex-numbers
-radians-and-degrees
-fast-exponentiation
-integer-partition
-lui-hius-pi
 discrete-fourier-transform
+euclides
+factorial
+fast-exponentiation
+fibonacci
+integer-partition
+is-power-two?
+least-common-multiple
+lui-hius-pi
+pascals-triangle
+primality-test
+radians-and-degrees
+sieve-eratosthenes
 
 */
