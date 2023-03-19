@@ -20,4 +20,13 @@ rain-terraces
 n-queens-problem
 knight-tour
 
+jumping-game
+knight-tour
+n-queens-problem
+rain-terraces
+square-matrix-rotation
+tower-hanoi
+unique-paths
+
+
 */
