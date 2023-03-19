@@ -286,9 +286,45 @@ const router = createRouter ({
 
     // NO ALGORITHMS
     {
-      path: '/no/#',
-      name: '#',
-      component: () => import('../components/algorithms/math/algorithms/#.vue'),
+      path: '/no/tower-hanoi',
+      name: 'tower-hanoi',
+      component: () => import('../components/algorithms/math/algorithms/tower-hanoi.vue'),
+      props: true
+    },
+    {
+      path: '/no/square-matrix-rotation',
+      name: 'square-matrix-rotation',
+      component: () => import('../components/algorithms/math/algorithms/square-matrix-rotation.vue'),
+      props: true
+    },
+    {
+      path: '/no/jumping-game',
+      name: 'jumping-game',
+      component: () => import('../components/algorithms/math/algorithms/jumping-game.vue'),
+      props: true
+    },
+    {
+      path: '/no/unique-paths',
+      name: 'unique-paths',
+      component: () => import('../components/algorithms/math/algorithms/unique-paths.vue'),
+      props: true
+    },
+    {
+      path: '/no/rain-terraces',
+      name: 'rain-terraces',
+      component: () => import('../components/algorithms/math/algorithms/rain-terraces.vue'),
+      props: true
+    },
+    {
+      path: '/no/n-queens-problem',
+      name: 'n-queens-problem',
+      component: () => import('../components/algorithms/math/algorithms/n-queens-problem.vue'),
+      props: true
+    },
+    {
+      path: '/no/knight-tour',
+      name: 'knight-tour',
+      component: () => import('../components/algorithms/math/algorithms/knight-tour.vue'),
       props: true
     },
   ]
