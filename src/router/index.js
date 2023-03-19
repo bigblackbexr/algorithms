@@ -282,7 +282,15 @@ const router = createRouter ({
       name: 'sieve-eratosthenes',
       component: () => import('../components/algorithms/math/algorithms/sieve-eratosthenes.vue'),
       props: true
-    }
+    },
+
+    // NO ALGORITHMS
+    {
+      path: '/no/#',
+      name: '#',
+      component: () => import('../components/algorithms/math/algorithms/#.vue'),
+      props: true
+    },
   ]
 })
 
