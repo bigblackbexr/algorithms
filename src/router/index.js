@@ -327,6 +327,32 @@ const router = createRouter ({
       component: () => import('../components/algorithms/no/algorithms/knight-tour.vue'),
       props: true
     },
+
+    // SEARCH AlGORITHMS
+
+    /*
+    {
+      path: '/search/#',
+      name: '#',
+      component: () => import('../components/algorithms/search/algorithms/#.vue')
+    },
+    {
+      path: '/search/#',
+      name: '#',
+      component: () => import('../components/algorithms/search/algorithms/#.vue')
+    },
+    {
+      path: '/search/#',
+      name: '#',
+      component: () => import('../components/algorithms/search/algorithms/#.vue')
+    },
+    {
+      path: '/search/#',
+      name: '#',
+      component: () => import('../components/algorithms/search/algorithms/#.vue')
+    },
+
+    */
   ]
 })
 
