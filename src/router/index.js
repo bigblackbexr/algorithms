@@ -330,29 +330,26 @@ const router = createRouter ({
 
     // SEARCH AlGORITHMS
 
-    /*
     {
-      path: '/search/#',
-      name: '#',
-      component: () => import('../components/algorithms/search/algorithms/#.vue')
+      path: '/search/binary',
+      name: 'binary',
+      component: () => import('../components/algorithms/search/algorithms/binary.vue')
     },
     {
-      path: '/search/#',
-      name: '#',
-      component: () => import('../components/algorithms/search/algorithms/#.vue')
+      path: '/search/interpolation',
+      name: 'interpolation',
+      component: () => import('../components/algorithms/search/algorithms/interpolation.vue')
     },
     {
-      path: '/search/#',
-      name: '#',
-      component: () => import('../components/algorithms/search/algorithms/#.vue')
+      path: '/search/jump',
+      name: 'jump',
+      component: () => import('../components/algorithms/search/algorithms/jump.vue')
     },
     {
-      path: '/search/#',
-      name: '#',
-      component: () => import('../components/algorithms/search/algorithms/#.vue')
+      path: '/search/linear',
+      name: 'linear',
+      component: () => import('../components/algorithms/search/algorithms/linear.vue')
     },
-
-    */
   ]
 })
 
