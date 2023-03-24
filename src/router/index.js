@@ -327,6 +327,29 @@ const router = createRouter ({
       component: () => import('../components/algorithms/no/algorithms/knight-tour.vue'),
       props: true
     },
+
+    // SEARCH AlGORITHMS
+
+    {
+      path: '/search/binary',
+      name: 'binary',
+      component: () => import('../components/algorithms/search/algorithms/binary.vue')
+    },
+    {
+      path: '/search/interpolation',
+      name: 'interpolation',
+      component: () => import('../components/algorithms/search/algorithms/interpolation.vue')
+    },
+    {
+      path: '/search/jump',
+      name: 'jump',
+      component: () => import('../components/algorithms/search/algorithms/jump.vue')
+    },
+    {
+      path: '/search/linear',
+      name: 'linear',
+      component: () => import('../components/algorithms/search/algorithms/linear.vue')
+    },
   ]
 })
 
