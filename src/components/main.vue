@@ -1,20 +1,18 @@
 <template>
   <div class="h-full max-md:mr-2">
-    <div>
-      <nav class="grid place-items-center">
-        <div class="
-          rounded-xl text-4xl p-10 pb-0
-          max-md:p-8 max-md:pb-0"
+    <div class="h-full flex flex-col justify-between">
+      <nav class="flex flex-col h-3/6">
+        <div class="h-full m-40 max-md:m-10 max-md:p-0 p-10"
         >
           <div class="bg-logo-light dark:bg-logo-dark mx-auto w-40 h-40 bg-center bg-no-repeat">
             &nbsp
           </div>
-          Algorithms
-        </div>
-        <div class="text-md ml-40 max-md:ml-30">
-          <span class="relative text-base animate-pulse text-orange-dark dark:text-purple-light">
+          <p class="text-4xl text-center">
+            Algorithms
+          </p>
+          <p class="text-md max-md:text-lg text-center relative animate-pulse text-orange-dark dark:text-purple-light">
             v0.0
-          </span>
+          </p>
         </div>
       </nav>
 
