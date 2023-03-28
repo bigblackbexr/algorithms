@@ -16,15 +16,15 @@ Problema de la mochila
 Máximo subarreglo
 Suma combinada
 
-Cartesian product
-Fisher–Yates permutation
-set power
+cartesian-product
+fisher–yates-permutation
+set-power
 permutations
 combinations
-longest common subsequence
-longest growing subsequence
-shortest common supersequence
-backpack problem
-maximum subarray
-combined sum
+longest-common-subsequence
+longest-growing-subsequence
+shortest-common-supersequence
+backpack-problem
+maximum-subarray
+combined-sum
 */

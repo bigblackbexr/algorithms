@@ -350,6 +350,16 @@ const router = createRouter ({
       name: 'linear',
       component: () => import('../components/algorithms/search/algorithms/linear.vue')
     },
+
+    // SET AlGORITHMS
+
+    /*
+    {
+      path: '/set/#',
+      name: '#',
+      component: () => import('../components/algorithms/set/algorithms/#.vue')
+    },
+    */
   ]
 })
 
