@@ -43,10 +43,17 @@
     data () {
       return {
         algorithms: [
-          'binary',
-          'interpolation',
-          'jump',
-          'linear',
+          'backpack-problem',
+          'cartesian-product',
+          'combinations',
+          'combined-sum',
+          'fisher–yates-permutation',
+          'longest-common-subsequence',
+          'longest-growing-subsequence',
+          'maximum-subarray',
+          'permutations',
+          'set-power',
+          'shortest-common-supersequence'
         ]
       }
     }
