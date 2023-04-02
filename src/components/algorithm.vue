@@ -1,7 +1,6 @@
 <template>
   <div>
     <div class="absolute inset-x-4 top-28 bottom-24 overflow-auto">
-  
       <div class="relative max-md:mr-2">
 
         <nav class="text-orange-dark dark:text-purple-dark">
