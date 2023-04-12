@@ -44,14 +44,14 @@
       return {
         algorithms: [
           'bubble',
+          'by-accounts',
           'by-selection',
-          'insertion',
           'heap',
+          'insertion',
           'merge',
           'quicksort',
-          'shellsort',
-          'by-accounts',
-          'radix'
+          'radix',
+          'shellsort'
         ]
       }
     }

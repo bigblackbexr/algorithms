@@ -15,13 +15,13 @@ Ordenamiento por cuentas
 Ordenamiento Radix
 
 bubble
-by-selection
-insertion
-Heap
-Merge
-Quicksort
-Shellsort
 by-accounts
+by-selection
+heap
+insertion
+merge
+quicksort
 radix
+shellsort
 
 */
