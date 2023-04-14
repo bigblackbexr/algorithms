@@ -43,8 +43,8 @@
     data () {
       return {
         algorithms: [
+          'accounts',
           'bubble',
-          'by-accounts',
           'by-selection',
           'heap',
           'insertion',
