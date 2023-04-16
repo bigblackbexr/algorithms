@@ -45,12 +45,12 @@
         algorithms: [
           'accounts',
           'bubble',
-          'by-selection',
           'heap',
           'insertion',
           'merge',
           'quicksort',
           'radix',
+          'selection',
           'shellsort'
         ]
       }
