@@ -409,7 +409,53 @@ const router = createRouter ({
       component: () => import('../components/algorithms/set/algorithms/shortest-common-supersequence.vue')
     },
 
-    // AlGORITHMS
+    // SORT AlGORITHMS
+
+    {
+      path: '/sort/accounts',
+      name: 'accounts',
+      component: () => import('../components/algorithms/sort/algorithms/accounts.vue')
+    },
+    // {
+    //   path: '/sort/#',
+    //   name: '#',
+    //   component: () => import('../components/algorithms/sort/algorithms/#.vue')
+    // },
+    // {
+    //   path: '/sort/#',
+    //   name: '#',
+    //   component: () => import('../components/algorithms/sort/algorithms/#.vue')
+    // },
+    // {
+    //   path: '/sort/#',
+    //   name: '#',
+    //   component: () => import('../components/algorithms/sort/algorithms/#.vue')
+    // },
+    // {
+    //   path: '/sort/#',
+    //   name: '#',
+    //   component: () => import('../components/algorithms/sort/algorithms/#.vue')
+    // },
+    // {
+    //   path: '/sort/#',
+    //   name: '#',
+    //   component: () => import('../components/algorithms/sort/algorithms/#.vue')
+    // },
+    // {
+    //   path: '/sort/#',
+    //   name: '#',
+    //   component: () => import('../components/algorithms/sort/algorithms/#.vue')
+    // },
+    // {
+    //   path: '/sort/#',
+    //   name: '#',
+    //   component: () => import('../components/algorithms/sort/algorithms/#.vue')
+    // },
+    // {
+    //   path: '/sort/#',
+    //   name: '#',
+    //   component: () => import('../components/algorithms/sort/algorithms/#.vue')
+    // },
   ]
 })
 
