@@ -416,11 +416,11 @@ const router = createRouter ({
       name: 'accounts',
       component: () => import('../components/algorithms/sort/algorithms/accounts.vue')
     },
-    // {
-    //   path: '/sort/#',
-    //   name: '#',
-    //   component: () => import('../components/algorithms/sort/algorithms/#.vue')
-    // },
+    {
+      path: '/sort/bubble',
+      name: 'bubble',
+      component: () => import('../components/algorithms/sort/algorithms/bubble.vue')
+    },
     // {
     //   path: '/sort/#',
     //   name: '#',
