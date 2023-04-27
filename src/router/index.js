@@ -421,11 +421,11 @@ const router = createRouter ({
       name: 'bubble',
       component: () => import('../components/algorithms/sort/algorithms/bubble.vue')
     },
-    // {
-    //   path: '/sort/#',
-    //   name: '#',
-    //   component: () => import('../components/algorithms/sort/algorithms/#.vue')
-    // },
+    {
+      path: '/sort/heap',
+      name: 'heap',
+      component: () => import('../components/algorithms/sort/algorithms/heap.vue')
+    },
     // {
     //   path: '/sort/#',
     //   name: '#',
