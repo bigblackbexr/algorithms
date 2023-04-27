@@ -426,11 +426,11 @@ const router = createRouter ({
       name: 'heap',
       component: () => import('../components/algorithms/sort/algorithms/heap.vue')
     },
-    // {
-    //   path: '/sort/#',
-    //   name: '#',
-    //   component: () => import('../components/algorithms/sort/algorithms/#.vue')
-    // },
+    {
+      path: '/sort/insertion',
+      name: 'insertion',
+      component: () => import('../components/algorithms/sort/algorithms/insertion.vue')
+    },
     // {
     //   path: '/sort/#',
     //   name: '#',
