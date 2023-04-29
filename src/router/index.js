@@ -431,11 +431,11 @@ const router = createRouter ({
       name: 'insertion',
       component: () => import('../components/algorithms/sort/algorithms/insertion.vue')
     },
-    // {
-    //   path: '/sort/#',
-    //   name: '#',
-    //   component: () => import('../components/algorithms/sort/algorithms/#.vue')
-    // },
+    {
+      path: '/sort/merge',
+      name: 'merge',
+      component: () => import('../components/algorithms/sort/algorithms/merge.vue')
+    },
     // {
     //   path: '/sort/#',
     //   name: '#',
