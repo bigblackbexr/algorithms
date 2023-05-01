@@ -436,11 +436,11 @@ const router = createRouter ({
       name: 'merge',
       component: () => import('../components/algorithms/sort/algorithms/merge.vue')
     },
-    // {
-    //   path: '/sort/#',
-    //   name: '#',
-    //   component: () => import('../components/algorithms/sort/algorithms/#.vue')
-    // },
+    {
+      path: '/sort/quicksort',
+      name: 'quicksort',
+      component: () => import('../components/algorithms/sort/algorithms/quicksort.vue')
+    },
     // {
     //   path: '/sort/#',
     //   name: '#',
