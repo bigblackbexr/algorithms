@@ -441,11 +441,11 @@ const router = createRouter ({
       name: 'quicksort',
       component: () => import('../components/algorithms/sort/algorithms/quicksort.vue')
     },
-    // {
-    //   path: '/sort/#',
-    //   name: '#',
-    //   component: () => import('../components/algorithms/sort/algorithms/#.vue')
-    // },
+    {
+      path: '/sort/radix',
+      name: 'radix',
+      component: () => import('../components/algorithms/sort/algorithms/radix.vue')
+    },
     // {
     //   path: '/sort/#',
     //   name: '#',
