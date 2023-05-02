@@ -446,11 +446,11 @@ const router = createRouter ({
       name: 'radix',
       component: () => import('../components/algorithms/sort/algorithms/radix.vue')
     },
-    // {
-    //   path: '/sort/#',
-    //   name: '#',
-    //   component: () => import('../components/algorithms/sort/algorithms/#.vue')
-    // },
+    {
+      path: '/sort/selection',
+      name: 'selection',
+      component: () => import('../components/algorithms/sort/algorithms/selection.vue')
+    },
     // {
     //   path: '/sort/#',
     //   name: '#',
