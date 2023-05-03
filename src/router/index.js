@@ -409,7 +409,59 @@ const router = createRouter ({
       component: () => import('../components/algorithms/set/algorithms/shortest-common-supersequence.vue')
     },
 
-    // AlGORITHMS
+    // SORT AlGORITHMS
+
+    {
+      path: '/sort/accounts',
+      name: 'accounts',
+      component: () => import('../components/algorithms/sort/algorithms/accounts.vue')
+    },
+    {
+      path: '/sort/bubble',
+      name: 'bubble',
+      component: () => import('../components/algorithms/sort/algorithms/bubble.vue')
+    },
+    {
+      path: '/sort/heap',
+      name: 'heap',
+      component: () => import('../components/algorithms/sort/algorithms/heap.vue')
+    },
+    {
+      path: '/sort/insertion',
+      name: 'insertion',
+      component: () => import('../components/algorithms/sort/algorithms/insertion.vue')
+    },
+    {
+      path: '/sort/merge',
+      name: 'merge',
+      component: () => import('../components/algorithms/sort/algorithms/merge.vue')
+    },
+    {
+      path: '/sort/quicksort',
+      name: 'quicksort',
+      component: () => import('../components/algorithms/sort/algorithms/quicksort.vue')
+    },
+    {
+      path: '/sort/radix',
+      name: 'radix',
+      component: () => import('../components/algorithms/sort/algorithms/radix.vue')
+    },
+    {
+      path: '/sort/selection',
+      name: 'selection',
+      component: () => import('../components/algorithms/sort/algorithms/selection.vue')
+    },
+    {
+      path: '/sort/shellsort',
+      name: 'shellsort',
+      component: () => import('../components/algorithms/sort/algorithms/shellsort.vue')
+    },
+
+    // {
+    //   path: '/sort/#',
+    //   name: '#',
+    //   component: () => import('../components/algorithms/sort/algorithms/#.vue')
+    // },
   ]
 })
 
