@@ -451,6 +451,12 @@ const router = createRouter ({
       name: 'selection',
       component: () => import('../components/algorithms/sort/algorithms/selection.vue')
     },
+    {
+      path: '/sort/shellsort',
+      name: 'shellsort',
+      component: () => import('../components/algorithms/sort/algorithms/shellsort.vue')
+    },
+
     // {
     //   path: '/sort/#',
     //   name: '#',
