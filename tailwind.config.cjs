@@ -96,8 +96,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: (theme) => ({
-        'logo-light': "url('/logoLightwb.png')",
-        'logo-dark': "url('/logoDarkwb.png')",
+        'logo-light': "url('/src/assets/logoLightwb.png')",
+        'logo-dark': "url('/src/assets/logoDarkwb.png')",
       })
     },
   },
