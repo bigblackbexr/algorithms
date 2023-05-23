@@ -457,10 +457,12 @@ const router = createRouter ({
       component: () => import('../components/algorithms/sort/algorithms/shellsort.vue')
     },
 
+    // STRING AlGORITHMS
+
     // {
-    //   path: '/sort/#',
+    //   path: '/string/#',
     //   name: '#',
-    //   component: () => import('../components/algorithms/sort/algorithms/#.vue')
+    //   component: () => import('../components/algorithms/string/algorithms/#.vue')
     // },
   ]
 })
