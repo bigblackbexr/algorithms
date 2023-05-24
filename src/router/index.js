@@ -459,6 +459,12 @@ const router = createRouter ({
 
     // STRING AlGORITHMS
 
+    {
+      path: '/string/hamming',
+      name: 'hamming',
+      component: () => import('../components/algorithms/string/algorithms/hamming.vue')
+    },
+
     // {
     //   path: '/string/#',
     //   name: '#',
