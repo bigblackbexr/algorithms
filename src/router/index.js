@@ -464,6 +464,11 @@ const router = createRouter ({
       name: 'hamming',
       component: () => import('../components/algorithms/string/algorithms/hamming.vue')
     },
+    {
+      path: '/string/knuth-morris-pratt',
+      name: 'knuth-morris-pratt',
+      component: () => import('../components/algorithms/string/algorithms/knuth-morris-pratt.vue')
+    },
 
     // {
     //   path: '/string/#',
