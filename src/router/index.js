@@ -469,6 +469,11 @@ const router = createRouter ({
       name: 'knuth-morris-pratt',
       component: () => import('../components/algorithms/string/algorithms/knuth-morris-pratt.vue')
     },
+    {
+      path: '/string/levenshtein',
+      name: 'levenshtein',
+      component: () => import('../components/algorithms/string/algorithms/levenshtein.vue')
+    },
 
     // {
     //   path: '/string/#',
