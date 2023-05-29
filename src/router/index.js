@@ -474,6 +474,11 @@ const router = createRouter ({
       name: 'levenshtein',
       component: () => import('../components/algorithms/string/algorithms/levenshtein.vue')
     },
+    {
+      path: '/string/longest',
+      name: 'longest',
+      component: () => import('../components/algorithms/string/algorithms/longest.vue')
+    },
 
     // {
     //   path: '/string/#',
