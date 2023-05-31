@@ -479,6 +479,11 @@ const router = createRouter ({
       name: 'longest',
       component: () => import('../components/algorithms/string/algorithms/longest.vue')
     },
+    {
+      path: '/string/rabin-karp',
+      name: 'rabin-karp',
+      component: () => import('../components/algorithms/string/algorithms/rabin-karp.vue')
+    },
 
     // {
     //   path: '/string/#',
