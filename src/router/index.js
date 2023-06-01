@@ -484,6 +484,11 @@ const router = createRouter ({
       name: 'rabin-karp',
       component: () => import('../components/algorithms/string/algorithms/rabin-karp.vue')
     },
+    {
+      path: '/string/regular-expressions',
+      name: 'regular-expressions',
+      component: () => import('../components/algorithms/string/algorithms/regular-expressions.vue')
+    },
 
     // {
     //   path: '/string/#',
