@@ -489,6 +489,11 @@ const router = createRouter ({
       name: 'regular-expressions',
       component: () => import('../components/algorithms/string/algorithms/regular-expressions.vue')
     },
+    {
+      path: '/string/z',
+      name: 'z',
+      component: () => import('../components/algorithms/string/algorithms/z.vue')
+    },
 
     // {
     //   path: '/string/#',
