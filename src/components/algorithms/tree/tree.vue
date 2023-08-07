@@ -6,11 +6,11 @@
       <pre class="grid place-content-center -mt-18 max-md:-mt-0 text-xl max-md:text-[8px] max-md:leading-[10px]">
 ████████╗██████╗ ███████╗███████╗
 ╚══██╔══╝██╔══██╗██╔════╝██╔════╝
-   ██║   ██████╔╝█████╗  █████╗  
-   ██║   ██╔══██╗██╔══╝  ██╔══╝  
+   ██║   ██████╔╝█████╗  █████╗
+   ██║   ██╔══██╗██╔══╝  ██╔══╝
    ██║   ██║  ██║███████╗███████╗
    ╚═╝   ╚═╝  ╚═╝╚══════╝╚══════╝
-      </pre>    
+      </pre>
     </h1>
 
     <div class="text-orange-dark dark:text-purple-light mx-10 max-md:mx-6 my-5 text-xl max-md:text-base text-justify">
@@ -43,8 +43,8 @@
     data () {
       return {
         algorithms: [
-          'Depth',
-          'Width'
+          'depth',
+          'width'
         ]
       }
     }

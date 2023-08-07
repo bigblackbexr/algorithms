@@ -495,12 +495,17 @@ const router = createRouter ({
       component: () => import('../components/algorithms/string/algorithms/z.vue')
     },
 
-    // STRING AlGORITHMS
+    // TREE AlGORITHMS
 
     {
       path: '/tree/depth',
       name: 'depth',
       component: () => import('../components/algorithms/tree/algorithms/depth.vue')
+    },
+    {
+      path: '/tree/width',
+      name: 'width',
+      component: () => import('../components/algorithms/tree/algorithms/width.vue')
     },
 
     // {
