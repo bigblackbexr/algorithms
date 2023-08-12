@@ -1,9 +1,10 @@
 import { createRouter } from "vue-router";
+import { encryptCategory } from "./encrypt/index";
 
-const router = createRouter({
+const allRoutes = createRouter({
   routes: [
-
+    ...encryptCategory,
   ]
-})
+});
 
-export default router
+export default allRoutes;

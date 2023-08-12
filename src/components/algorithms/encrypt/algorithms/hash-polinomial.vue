@@ -36,6 +36,7 @@
   import Base from '../../base.vue'
 
   export default {
+    name: 'hashPolinomialComponent',
     components: {
       Base
     }
