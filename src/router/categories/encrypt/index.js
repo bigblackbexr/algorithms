@@ -1,10 +1,7 @@
-import { createRouter } from "vue-router";
-import { hashPolinomialRoute } from "./hash-polinomial";
+import hashPolinomialRoute from "./hash-polinomial";
 
-const encryptCategory = createRouter({
-  routes: [
-    ...hashPolinomialRoute,
-  ]
-});
+const encryptCategory = [
+  ...hashPolinomialRoute
+]
 
 export default encryptCategory;

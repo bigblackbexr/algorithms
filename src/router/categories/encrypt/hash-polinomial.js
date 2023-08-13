@@ -1,9 +1,11 @@
-//import { hashPolinomialComponent } from "../../../components/algorithms/encrypt/algorithms/hash-polinomial.vue";
+import HashPolinomialComponent from '@/components/algorithms/encrypt/algorithms/hash-polinomial.vue';
 
-const hashPolinomialRoute = ({
-  router: [
-
-  ]
-})
+const hashPolinomialRoute = [
+  {
+    path: '/encrypt/hash-polinomial',
+    name: 'hash-polinomial',
+    component: HashPolinomialComponent
+  },
+];
 
 export default hashPolinomialRoute;
