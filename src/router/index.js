@@ -18,12 +18,12 @@ const router = createRouter ({
 
     // CATEGORIES
 
-    {
-      path: '/encrypt',
-      name: 'encrypt',
-      component: () => import('../components/algorithm.vue'),
-      props: true
-    },
+    // {
+    //   path: '/encrypt',
+    //   name: 'encrypt',
+    //   component: () => import('../components/algorithm.vue'),
+    //   props: true
+    // },
     {
       path: '/graph',
       name: 'graph',
@@ -81,11 +81,11 @@ const router = createRouter ({
 
     // ENCRYPT AlGORITHMS
 
-    {
-      path: '/encrypt/hash-polinomial',
-      name: 'hash-polinomial',
-      component: () => import('../components/algorithms/encrypt/algorithms/hash-polinomial.vue')
-    },
+    // {
+    //   path: '/encrypt/hash-polinomial',
+    //   name: 'hash-polinomial',
+    //   component: () => import('../components/algorithms/encrypt/algorithms/hash-polinomial.vue')
+    // },
 
     // GRAPH ALGORITHMS
 
