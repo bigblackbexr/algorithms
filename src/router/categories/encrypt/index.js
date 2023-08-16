@@ -9,6 +9,6 @@ const encryptCategory = [
     props: true
   },
   ...hashPolinomialRoute
-]
+];
 
 export default encryptCategory;

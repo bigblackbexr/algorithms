@@ -1,7 +1,9 @@
 import encryptCategory from "./encrypt/index";
+import graphCategory from "./graph/index";
 
 const allRoutes = [
-  ...encryptCategory
-]
+  ...encryptCategory,
+  ...graphCategory
+];
 
 export default allRoutes;

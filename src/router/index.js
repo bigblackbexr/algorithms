@@ -17,19 +17,6 @@ const router = createRouter ({
     },
 
     // CATEGORIES
-
-    // {
-    //   path: '/encrypt',
-    //   name: 'encrypt',
-    //   component: () => import('../components/algorithm.vue'),
-    //   props: true
-    // },
-    {
-      path: '/graph',
-      name: 'graph',
-      component: () => import('../components/algorithm.vue'),
-      props: true
-    },
     {
       path: '/list',
       name: 'list',
@@ -79,14 +66,6 @@ const router = createRouter ({
       props: true
     },
 
-    // ENCRYPT AlGORITHMS
-
-    // {
-    //   path: '/encrypt/hash-polinomial',
-    //   name: 'hash-polinomial',
-    //   component: () => import('../components/algorithms/encrypt/algorithms/hash-polinomial.vue')
-    // },
-
     // GRAPH ALGORITHMS
 
     {
@@ -111,12 +90,6 @@ const router = createRouter ({
       path: '/graph/dijkstra',
       name: 'dijkstra',
       component: () => import('../components/algorithms/graph/algorithms/dijkstra.vue'),
-      props: true
-    },
-    {
-      path: '/graph/bellman-ford',
-      name: 'bellman-ford',
-      component: () => import('../components/algorithms/graph/algorithms/bellman-ford.vue'),
       props: true
     },
     {
