@@ -1,6 +1,7 @@
-import graph from "@/components/algorithm.vue";
 import bellmanFordRoute from "./bellman-ford";
 import bridgesRoute from "./bridges";
+import depthSearchRoute from "./depth-search";
+import graph from "@/components/algorithm.vue";
 
 const graphCategory = [
   {
@@ -10,7 +11,8 @@ const graphCategory = [
     props: true
   },
   ...bellmanFordRoute,
-  ...bridgesRoute
+  ...bridgesRoute,
+  ...depthSearchRoute,
 ];
 
 export default graphCategory;

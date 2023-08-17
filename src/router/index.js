@@ -69,12 +69,6 @@ const router = createRouter ({
     // GRAPH ALGORITHMS
 
     {
-      path: '/graph/depth-search',
-      name: 'depth-search',
-      component: () => import('../components/algorithms/graph/algorithms/depth-search.vue'),
-      props: true
-    },
-    {
       path: '/graph/width-search',
       name: 'width-search',
       component: () => import('../components/algorithms/graph/algorithms/width-search.vue'),
