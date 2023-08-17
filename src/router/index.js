@@ -123,12 +123,6 @@ const router = createRouter ({
       props: true
     },
     {
-      path: '/graph/bridges',
-      name: 'bridges',
-      component: () => import('../components/algorithms/graph/algorithms/bridges.vue'),
-      props: true
-    },
-    {
       path: '/graph/eulerian-path-circuit',
       name: 'eulerian-path-circuit',
       component: () => import('../components/algorithms/graph/algorithms/eulerian-path-circuit.vue'),

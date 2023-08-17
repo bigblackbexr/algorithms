@@ -1,5 +1,6 @@
 import graph from "@/components/algorithm.vue";
 import bellmanFordRoute from "./bellman-ford";
+import bridgesRoute from "./bridges";
 
 const graphCategory = [
   {
@@ -8,7 +9,8 @@ const graphCategory = [
     component: graph,
     props: true
   },
-  ...bellmanFordRoute
+  ...bellmanFordRoute,
+  ...bridgesRoute
 ];
 
 export default graphCategory;
