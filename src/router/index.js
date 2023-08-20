@@ -93,12 +93,6 @@ const router = createRouter ({
       props: true
     },
     {
-      path: '/graph/detect-cycles',
-      name: 'detect-cycles',
-      component: () => import('../components/algorithms/graph/algorithms/detect-cycles.vue'),
-      props: true
-    },
-    {
       path: '/graph/prim',
       name: 'prim',
       component: () => import('../components/algorithms/graph/algorithms/prim.vue'),

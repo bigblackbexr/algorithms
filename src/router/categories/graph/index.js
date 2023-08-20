@@ -1,6 +1,8 @@
 import bellmanFordRoute from "./bellman-ford";
 import bridgesRoute from "./bridges";
 import depthSearchRoute from "./depth-search";
+import detectCyclesRoute from "./detect-cycles";
+
 import graph from "@/components/algorithm.vue";
 
 const graphCategory = [
