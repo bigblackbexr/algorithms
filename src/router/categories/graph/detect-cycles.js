@@ -2,8 +2,8 @@ import detectCyclesComponent from '@/components/algorithms/graph/algorithms/dete
 
 const detectCyclesRoute = [
   {
-    path: '/graph/depth-search',
-    name: 'depth-search',
+    path: '/graph/detect-cycles',
+    name: 'detect-cycles',
     component: detectCyclesComponent,
     props: true
   },
