@@ -5,7 +5,7 @@ import listCategory from "./list/index";
 const allRoutes = [
   ...encryptCategory,
   ...graphCategory,
-  ...listCategory
+  ...listCategory,
 ];
 
 export default allRoutes;

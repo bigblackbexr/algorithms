@@ -1,4 +1,6 @@
 import list from "@/components/algorithm.vue";
+import directRouteRoute from "./direct-route";
+import invertRouteRoute from "./invert-route";
 
 const listCategory = [
   {
@@ -7,6 +9,8 @@ const listCategory = [
     component: list,
     props: true
   },
+  ...directRouteRoute,
+  ...invertRouteRoute
 ];
 
 export default listCategory;
