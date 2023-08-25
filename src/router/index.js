@@ -18,12 +18,6 @@ const router = createRouter ({
 
     // CATEGORIES
     {
-      path: '/math',
-      name: 'math',
-      component: () => import('../components/algorithm.vue'),
-      props: true
-    },
-    {
       path: '/no',
       name: 'no',
       component: () => import('../components/algorithm.vue'),
