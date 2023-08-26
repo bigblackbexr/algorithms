@@ -1,4 +1,5 @@
 import math from "@/components/algorithm.vue";
+import bitManipulationRoute from "./bit-manipulation";
 
 const mathCategory = [
   {
@@ -7,6 +8,7 @@ const mathCategory = [
     component: math,
     props: true
   },
+  ...bitManipulationRoute
 ];
 
 export default mathCategory;
