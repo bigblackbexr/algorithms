@@ -57,12 +57,6 @@ const router = createRouter ({
     // MATH ALGORITHMS
 
     {
-      path: '/math/bit-manipulation',
-      name: 'bit-manipulation',
-      component: () => import('../components/algorithms/math/algorithms/bit-manipulation.vue'),
-      props: true
-    },
-    {
       path: '/math/complex-numbers',
       name: 'complex-numbers',
       component: () => import('../components/algorithms/math/algorithms/complex-numbers.vue'),
