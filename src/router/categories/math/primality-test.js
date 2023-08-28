@@ -1,11 +1,11 @@
-import xComponent from '@/components/algorithms/math/algorithms/y.vue';
+import primalityTestComponent from '@/components/algorithms/math/algorithms/primality-test.vue';
 
-const xRoute = [
+const primalityTestRoute = [
   {
-    path: '/math/y',
-    name: 'y',
-    component: xComponent
+    path: '/math/primality-test',
+    name: 'primality-test',
+    component: primalityTestComponent
   },
 ];
 
-export default xRoute;
+export default primalityTestRoute;

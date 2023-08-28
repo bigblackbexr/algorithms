@@ -1,11 +1,11 @@
-import xComponent from '@/components/algorithms/math/algorithms/y.vue';
+import pascalsTriangleComponent from '@/components/algorithms/math/algorithms/pascals-triangle.vue';
 
-const xRoute = [
+const pascalsTriangleRoute = [
   {
-    path: '/math/y',
-    name: 'y',
-    component: xComponent
+    path: '/math/pascals-triangle',
+    name: 'pascals-triangle',
+    component: pascalsTriangleComponent
   },
 ];
 
-export default xRoute;
+export default pascalsTriangleRoute;

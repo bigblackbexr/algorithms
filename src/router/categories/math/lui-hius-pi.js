@@ -1,11 +1,11 @@
-import xComponent from '@/components/algorithms/math/algorithms/y.vue';
+import luiHiusPiComponent from '@/components/algorithms/math/algorithms/lui-hius-pi.vue';
 
-const xRoute = [
+const luiHiusPiRoute = [
   {
-    path: '/math/y',
-    name: 'y',
-    component: xComponent
+    path: '/math/lui-hius-pi',
+    name: 'lui-hius-pi',
+    component: luiHiusPiComponent
   },
 ];
 
-export default xRoute;
+export default luiHiusPiRoute;

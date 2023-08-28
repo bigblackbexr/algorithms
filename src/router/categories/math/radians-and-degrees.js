@@ -1,11 +1,11 @@
-import xComponent from '@/components/algorithms/math/algorithms/y.vue';
+import radiansAndDegreesComponent from '@/components/algorithms/math/algorithms/radians-and-degrees.vue';
 
-const xRoute = [
+const radiansAndDegreesRoute = [
   {
-    path: '/math/y',
-    name: 'y',
-    component: xComponent
+    path: '/math/radians-and-degrees',
+    name: 'radians-and-degrees',
+    component: radiansAndDegreesComponent
   },
 ];
 
-export default xRoute;
+export default radiansAndDegreesRoute;

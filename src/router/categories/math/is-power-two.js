@@ -1,11 +1,11 @@
-import xComponent from '@/components/algorithms/math/algorithms/y.vue';
+import isPowerTwoComponent from '@/components/algorithms/math/algorithms/is-power-two.vue';
 
-const xRoute = [
+const isPowerTwoRoute = [
   {
-    path: '/math/y',
-    name: 'y',
-    component: xComponent
+    path: '/math/is-power-two',
+    name: 'is-power-two',
+    component: isPowerTwoComponent
   },
 ];
 
-export default xRoute;
+export default isPowerTwoRoute;

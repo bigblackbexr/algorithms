@@ -1,11 +1,11 @@
-import xComponent from '@/components/algorithms/math/algorithms/y.vue';
+import leastCommonMultipleComponent from '@/components/algorithms/math/algorithms/least-common-multiple.vue';
 
-const xRoute = [
+const leastCommonMultipleRoute = [
   {
-    path: '/math/y',
-    name: 'y',
-    component: xComponent
+    path: '/math/least-common-multiple',
+    name: 'least-common-multiple',
+    component: leastCommonMultipleComponent
   },
 ];
 
-export default xRoute;
+export default leastCommonMultipleRoute;

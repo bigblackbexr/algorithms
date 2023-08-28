@@ -1,11 +1,11 @@
-import xComponent from '@/components/algorithms/math/algorithms/y.vue';
+import integerPartitionComponent from '@/components/algorithms/math/algorithms/integer-partition.vue';
 
-const xRoute = [
+const integerPartitionRoute = [
   {
-    path: '/math/y',
-    name: 'y',
-    component: xComponent
+    path: '/math/integer-partition',
+    name: 'integer-partition',
+    component: integerPartitionComponent
   },
 ];
 
-export default xRoute;
+export default integerPartitionRoute;

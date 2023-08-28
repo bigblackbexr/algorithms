@@ -1,11 +1,11 @@
-import xComponent from '@/components/algorithms/math/algorithms/y.vue';
+import sieveEratosthenesComponent from '@/components/algorithms/math/algorithms/sieve-eratosthenes.vue';
 
-const xRoute = [
+const sieveEratosthenesRoute = [
   {
-    path: '/math/y',
-    name: 'y',
-    component: xComponent
+    path: '/math/sieve-eratosthenes',
+    name: 'sieve-eratosthenes',
+    component: sieveEratosthenesComponent
   },
 ];
 
-export default xRoute;
+export default sieveEratosthenesRoute;
