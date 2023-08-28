@@ -1,11 +1,11 @@
-import xComponent from '@/components/algorithms/math/algorithms/y.vue';
+import discreteFourierTransformComponent from '@/components/algorithms/math/algorithms/discrete-fourier-transform.vue';
 
-const xRoute = [
+const discreteFourierTransformRoute = [
   {
-    path: '/math/y',
-    name: 'y',
-    component: xComponent
+    path: '/math/discrete-fourier-transform',
+    name: 'discrete-fourier-transform',
+    component: discreteFourierTransformComponent
   },
 ];
 
-export default xRoute;
+export default discreteFourierTransformRoute;

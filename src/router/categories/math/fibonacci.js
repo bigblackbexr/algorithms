@@ -1,11 +1,11 @@
-import xComponent from '@/components/algorithms/math/algorithms/y.vue';
+import fibonacciComponent from '@/components/algorithms/math/algorithms/fibonacci.vue';
 
-const xRoute = [
+const fibonacciRoute = [
   {
-    path: '/math/y',
-    name: 'y',
-    component: xComponent
+    path: '/math/fibonacci',
+    name: 'fibonacci',
+    component: fibonacciComponent
   },
 ];
 
-export default xRoute;
+export default fibonacciRoute;

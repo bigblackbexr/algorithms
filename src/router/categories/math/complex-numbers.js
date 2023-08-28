@@ -1,11 +1,11 @@
-import xComponent from '@/components/algorithms/math/algorithms/y.vue';
+import complexNumbersComponent from '@/components/algorithms/math/algorithms/complex-numbers.vue';
 
-const xRoute = [
+const complexNumbersRoute = [
   {
-    path: '/math/y',
-    name: 'y',
-    component: xComponent
+    path: '/math/complex-numbers',
+    name: 'complex-numbers',
+    component: complexNumbersComponent
   },
 ];
 
-export default xRoute;
+export default complexNumbersRoute;

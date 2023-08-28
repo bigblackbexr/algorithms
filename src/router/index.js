@@ -57,42 +57,6 @@ const router = createRouter ({
     // MATH ALGORITHMS
 
     {
-      path: '/math/complex-numbers',
-      name: 'complex-numbers',
-      component: () => import('../components/algorithms/math/algorithms/complex-numbers.vue'),
-      props: true
-    },
-    {
-      path: '/math/discrete-fourier-transform',
-      name: 'discrete-fourier-transform',
-      component: () => import('../components/algorithms/math/algorithms/discrete-fourier-transform.vue'),
-      props: true
-    },
-    {
-      path: '/math/euclides',
-      name: 'euclides',
-      component: () => import('../components/algorithms/math/algorithms/euclides.vue'),
-      props: true
-    },
-    {
-      path: '/math/factorial',
-      name: 'factorial',
-      component: () => import('../components/algorithms/math/algorithms/factorial.vue'),
-      props: true
-    },
-    {
-      path: '/math/fast-exponentiation',
-      name: 'fast-exponentiation',
-      component: () => import('../components/algorithms/math/algorithms/fast-exponentiation.vue'),
-      props: true
-    },
-    {
-      path: '/math/fibonacci',
-      name: 'fibonacci',
-      component: () => import('../components/algorithms/math/algorithms/fibonacci.vue'),
-      props: true
-    },
-    {
       path: '/math/integer-partition',
       name: 'integer-partition',
       component: () => import('../components/algorithms/math/algorithms/integer-partition.vue'),

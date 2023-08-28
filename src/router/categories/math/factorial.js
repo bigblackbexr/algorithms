@@ -1,11 +1,11 @@
-import xComponent from '@/components/algorithms/math/algorithms/y.vue';
+import factorialComponent from '@/components/algorithms/math/algorithms/factorial.vue';
 
-const xRoute = [
+const factorialRoute = [
   {
-    path: '/math/y',
-    name: 'y',
-    component: xComponent
+    path: '/math/factorial',
+    name: 'factorial',
+    component: factorialComponent
   },
 ];
 
-export default xRoute;
+export default factorialRoute;

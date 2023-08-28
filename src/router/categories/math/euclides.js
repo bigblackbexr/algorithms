@@ -1,11 +1,11 @@
-import xComponent from '@/components/algorithms/math/algorithms/y.vue';
+import euclidesComponent from '@/components/algorithms/math/algorithms/euclides.vue';
 
-const xRoute = [
+const euclidesRoute = [
   {
-    path: '/math/y',
-    name: 'y',
-    component: xComponent
+    path: '/math/euclides',
+    name: 'euclides',
+    component: euclidesComponent
   },
 ];
 
-export default xRoute;
+export default euclidesRoute;

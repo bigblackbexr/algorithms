@@ -1,4 +1,5 @@
 import list from "@/components/algorithm.vue";
+
 import directRouteRoute from "./direct-route";
 import invertRouteRoute from "./invert-route";
 

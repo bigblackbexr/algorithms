@@ -1,11 +1,11 @@
-import xComponent from '@/components/algorithms/math/algorithms/y.vue';
+import fastExponentiationComponent from '@/components/algorithms/math/algorithms/fast-exponentiation.vue';
 
-const xRoute = [
+const fastExponentiationRoute = [
   {
-    path: '/math/y',
-    name: 'y',
-    component: xComponent
+    path: '/math/fast-exponentiation',
+    name: 'fast-exponentiation',
+    component: fastExponentiationComponent
   },
 ];
 
-export default xRoute;
+export default fastExponentiationRoute;
