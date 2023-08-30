@@ -1,4 +1,5 @@
 import encrypt from "@/components/algorithm.vue";
+
 import hashPolinomialRoute from "./hash-polinomial";
 
 const encryptCategory = [

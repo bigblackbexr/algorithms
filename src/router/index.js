@@ -18,12 +18,6 @@ const router = createRouter ({
 
     // CATEGORIES
     {
-      path: '/math',
-      name: 'math',
-      component: () => import('../components/algorithm.vue'),
-      props: true
-    },
-    {
       path: '/no',
       name: 'no',
       component: () => import('../components/algorithm.vue'),
@@ -57,99 +51,6 @@ const router = createRouter ({
       path: '/tree',
       name: 'tree',
       component: () => import('../components/algorithm.vue'),
-      props: true
-    },
-
-    // MATH ALGORITHMS
-
-    {
-      path: '/math/bit-manipulation',
-      name: 'bit-manipulation',
-      component: () => import('../components/algorithms/math/algorithms/bit-manipulation.vue'),
-      props: true
-    },
-    {
-      path: '/math/complex-numbers',
-      name: 'complex-numbers',
-      component: () => import('../components/algorithms/math/algorithms/complex-numbers.vue'),
-      props: true
-    },
-    {
-      path: '/math/discrete-fourier-transform',
-      name: 'discrete-fourier-transform',
-      component: () => import('../components/algorithms/math/algorithms/discrete-fourier-transform.vue'),
-      props: true
-    },
-    {
-      path: '/math/euclides',
-      name: 'euclides',
-      component: () => import('../components/algorithms/math/algorithms/euclides.vue'),
-      props: true
-    },
-    {
-      path: '/math/factorial',
-      name: 'factorial',
-      component: () => import('../components/algorithms/math/algorithms/factorial.vue'),
-      props: true
-    },
-    {
-      path: '/math/fast-exponentiation',
-      name: 'fast-exponentiation',
-      component: () => import('../components/algorithms/math/algorithms/fast-exponentiation.vue'),
-      props: true
-    },
-    {
-      path: '/math/fibonacci',
-      name: 'fibonacci',
-      component: () => import('../components/algorithms/math/algorithms/fibonacci.vue'),
-      props: true
-    },
-    {
-      path: '/math/integer-partition',
-      name: 'integer-partition',
-      component: () => import('../components/algorithms/math/algorithms/integer-partition.vue'),
-      props: true
-    },
-    {
-      path: '/math/is-power-two',
-      name: 'is-power-two',
-      component: () => import('../components/algorithms/math/algorithms/is-power-two.vue'),
-      props: true
-    },
-    {
-      path: '/math/least-common-multiple',
-      name: 'least-common-multiple',
-      component: () => import('../components/algorithms/math/algorithms/least-common-multiple.vue'),
-      props: true
-    },
-    {
-      path: '/math/lui-hius-pi',
-      name: 'lui-hius-pi',
-      component: () => import('../components/algorithms/math/algorithms/lui-hius-pi.vue'),
-      props: true
-    },
-    {
-      path: '/math/pascals-triangle',
-      name: 'pascals-triangle',
-      component: () => import('../components/algorithms/math/algorithms/pascals-triangle.vue'),
-      props: true
-    },
-    {
-      path: '/math/primality-test',
-      name: 'primality-test',
-      component: () => import('../components/algorithms/math/algorithms/primality-test.vue'),
-      props: true
-    },
-    {
-      path: '/math/radians-and-degrees',
-      name: 'radians-and-degrees',
-      component: () => import('../components/algorithms/math/algorithms/radians-and-degrees.vue'),
-      props: true
-    },
-    {
-      path: '/math/sieve-eratosthenes',
-      name: 'sieve-eratosthenes',
-      component: () => import('../components/algorithms/math/algorithms/sieve-eratosthenes.vue'),
       props: true
     },
 
