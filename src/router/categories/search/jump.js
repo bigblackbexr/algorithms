@@ -1,4 +1,4 @@
-import jumpComponent from '@/components/algorithms/no/algorithms/jump.vue';
+import jumpComponent from '@/components/algorithms/search/algorithms/jump.vue';
 
 const jumpRoute = [
   {

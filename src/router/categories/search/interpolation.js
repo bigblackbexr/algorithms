@@ -1,4 +1,4 @@
-import interpolationComponent from '@/components/algorithms/no/algorithms/interpolation.vue';
+import interpolationComponent from '@/components/algorithms/search/algorithms/interpolation.vue';
 
 const interpolationRoute = [
   {

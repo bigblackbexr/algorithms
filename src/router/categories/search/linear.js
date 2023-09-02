@@ -1,4 +1,4 @@
-import linearComponent from '@/components/algorithms/no/algorithms/linear.vue';
+import linearComponent from '@/components/algorithms/search/algorithms/linear.vue';
 
 const linearRoute = [
   {

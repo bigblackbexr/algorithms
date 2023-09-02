@@ -1,4 +1,4 @@
-import binaryComponent from '@/components/algorithms/no/algorithms/binary.vue';
+import binaryComponent from '@/components/algorithms/search/algorithms/binary.vue';
 
 const binaryRoute = [
   {
