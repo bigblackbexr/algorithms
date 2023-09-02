@@ -1,3 +1,5 @@
+import graph from "@/components/algorithm.vue";
+
 import bellmanFordRoute from "./bellman-ford";
 import bridgesRoute from "./bridges";
 import depthSearchRoute from "./depth-search";
@@ -13,8 +15,6 @@ import stronglyConnectedComponentsRoute from "./strongly-connected-components";
 import topologicalOrderingRoute from "./topological-ordering";
 import travelerProblemRoute from "./traveler-problem";
 import widthSearchRoute from "./width-search";
-
-import graph from "@/components/algorithm.vue";
 
 const graphCategory = [
   {
