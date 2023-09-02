@@ -2,7 +2,7 @@ import linearComponent from '@/components/algorithms/search/algorithms/linear.vu
 
 const linearRoute = [
   {
-    path: '/no/linear',
+    path: '/search/linear',
     name: 'linear',
     component: linearComponent
   },

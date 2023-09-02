@@ -2,7 +2,7 @@ import binaryComponent from '@/components/algorithms/search/algorithms/binary.vu
 
 const binaryRoute = [
   {
-    path: '/no/binary',
+    path: '/search/binary',
     name: 'binary',
     component: binaryComponent
   },

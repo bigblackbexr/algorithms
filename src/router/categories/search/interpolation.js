@@ -2,7 +2,7 @@ import interpolationComponent from '@/components/algorithms/search/algorithms/in
 
 const interpolationRoute = [
   {
-    path: '/no/interpolation',
+    path: '/search/interpolation',
     name: 'interpolation',
     component: interpolationComponent
   },
