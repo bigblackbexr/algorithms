@@ -18,12 +18,6 @@ const router = createRouter ({
 
     // CATEGORIES
     {
-      path: '/search',
-      name: 'search',
-      component: () => import('../components/algorithm.vue'),
-      props: true
-    },
-    {
       path: '/set',
       name: 'set',
       component: () => import('../components/algorithm.vue'),
