@@ -1,11 +1,11 @@
-import ñComponent from '@/components/algorithms/no/algorithms/z.vue';
+import interpolationComponent from '@/components/algorithms/no/algorithms/interpolation.vue';
 
-const ñRoute = [
+const interpolationRoute = [
   {
-    path: '/no/z',
-    name: 'z',
-    component: ñComponent
+    path: '/no/interpolation',
+    name: 'interpolation',
+    component: interpolationComponent
   },
 ];
 
-export default ñRoute;
+export default interpolationRoute;

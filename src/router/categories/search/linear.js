@@ -1,11 +1,11 @@
-import ñComponent from '@/components/algorithms/no/algorithms/z.vue';
+import linearComponent from '@/components/algorithms/no/algorithms/linear.vue';
 
-const ñRoute = [
+const linearRoute = [
   {
-    path: '/no/z',
-    name: 'z',
-    component: ñComponent
+    path: '/no/linear',
+    name: 'linear',
+    component: linearComponent
   },
 ];
 
-export default ñRoute;
+export default linearRoute;

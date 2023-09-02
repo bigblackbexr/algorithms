@@ -1,11 +1,11 @@
-import ñComponent from '@/components/algorithms/no/algorithms/z.vue';
+import jumpComponent from '@/components/algorithms/no/algorithms/jump.vue';
 
-const ñRoute = [
+const jumpRoute = [
   {
-    path: '/no/z',
-    name: 'z',
-    component: ñComponent
+    path: '/no/jump',
+    name: 'jump',
+    component: jumpComponent
   },
 ];
 
-export default ñRoute;
+export default jumpRoute;

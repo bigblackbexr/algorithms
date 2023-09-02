@@ -1,11 +1,11 @@
-import ñComponent from '@/components/algorithms/no/algorithms/z.vue';
+import binaryComponent from '@/components/algorithms/no/algorithms/binary.vue';
 
-const ñRoute = [
+const binaryRoute = [
   {
-    path: '/no/z',
-    name: 'z',
-    component: ñComponent
+    path: '/no/binary',
+    name: 'binary',
+    component: binaryComponent
   },
 ];
 
-export default ñRoute;
+export default binaryRoute;
