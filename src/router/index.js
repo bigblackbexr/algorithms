@@ -18,12 +18,6 @@ const router = createRouter ({
 
     // CATEGORIES
     {
-      path: '/search',
-      name: 'search',
-      component: () => import('../components/algorithm.vue'),
-      props: true
-    },
-    {
       path: '/set',
       name: 'set',
       component: () => import('../components/algorithm.vue'),
@@ -46,29 +40,6 @@ const router = createRouter ({
       name: 'tree',
       component: () => import('../components/algorithm.vue'),
       props: true
-    },
-
-    // SEARCH AlGORITHMS
-
-    {
-      path: '/search/binary',
-      name: 'binary',
-      component: () => import('../components/algorithms/search/algorithms/binary.vue')
-    },
-    {
-      path: '/search/interpolation',
-      name: 'interpolation',
-      component: () => import('../components/algorithms/search/algorithms/interpolation.vue')
-    },
-    {
-      path: '/search/jump',
-      name: 'jump',
-      component: () => import('../components/algorithms/search/algorithms/jump.vue')
-    },
-    {
-      path: '/search/linear',
-      name: 'linear',
-      component: () => import('../components/algorithms/search/algorithms/linear.vue')
     },
 
     // SET AlGORITHMS
