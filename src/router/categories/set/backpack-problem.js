@@ -1,11 +1,11 @@
-import ñComponent from '@/components/algorithms/set/algorithms/-.vue';
+import backpackProblemComponent from '@/components/algorithms/set/algorithms/backpack-problem.vue';
 
-const ñRoute = [
+const backpackProblemRoute = [
   {
-    path: '/set/-',
-    name: '-',
-    component: ñComponent
+    path: '/set/backpack-problem',
+    name: 'backpack-problem',
+    component: backpackProblemComponent
   },
 ];
 
-export default ñRoute;
+export default backpackProblemRoute;
