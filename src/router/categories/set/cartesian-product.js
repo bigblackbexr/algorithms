@@ -1,11 +1,11 @@
-import ñComponent from '@/components/algorithms/set/algorithms/-.vue';
+import cartesianProductComponent from '@/components/algorithms/set/algorithms/cartesian-product.vue';
 
-const ñRoute = [
+const cartesianProductRoute = [
   {
-    path: '/set/-',
-    name: '-',
-    component: ñComponent
+    path: '/set/cartesian-product',
+    name: 'cartesian-product',
+    component: cartesianProductComponent
   },
 ];
 
-export default ñRoute;
+export default cartesianProductRoute;

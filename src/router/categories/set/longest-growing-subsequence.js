@@ -1,11 +1,11 @@
-import ñComponent from '@/components/algorithms/set/algorithms/-.vue';
+import longestGrowingSubsequenceComponent from '@/components/algorithms/set/algorithms/longest-growing-subsequence.vue';
 
-const ñRoute = [
+const longestGrowingSubsequenceRoute = [
   {
-    path: '/set/-',
-    name: '-',
-    component: ñComponent
+    path: '/set/longest-growing-subsequence',
+    name: 'longest-growing-subsequence',
+    component: longestGrowingSubsequenceComponent
   },
 ];
 
-export default ñRoute;
+export default longestGrowingSubsequenceRoute;

@@ -1,11 +1,11 @@
-import ñComponent from '@/components/algorithms/set/algorithms/-.vue';
+import shortestCommonSupersequenceComponent from '@/components/algorithms/set/algorithms/shortest-common-supersequence.vue';
 
-const ñRoute = [
+const shortestCommonSupersequenceRoute = [
   {
-    path: '/set/-',
-    name: '-',
-    component: ñComponent
+    path: '/set/shortest-common-supersequence',
+    name: 'shortest-common-supersequence',
+    component: shortestCommonSupersequenceComponent
   },
 ];
 
-export default ñRoute;
+export default shortestCommonSupersequenceRoute;

@@ -1,11 +1,11 @@
-import ñComponent from '@/components/algorithms/set/algorithms/-.vue';
+import combinedSumComponent from '@/components/algorithms/set/algorithms/combined-sum.vue';
 
-const ñRoute = [
+const combinedSumRoute = [
   {
-    path: '/set/-',
-    name: '-',
-    component: ñComponent
+    path: '/set/combined-sum',
+    name: 'combined-sum',
+    component: combinedSumComponent
   },
 ];
 
-export default ñRoute;
+export default combinedSumRoute;

@@ -1,11 +1,11 @@
-import ñComponent from '@/components/algorithms/set/algorithms/-.vue';
+import combinationsComponent from '@/components/algorithms/set/algorithms/combinations.vue';
 
-const ñRoute = [
+const combinationsRoute = [
   {
-    path: '/set/-',
-    name: '-',
-    component: ñComponent
+    path: '/set/combinations',
+    name: 'combinations',
+    component: combinationsComponent
   },
 ];
 
-export default ñRoute;
+export default combinationsRoute;

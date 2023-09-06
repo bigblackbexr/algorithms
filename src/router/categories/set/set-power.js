@@ -1,11 +1,11 @@
-import ñComponent from '@/components/algorithms/set/algorithms/-.vue';
+import setPowerComponent from '@/components/algorithms/set/algorithms/set-power.vue';
 
-const ñRoute = [
+const setPowerRoute = [
   {
-    path: '/set/-',
-    name: '-',
-    component: ñComponent
+    path: '/set/set-power',
+    name: 'set-power',
+    component: setPowerComponent
   },
 ];
 
-export default ñRoute;
+export default setPowerRoute;

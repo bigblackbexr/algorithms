@@ -1,11 +1,11 @@
-import ñComponent from '@/components/algorithms/set/algorithms/-.vue';
+import longestCommonSubsequenceComponent from '@/components/algorithms/set/algorithms/longest-common-subsequence.vue';
 
-const ñRoute = [
+const longestCommonSubsequenceRoute = [
   {
-    path: '/set/-',
-    name: '-',
-    component: ñComponent
+    path: '/set/longest-common-subsequence',
+    name: 'longest-common-subsequence',
+    component: longestCommonSubsequenceComponent
   },
 ];
 
-export default ñRoute;
+export default longestCommonSubsequenceRoute;

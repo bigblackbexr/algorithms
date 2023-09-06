@@ -1,11 +1,11 @@
-import ñComponent from '@/components/algorithms/set/algorithms/-.vue';
+import fisherYatesPermutationComponent from '@/components/algorithms/set/algorithms/fisher–yates-permutation.vue';
 
-const ñRoute = [
+const fisherYatesPermutationRoute = [
   {
-    path: '/set/-',
-    name: '-',
-    component: ñComponent
+    path: '/set/fisher–yates-permutation',
+    name: 'fisher–yates-permutation',
+    component: fisherYatesPermutationComponent
   },
 ];
 
-export default ñRoute;
+export default fisherYatesPermutationRoute;

@@ -1,11 +1,11 @@
-import ñComponent from '@/components/algorithms/set/algorithms/-.vue';
+import maximumSubarrayComponent from '@/components/algorithms/set/algorithms/maximum-subarray.vue';
 
-const ñRoute = [
+const maximumSubarrayRoute = [
   {
-    path: '/set/-',
-    name: '-',
-    component: ñComponent
+    path: '/set/maximum-subarray',
+    name: 'maximum-subarray',
+    component: maximumSubarrayComponent
   },
 ];
 
-export default ñRoute;
+export default maximumSubarrayRoute;

@@ -1,11 +1,11 @@
-import ñComponent from '@/components/algorithms/set/algorithms/-.vue';
+import permutationsComponent from '@/components/algorithms/set/algorithms/permutations.vue';
 
-const ñRoute = [
+const permutationsRoute = [
   {
-    path: '/set/-',
-    name: '-',
-    component: ñComponent
+    path: '/set/permutations',
+    name: 'permutations',
+    component: permutationsComponent
   },
 ];
 
-export default ñRoute;
+export default permutationsRoute;
