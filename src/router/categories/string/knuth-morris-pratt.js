@@ -1,11 +1,11 @@
-import ñComponent from '@/components/algorithms/encrypt/algorithms/-.vue';
+import knuthMorrisPrattComponent from '@/components/algorithms/encrypt/algorithms/knuth-morris-pratt.vue';
 
-const ñRoute = [
+const knuthMorrisPrattRoute = [
   {
-    path: '/encrypt/-',
-    name: '-',
-    component: ñComponent
+    path: '/encrypt/knuth-morris-pratt',
+    name: 'knuth-morris-pratt',
+    component: knuthMorrisPrattComponent
   },
 ];
 
-export default ñRoute;
+export default knuthMorrisPrattRoute;

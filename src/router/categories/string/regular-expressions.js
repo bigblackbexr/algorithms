@@ -1,11 +1,11 @@
-import ñComponent from '@/components/algorithms/encrypt/algorithms/-.vue';
+import regularExpressionsComponent from '@/components/algorithms/encrypt/algorithms/regular-expressions.vue';
 
-const ñRoute = [
+const regularExpressionsRoute = [
   {
-    path: '/encrypt/-',
-    name: '-',
-    component: ñComponent
+    path: '/encrypt/regular-expressions',
+    name: 'regular-expressions',
+    component: regularExpressionsComponent
   },
 ];
 
-export default ñRoute;
+export default regularExpressionsRoute;

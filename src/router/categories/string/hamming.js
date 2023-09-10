@@ -1,11 +1,11 @@
-import ñComponent from '@/components/algorithms/encrypt/algorithms/-.vue';
+import hammingComponent from '@/components/algorithms/encrypt/algorithms/hamming.vue';
 
-const ñRoute = [
+const hammingRoute = [
   {
-    path: '/encrypt/-',
-    name: '-',
-    component: ñComponent
+    path: '/encrypt/hamming',
+    name: 'hamming',
+    component: hammingComponent
   },
 ];
 
-export default ñRoute;
+export default hammingRoute;

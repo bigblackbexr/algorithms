@@ -1,11 +1,11 @@
-import ñComponent from '@/components/algorithms/encrypt/algorithms/-.vue';
+import rabinKarpComponent from '@/components/algorithms/encrypt/algorithms/rabin-karp.vue';
 
-const ñRoute = [
+const rabinKarpRoute = [
   {
-    path: '/encrypt/-',
-    name: '-',
-    component: ñComponent
+    path: '/encrypt/rabin-karp',
+    name: 'rabin-karp',
+    component: rabinKarpComponent
   },
 ];
 
-export default ñRoute;
+export default rabinKarpRoute;

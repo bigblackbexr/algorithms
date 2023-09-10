@@ -1,11 +1,11 @@
-import ñComponent from '@/components/algorithms/encrypt/algorithms/-.vue';
+import levenshteinComponent from '@/components/algorithms/encrypt/algorithms/levenshtein.vue';
 
-const ñRoute = [
+const levenshteinRoute = [
   {
-    path: '/encrypt/-',
-    name: '-',
-    component: ñComponent
+    path: '/encrypt/levenshtein',
+    name: 'levenshtein',
+    component: levenshteinComponent
   },
 ];
 
-export default ñRoute;
+export default levenshteinRoute;

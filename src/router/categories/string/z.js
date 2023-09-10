@@ -1,11 +1,11 @@
-import ñComponent from '@/components/algorithms/encrypt/algorithms/-.vue';
+import zComponent from '@/components/algorithms/encrypt/algorithms/z.vue';
 
-const ñRoute = [
+const zRoute = [
   {
-    path: '/encrypt/-',
-    name: '-',
-    component: ñComponent
+    path: '/encrypt/z',
+    name: 'z',
+    component: zComponent
   },
 ];
 
-export default ñRoute;
+export default zRoute;

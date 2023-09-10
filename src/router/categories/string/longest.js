@@ -1,11 +1,11 @@
-import ñComponent from '@/components/algorithms/encrypt/algorithms/-.vue';
+import longestComponent from '@/components/algorithms/encrypt/algorithms/longest.vue';
 
-const ñRoute = [
+const longestRoute = [
   {
-    path: '/encrypt/-',
-    name: '-',
-    component: ñComponent
+    path: '/encrypt/longest',
+    name: 'longest',
+    component: longestComponent
   },
 ];
 
-export default ñRoute;
+export default longestRoute;
