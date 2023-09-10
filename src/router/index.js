@@ -18,18 +18,6 @@ const router = createRouter ({
 
     // CATEGORIES
     {
-      path: '/search',
-      name: 'search',
-      component: () => import('../components/algorithm.vue'),
-      props: true
-    },
-    {
-      path: '/set',
-      name: 'set',
-      component: () => import('../components/algorithm.vue'),
-      props: true
-    },
-    {
       path: '/sort',
       name: 'sort',
       component: () => import('../components/algorithm.vue'),
@@ -46,87 +34,6 @@ const router = createRouter ({
       name: 'tree',
       component: () => import('../components/algorithm.vue'),
       props: true
-    },
-
-    // SEARCH AlGORITHMS
-
-    {
-      path: '/search/binary',
-      name: 'binary',
-      component: () => import('../components/algorithms/search/algorithms/binary.vue')
-    },
-    {
-      path: '/search/interpolation',
-      name: 'interpolation',
-      component: () => import('../components/algorithms/search/algorithms/interpolation.vue')
-    },
-    {
-      path: '/search/jump',
-      name: 'jump',
-      component: () => import('../components/algorithms/search/algorithms/jump.vue')
-    },
-    {
-      path: '/search/linear',
-      name: 'linear',
-      component: () => import('../components/algorithms/search/algorithms/linear.vue')
-    },
-
-    // SET AlGORITHMS
-
-    {
-      path: '/set/backpack-problem',
-      name: 'backpack-problem',
-      component: () => import('../components/algorithms/set/algorithms/backpack-problem.vue')
-    },
-    {
-      path: '/set/cartesian-product',
-      name: 'cartesian-product',
-      component: () => import('../components/algorithms/set/algorithms/cartesian-product.vue')
-    },
-    {
-      path: '/set/combinations',
-      name: 'combinations',
-      component: () => import('../components/algorithms/set/algorithms/combinations.vue')
-    },
-    {
-      path: '/set/combined-sum',
-      name: 'combined-sum',
-      component: () => import('../components/algorithms/set/algorithms/combined-sum.vue')
-    },
-    {
-      path: '/set/fisher–yates-permutation',
-      name: 'fisher–yates-permutation',
-      component: () => import('../components/algorithms/set/algorithms/fisher–yates-permutation.vue')
-    },
-    {
-      path: '/set/longest-common-subsequence',
-      name: 'longest-common-subsequence',
-      component: () => import('../components/algorithms/set/algorithms/longest-common-subsequence.vue')
-    },
-    {
-      path: '/set/longest-growing-subsequence',
-      name: 'longest-growing-subsequence',
-      component: () => import('../components/algorithms/set/algorithms/longest-growing-subsequence.vue')
-    },
-    {
-      path: '/set/maximum-subarray',
-      name: 'maximum-subarray',
-      component: () => import('../components/algorithms/set/algorithms/maximum-subarray.vue')
-    },
-    {
-      path: '/set/permutations',
-      name: 'permutations',
-      component: () => import('../components/algorithms/set/algorithms/permutations.vue')
-    },
-    {
-      path: '/set/set-power',
-      name: 'set-power',
-      component: () => import('../components/algorithms/set/algorithms/set-power.vue')
-    },
-    {
-      path: '/set/shortest-common-supersequence',
-      name: 'shortest-common-supersequence',
-      component: () => import('../components/algorithms/set/algorithms/shortest-common-supersequence.vue')
     },
 
     // SORT AlGORITHMS
