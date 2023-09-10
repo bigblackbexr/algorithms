@@ -18,54 +18,10 @@ const router = createRouter({
 
     // CATEGORIES
     {
-      path: '/string',
-      name: 'string',
-      component: () => import('../components/algorithm.vue'),
-      props: true
-    },
-    {
       path: '/tree',
       name: 'tree',
       component: () => import('../components/algorithm.vue'),
       props: true
-    },
-
-    // STRING AlGORITHMS
-
-    {
-      path: '/string/hamming',
-      name: 'hamming',
-      component: () => import('../components/algorithms/string/algorithms/hamming.vue')
-    },
-    {
-      path: '/string/knuth-morris-pratt',
-      name: 'knuth-morris-pratt',
-      component: () => import('../components/algorithms/string/algorithms/knuth-morris-pratt.vue')
-    },
-    {
-      path: '/string/levenshtein',
-      name: 'levenshtein',
-      component: () => import('../components/algorithms/string/algorithms/levenshtein.vue')
-    },
-    {
-      path: '/string/longest',
-      name: 'longest',
-      component: () => import('../components/algorithms/string/algorithms/longest.vue')
-    },
-    {
-      path: '/string/rabin-karp',
-      name: 'rabin-karp',
-      component: () => import('../components/algorithms/string/algorithms/rabin-karp.vue')
-    },
-    {
-      path: '/string/regular-expressions',
-      name: 'regular-expressions',
-      component: () => import('../components/algorithms/string/algorithms/regular-expressions.vue')
-    },
-    {
-      path: '/string/z',
-      name: 'z',
-      component: () => import('../components/algorithms/string/algorithms/z.vue')
     },
 
     // TREE AlGORITHMS
