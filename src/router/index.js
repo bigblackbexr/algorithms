@@ -1,9 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router";
 import allRoutes from "./categories/index";
 
-console.log(allRoutes,'aquitoy');
+console.log(allRoutes, 'aquitoy');
 
-const router = createRouter ({
+const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     ...allRoutes,
@@ -18,12 +18,6 @@ const router = createRouter ({
 
     // CATEGORIES
     {
-      path: '/sort',
-      name: 'sort',
-      component: () => import('../components/algorithm.vue'),
-      props: true
-    },
-    {
       path: '/string',
       name: 'string',
       component: () => import('../components/algorithm.vue'),
@@ -34,54 +28,6 @@ const router = createRouter ({
       name: 'tree',
       component: () => import('../components/algorithm.vue'),
       props: true
-    },
-
-    // SORT AlGORITHMS
-
-    {
-      path: '/sort/accounts',
-      name: 'accounts',
-      component: () => import('../components/algorithms/sort/algorithms/accounts.vue')
-    },
-    {
-      path: '/sort/bubble',
-      name: 'bubble',
-      component: () => import('../components/algorithms/sort/algorithms/bubble.vue')
-    },
-    {
-      path: '/sort/heap',
-      name: 'heap',
-      component: () => import('../components/algorithms/sort/algorithms/heap.vue')
-    },
-    {
-      path: '/sort/insertion',
-      name: 'insertion',
-      component: () => import('../components/algorithms/sort/algorithms/insertion.vue')
-    },
-    {
-      path: '/sort/merge',
-      name: 'merge',
-      component: () => import('../components/algorithms/sort/algorithms/merge.vue')
-    },
-    {
-      path: '/sort/quicksort',
-      name: 'quicksort',
-      component: () => import('../components/algorithms/sort/algorithms/quicksort.vue')
-    },
-    {
-      path: '/sort/radix',
-      name: 'radix',
-      component: () => import('../components/algorithms/sort/algorithms/radix.vue')
-    },
-    {
-      path: '/sort/selection',
-      name: 'selection',
-      component: () => import('../components/algorithms/sort/algorithms/selection.vue')
-    },
-    {
-      path: '/sort/shellsort',
-      name: 'shellsort',
-      component: () => import('../components/algorithms/sort/algorithms/shellsort.vue')
     },
 
     // STRING AlGORITHMS
