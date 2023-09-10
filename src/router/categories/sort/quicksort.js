@@ -1,11 +1,11 @@
-import ñComponent from '@/components/algorithms/sort/algorithms/ñ.vue';
+import quicksortComponent from '@/components/algorithms/sort/algorithms/quicksort.vue';
 
-const ñRoute = [
+const quicksortRoute = [
   {
-    path: '/sort/ñ',
-    name: 'ñ',
-    component: ñComponent
+    path: '/sort/quicksort',
+    name: 'quicksort',
+    component: quicksortComponent
   },
 ];
 
-export default ñRoute;
+export default quicksortRoute;

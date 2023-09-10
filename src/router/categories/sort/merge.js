@@ -1,11 +1,11 @@
-import ñComponent from '@/components/algorithms/sort/algorithms/ñ.vue';
+import mergeComponent from '@/components/algorithms/sort/algorithms/merge.vue';
 
-const ñRoute = [
+const mergeRoute = [
   {
-    path: '/sort/ñ',
-    name: 'ñ',
-    component: ñComponent
+    path: '/sort/merge',
+    name: 'merge',
+    component: mergeComponent
   },
 ];
 
-export default ñRoute;
+export default mergeRoute;

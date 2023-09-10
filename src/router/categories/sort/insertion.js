@@ -1,11 +1,11 @@
-import ñComponent from '@/components/algorithms/sort/algorithms/ñ.vue';
+import insertionComponent from '@/components/algorithms/sort/algorithms/insertion.vue';
 
-const ñRoute = [
+const insertionRoute = [
   {
-    path: '/sort/ñ',
-    name: 'ñ',
-    component: ñComponent
+    path: '/sort/insertion',
+    name: 'insertion',
+    component: insertionComponent
   },
 ];
 
-export default ñRoute;
+export default insertionRoute;

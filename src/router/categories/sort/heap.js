@@ -1,11 +1,11 @@
-import ñComponent from '@/components/algorithms/sort/algorithms/ñ.vue';
+import heapComponent from '@/components/algorithms/sort/algorithms/heap.vue';
 
-const ñRoute = [
+const heapRoute = [
   {
-    path: '/sort/ñ',
-    name: 'ñ',
-    component: ñComponent
+    path: '/sort/heap',
+    name: 'heap',
+    component: heapComponent
   },
 ];
 
-export default ñRoute;
+export default heapRoute;

@@ -1,11 +1,11 @@
-import ñComponent from '@/components/algorithms/sort/algorithms/ñ.vue';
+import shellsortComponent from '@/components/algorithms/sort/algorithms/shellsort.vue';
 
-const ñRoute = [
+const shellsortRoute = [
   {
-    path: '/sort/ñ',
-    name: 'ñ',
-    component: ñComponent
+    path: '/sort/shellsort',
+    name: 'shellsort',
+    component: shellsortComponent
   },
 ];
 
-export default ñRoute;
+export default shellsortRoute;

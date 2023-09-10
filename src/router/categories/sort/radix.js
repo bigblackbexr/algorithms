@@ -1,11 +1,11 @@
-import ñComponent from '@/components/algorithms/sort/algorithms/ñ.vue';
+import radixComponent from '@/components/algorithms/sort/algorithms/radix.vue';
 
-const ñRoute = [
+const radixRoute = [
   {
-    path: '/sort/ñ',
-    name: 'ñ',
-    component: ñComponent
+    path: '/sort/radix',
+    name: 'radix',
+    component: radixComponent
   },
 ];
 
-export default ñRoute;
+export default radixRoute;

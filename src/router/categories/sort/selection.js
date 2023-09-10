@@ -1,11 +1,11 @@
-import ñComponent from '@/components/algorithms/sort/algorithms/ñ.vue';
+import selectionComponent from '@/components/algorithms/sort/algorithms/selection.vue';
 
-const ñRoute = [
+const selectionRoute = [
   {
-    path: '/sort/ñ',
-    name: 'ñ',
-    component: ñComponent
+    path: '/sort/selection',
+    name: 'selection',
+    component: selectionComponent
   },
 ];
 
-export default ñRoute;
+export default selectionRoute;

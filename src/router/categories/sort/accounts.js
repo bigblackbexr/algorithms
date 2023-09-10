@@ -1,11 +1,11 @@
-import ñComponent from '@/components/algorithms/sort/algorithms/ñ.vue';
+import accountsComponent from '@/components/algorithms/sort/algorithms/accounts.vue';
 
-const ñRoute = [
+const accountsRoute = [
   {
-    path: '/sort/ñ',
-    name: 'ñ',
-    component: ñComponent
+    path: '/sort/accounts',
+    name: 'accounts',
+    component: accountsComponent
   },
 ];
 
-export default ñRoute;
+export default accountsRoute;

@@ -1,11 +1,11 @@
-import ñComponent from '@/components/algorithms/sort/algorithms/ñ.vue';
+import bubbleComponent from '@/components/algorithms/sort/algorithms/bubble.vue';
 
-const ñRoute = [
+const bubbleRoute = [
   {
-    path: '/sort/ñ',
-    name: 'ñ',
-    component: ñComponent
+    path: '/sort/bubble',
+    name: 'bubble',
+    component: bubbleComponent
   },
 ];
 
-export default ñRoute;
+export default bubbleRoute;
