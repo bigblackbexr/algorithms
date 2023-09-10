@@ -1,8 +1,8 @@
-import knuthMorrisPrattComponent from '@/components/algorithms/encrypt/algorithms/knuth-morris-pratt.vue';
+import knuthMorrisPrattComponent from '@/components/algorithms/string/algorithms/knuth-morris-pratt.vue';
 
 const knuthMorrisPrattRoute = [
   {
-    path: '/encrypt/knuth-morris-pratt',
+    path: '/string/knuth-morris-pratt',
     name: 'knuth-morris-pratt',
     component: knuthMorrisPrattComponent
   },

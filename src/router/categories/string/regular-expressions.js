@@ -1,8 +1,8 @@
-import regularExpressionsComponent from '@/components/algorithms/encrypt/algorithms/regular-expressions.vue';
+import regularExpressionsComponent from '@/components/algorithms/string/algorithms/regular-expressions.vue';
 
 const regularExpressionsRoute = [
   {
-    path: '/encrypt/regular-expressions',
+    path: '/string/regular-expressions',
     name: 'regular-expressions',
     component: regularExpressionsComponent
   },

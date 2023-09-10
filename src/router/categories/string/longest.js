@@ -1,8 +1,8 @@
-import longestComponent from '@/components/algorithms/encrypt/algorithms/longest.vue';
+import longestComponent from '@/components/algorithms/string/algorithms/longest.vue';
 
 const longestRoute = [
   {
-    path: '/encrypt/longest',
+    path: '/string/longest',
     name: 'longest',
     component: longestComponent
   },

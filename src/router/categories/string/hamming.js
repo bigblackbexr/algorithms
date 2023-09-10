@@ -1,8 +1,8 @@
-import hammingComponent from '@/components/algorithms/encrypt/algorithms/hamming.vue';
+import hammingComponent from '@/components/algorithms/string/algorithms/hamming.vue';
 
 const hammingRoute = [
   {
-    path: '/encrypt/hamming',
+    path: '/string/hamming',
     name: 'hamming',
     component: hammingComponent
   },

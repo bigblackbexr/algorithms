@@ -1,8 +1,8 @@
-import rabinKarpComponent from '@/components/algorithms/encrypt/algorithms/rabin-karp.vue';
+import rabinKarpComponent from '@/components/algorithms/string/algorithms/rabin-karp.vue';
 
 const rabinKarpRoute = [
   {
-    path: '/encrypt/rabin-karp',
+    path: '/string/rabin-karp',
     name: 'rabin-karp',
     component: rabinKarpComponent
   },

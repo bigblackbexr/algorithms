@@ -1,8 +1,8 @@
-import zComponent from '@/components/algorithms/encrypt/algorithms/z.vue';
+import zComponent from '@/components/algorithms/string/algorithms/z.vue';
 
 const zRoute = [
   {
-    path: '/encrypt/z',
+    path: '/string/z',
     name: 'z',
     component: zComponent
   },
