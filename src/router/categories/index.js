@@ -6,6 +6,7 @@ import noCategory from "./no/index";
 import searchCategory from "./search/index";
 import setCategory from "./set/index";
 import sortCategory from "./sort/index";
+import stringCategory from "./string/index";
 
 const allRoutes = [
   ...encryptCategory,
@@ -16,6 +17,7 @@ const allRoutes = [
   ...searchCategory,
   ...setCategory,
   ...sortCategory,
+  ...stringCategory,
 ];
 
 export default allRoutes;
