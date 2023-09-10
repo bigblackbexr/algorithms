@@ -5,6 +5,7 @@ import mathCategory from "./math/index";
 import noCategory from "./no/index";
 import searchCategory from "./search/index";
 import setCategory from "./set/index";
+import sortCategory from "./sort/index";
 
 const allRoutes = [
   ...encryptCategory,
@@ -14,6 +15,7 @@ const allRoutes = [
   ...noCategory,
   ...searchCategory,
   ...setCategory,
+  ...sortCategory,
 ];
 
 export default allRoutes;
