@@ -21,7 +21,7 @@
 			class="flex flex-col grow pb-2 md:flex md:flex-row md:justify-end md:pb-0 text-base max-md:text-sm md:pr-4">
 
 				<!--
-					First row is md light 
+					First row is md light
 					Second row is md dark
 					Third row is for sm light & dark
 				-->
@@ -123,11 +123,6 @@ export default {
 		return {
 			open: false,
 			openSubMore: false
-		}
-	},
-	methods:{
-		a () {
-			console.log('hola');
 		}
 	}
 }

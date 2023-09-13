@@ -44,47 +44,47 @@
         <div class="max-md:pt-12 pt-10 max-md:mx-0 mx-4">
           <div class="rounded-lg border-solid border-2 dark:border-purple-light]">
             <div class="m-2">
-              
+
               <div v-show="folder === 'encrypt'">
                 <Encrypt />
               </div>
-      
+
               <div v-show="folder === 'graph'">
                 <Graph />
               </div>
-        
+
               <div v-show="folder === 'list'">
                 <List />
               </div>
-        
+
               <div v-show="folder === 'math'">
                 <Math />
               </div>
-        
+
               <div v-show="folder === 'no'">
                 <No />
               </div>
-        
+
               <div v-show="folder === 'search'">
                 <Search />
               </div>
-        
+
               <div v-show="folder === 'set'">
                 <Set />
               </div>
-        
+
               <div v-show="folder === 'sort'">
                 <Sort />
               </div>
-        
+
               <div v-show="folder === 'string'">
                 <String />
               </div>
-        
+
               <div v-show="folder === 'tree'">
                 <Tree />
               </div>
-  
+
             </div>
           </div>
 
@@ -129,7 +129,6 @@
     methods: {
       getFolder () {
         this.folder = this.$route.name
-        console.log(this.folder)
       },
       getBack () {
         this.$router.go(-1)
