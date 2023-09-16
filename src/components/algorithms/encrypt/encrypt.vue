@@ -14,11 +14,11 @@
     </h1>
 
     <div class="text-orange-dark dark:text-purple-light mx-10 max-md:mx-6 my-5 text-xl max-md:text-base text-justify">
-      <span class="define" />
+      <span class="defineEncrypt" />
 
       <br> <br>
 
-      <div id="show" class="hidden">
+      <div id="showEncrypt" class="hidden">
 
         <div class="grid grid-cols-2 gap-4 max-md:gap-2 place-content-stretch justify-items-center
                   max-md:flex max-md:flex-col text-center">
@@ -39,17 +39,17 @@
 </template>
 
 <script>
-  import Typed from 'typed.js'
+  import typed from 'typed.js'
   import { RouterLink } from 'vue-router'
 
   export default {
     data () {
       return {
+        algorithms: [
+          'hash-polinomial',
+        ],
         item: null,
         items: ['🌕','🌖','🌗','🌘','🌑','🌒','🌓','🌔'],
-        algorithms: [
-          'hash-polinomial'
-        ]
       }
     },
     mounted () {
@@ -77,14 +77,14 @@
       const textC = h + i + j + k + l
       const textD = m
 
-      new Typed('.define', {
+      new typed('.defineEncrypt', {
         strings: [textA + textB + textC + textD],
         typeSpeed: 25,
         cursorChar: this.item,
         loop: false,
 
         onComplete: () => {
-          let show = document.getElementById('show')
+          let show = document.getElementById('showEncrypt')
           show.classList.remove('hidden')
         }
       })

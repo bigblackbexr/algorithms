@@ -14,13 +14,11 @@
     </h1>
 
     <div class="text-orange-dark dark:text-purple-light mx-10 max-md:mx-6 my-5 text-xl max-md:text-base text-justify">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis recusandae labore sit eius voluptates molestiae eligendi, reiciendis, hic nisi dolores doloremque quasi cupiditate explicabo rem quidem veniam nulla vel molestias.
-      </p>
+      <span class="defineGraph" />
 
       <br> <br>
 
-      <div id="show" class="hidden">
+      <div id="showGraph" class="hidden">
 
         <div class="grid grid-cols-2 gap-4 max-md:gap-2 place-content-stretch justify-items-center
                   max-md:flex max-md:flex-col text-center">
@@ -40,7 +38,7 @@
 </template>
 
 <script>
-
+  import typed from 'typed.js';
   import { RouterLink } from 'vue-router'
 
   export default {
@@ -62,8 +60,30 @@
           'topological-ordering',
           'traveler-problem',
           'width-search',
-        ]
+        ],
+        item: null,
+        items: ['🌕','🌖','🌗','🌘','🌑','🌒','🌓','🌔'],
       }
+    },
+    mounted () {
+      this.item = this.items[Math.floor(Math.random()*this.items.length)]
+      console.log(this.item);
+
+      let a = 'This is a testing.'
+
+      const firstText = a
+
+      new typed('.defineGraph', {
+        strings: [firstText],
+        typeSpeed: 25,
+        cursorChar: this.item,
+        loop: false,
+
+        onComplete: () => {
+          let show = document.getElementById('showGraph')
+          show.classList.remove('hidden')
+        }
+      })
     }
   }
 
