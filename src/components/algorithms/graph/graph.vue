@@ -70,6 +70,7 @@
       console.log(this.item);
 
       let a = 'This is a testing.'
+      let b = 'another text'
 
       const firstText = a
 
