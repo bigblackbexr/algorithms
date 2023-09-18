@@ -76,9 +76,11 @@
       const textB = d + e + f + g
       const textC = h + i + j + k + l
       const textD = m
+      const allText = [textA + textB + textC + textD]
+      console.log(allText);
 
       new typed('.defineEncrypt', {
-        strings: [textA + textB + textC + textD],
+        strings: allText,
         typeSpeed: 25,
         cursorChar: this.item,
         loop: false,
