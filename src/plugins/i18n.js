@@ -1,4 +1,7 @@
 import { createI18n } from 'vue-i18n';
+import { useI18n } from 'vue-i18n';
+
+console.log('aqui estoy', useI18n);
 
 const messages = {
   en: {
