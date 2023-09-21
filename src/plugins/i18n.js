@@ -1,7 +1,4 @@
 import { createI18n } from 'vue-i18n';
-import { useI18n } from 'vue-i18n';
-
-console.log('aqui estoy', useI18n);
 
 const messages = {
   en: {
@@ -20,6 +17,7 @@ const messages = {
     }
   }
 };
+
 
 const i18n = createI18n({
   locale: 'es', // set locale

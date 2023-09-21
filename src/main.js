@@ -1,7 +1,9 @@
 import { createApp } from 'vue'
-import i18n from './plugins/i18n'
 import App from './App.vue'
 import router from './router'
+
+import i18n from './plugins/i18n'
+import getUserLocale from './plugins/getUserLocale'
 
 import './style.css'
 
@@ -49,6 +51,7 @@ themeToggleBtn.addEventListener('click', function () {
 const app = createApp(App)
 
 app.use(i18n)
+i18n.global.locale = getUserLocale
 app.use(router)
 
 app.mount('#app')
