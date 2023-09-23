@@ -1,5 +1,9 @@
 import { createI18n } from 'vue-i18n';
 
+import App from '../i18n/es'
+
+console.log(App);
+
 const messages = {
   en: {
     message: {
@@ -12,9 +16,7 @@ const messages = {
     }
   },
   es: {
-    message: {
-      hello: 'Hola mundo'
-    }
+    App,
   }
 };
 

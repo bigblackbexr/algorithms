@@ -13,7 +13,7 @@
       <br>
       <br>
       <br>
-      {{ $t("message.hello") }}
+      {{ $t("App.message.hello") }}
     </p>
   </div>
 
