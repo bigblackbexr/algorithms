@@ -1,23 +1,15 @@
 import { createI18n } from 'vue-i18n';
-
-import App from '../i18n/es'
-
-console.log(App);
+import es from '../i18n/es'
+import en from '../i18n/en';
 
 const messages = {
-  en: {
-    message: {
-      hello: 'hello world'
-    }
-  },
+  en,
+  es,
   ja: {
     message: {
       hello: 'こんにちは、世界'
     }
   },
-  es: {
-    App,
-  }
 };
 
 

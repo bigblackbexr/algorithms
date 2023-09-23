@@ -1,9 +1,10 @@
-const AppEN = {
+export default {
   pages: {},
   components: {
     about: {},
     algorithms: {},
+  },
+  message: {
+    hello: 'Hello world'
   }
 };
-
-export default AppEN;
