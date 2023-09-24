@@ -2,6 +2,9 @@ import { createI18n } from 'vue-i18n';
 import es from '../i18n/es'
 import en from '../i18n/en';
 
+console.log(es);
+console.log(en);
+
 const messages = {
   en,
   es,
