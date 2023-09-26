@@ -1,12 +1,10 @@
 import pages from "./pages/index";
+import components from "./components/index";
 
 export default {
+  components,
   pages,
-  components: {
-    about: {},
-    algorithms: {},
-  },
   message: {
-    hello: 'Hello world'
+    hello: 'Hola mundo'
   }
 };
