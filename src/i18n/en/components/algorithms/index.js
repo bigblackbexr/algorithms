@@ -1,12 +1,14 @@
 import base from "./base"
-import encrypt from "./encrypt/index"
-import graph from "./graph/index"
-import list from "./list/index"
+import encrypt from "./encrypt"
+import graph from "./graph"
+import list from "./list"
+import math from "./math"
 
 export default {
   index: 'indexAlgorithms',
   base,
   encrypt,
-  graph,
-  list
-}
+  // graph,
+  // list,
+  // math
+};
