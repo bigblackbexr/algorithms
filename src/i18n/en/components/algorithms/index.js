@@ -17,7 +17,7 @@ export default {
   index: 'indexAlgorithms',
   list,
   math,
-  // no,
+  no,
   // search,
   // set,
   // sort,
