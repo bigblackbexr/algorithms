@@ -18,7 +18,7 @@ export default {
   list,
   math,
   no,
-  // search,
+  search,
   // set,
   // sort,
   // string,

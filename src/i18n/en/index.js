@@ -5,6 +5,6 @@ export default {
   components,
   pages,
   message: {
-    hello: 'Hola mundo'
+    hello: 'Hello world!'
   }
 };
