@@ -20,7 +20,7 @@ export default {
   no,
   search,
   set,
-  // sort,
+  sort,
   // string,
   // tree,
 };
