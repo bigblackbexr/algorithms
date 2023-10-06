@@ -21,6 +21,6 @@ export default {
   search,
   set,
   sort,
-  // string,
+  string,
   // tree,
 };
