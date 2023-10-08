@@ -22,5 +22,5 @@ export default {
   set,
   sort,
   string,
-  // tree,
+  tree,
 };
