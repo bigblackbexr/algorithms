@@ -1,3 +1,3 @@
 export default {
-  index: 'es.pages.index.vue'
+  index: 'en.pages.index.vue'
 }
