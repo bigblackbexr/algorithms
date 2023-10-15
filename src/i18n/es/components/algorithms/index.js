@@ -12,8 +12,8 @@ import tree from "./tree"
 
 export default {
   base,
-  // encrypt,
-  // graph,
+  encrypt,
+  graph,
   index: 'indexAlgorithms',
   // list,
   // math,
