@@ -16,7 +16,7 @@ export default {
   graph,
   index: 'indexAlgorithms',
   list,
-  // math,
+  math,
   // no,
   // search,
   // set,
