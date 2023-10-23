@@ -19,8 +19,8 @@ export default {
   math,
   no,
   search,
-  // set,
+  set,
   // sort,
-  // string,
+  string,
   tree,
 };
