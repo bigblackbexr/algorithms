@@ -5,18 +5,6 @@
 </script>
 
 <template>
-
-  <div>
-    <p>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      {{ $t("message.hello") }}
-    </p>
-  </div>
-
   <nav class="absolute inset-x-0 top-0 z-10">
 		<Nav />
 	</nav>
