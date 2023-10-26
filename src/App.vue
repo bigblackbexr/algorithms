@@ -5,11 +5,10 @@
 </script>
 
 <template>
-
   <nav class="absolute inset-x-0 top-0 z-10">
 		<Nav />
 	</nav>
-  
+
 	<footer class="absolute inset-x-0 bottom-0 ">
 		<Foot />
 	</footer>

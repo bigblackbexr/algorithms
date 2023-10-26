@@ -4,7 +4,7 @@
 			<!-- Logo & Button -->
 			<div class="flex flex-row items-center justify-between m-2 p-2">
 				<a class="ml-9 max-md:text-xl" href="#">
-					Algorithms
+					Algorithms {{ $t("message.hello") }}
 				</a>
 				<button class="md:hidden" @click="open = !open">
 					<svg :class="{'hidden': open}" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">

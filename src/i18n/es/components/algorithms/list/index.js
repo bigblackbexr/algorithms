@@ -1,0 +1,7 @@
+import directRoute from "./algorithms/direct-route"
+import invertRoute from "./algorithms/invert-route"
+
+export default {
+  directRoute,
+  invertRoute
+}
