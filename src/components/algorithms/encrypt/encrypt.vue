@@ -39,6 +39,7 @@
 </template>
 
 <script>
+  import encrypt from './encrypt'
   import typed from 'typed.js'
   import { RouterLink } from 'vue-router'
 
@@ -53,6 +54,7 @@
       }
     },
     mounted () {
+      console.log(encrypt.whatIs);
       this.item = this.items[Math.floor(Math.random()*this.items.length)]
 
       let a = 'An encryption algorithm is a set of mathematical instructions used to encode information to make it unreadable for anyone without the decryption key. <br> <br>'
@@ -77,10 +79,13 @@
       const textC = h + i + j + k + l
       const textD = m
       const allText = [textA + textB + textC + textD]
-      console.log(allText);
+      // console.log(allText);
+
+      const encryptDefinition = [encrypt.whatIs]
+      console.log(encryptDefinition,'im here');
 
       new typed('.defineEncrypt', {
-        strings: allText,
+        strings: encryptDefinition,
         typeSpeed: 25,
         cursorChar: this.item,
         loop: false,
