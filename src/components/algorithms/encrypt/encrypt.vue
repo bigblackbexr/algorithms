@@ -13,6 +13,8 @@
       </pre>
     </h1>
 
+    {{ encrypt }}
+
     <div class="text-orange-dark dark:text-purple-light mx-10 max-md:mx-6 my-5 text-xl max-md:text-base text-justify">
       <span class="defineEncrypt" />
 
@@ -95,6 +97,12 @@
           show.classList.remove('hidden')
         }
       })
+    },
+    computed: {
+      encrypt() {
+        //return this.$t("components.Index.encrypt.firstText")
+        return this.$t('components.Index.encrypt.firstText.a')
+      }
     }
   }
 </script>
