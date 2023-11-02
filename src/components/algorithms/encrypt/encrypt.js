@@ -1,3 +1,8 @@
+const classes = {
+  paddingSP: 'px-12 max-md:px-6',
+  textColorSP: 'text-red dark:text-pink',
+}
+
 const firstParagraph = {
   a: 'An encryption algorithm is a set of mathematical instructions used to encode information to make it unreadable for anyone without the decryption key. <br> <br>',
   b: 'Encryption algorithms are widely used in information security to protect confidential data from unauthorized access. <br> <br>',
@@ -5,7 +10,7 @@ const firstParagraph = {
 }
 
 const secondParagraph = {
-
+  a: `<p class="${classes.paddingSP} ${classes.textColorSP}">Symmetric Encryption</p>`
 }
 
 const encrypt = {
@@ -23,8 +28,9 @@ const encrypt = {
   m: 'Overall, encryption algorithms are an important part of information security today, and their use is critical to protecting privacy and confidentiality of online data.',
 
   textA: firstParagraph.a + firstParagraph.b + firstParagraph.c,
+  textB: secondParagraph.a,
   //this.a + this.b + this.c,
-  textB: () => this.d + this.e + this.f + this.g,
+  //textB: () => this.d + this.e + this.f + this.g,
   textC: () => this.h + this.i + this.j + this.k + this.l,
   textD: () => this.m,
 
