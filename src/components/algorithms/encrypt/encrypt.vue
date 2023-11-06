@@ -43,6 +43,7 @@
 <script>
   import { RouterLink } from 'vue-router'
   import defEncrypt from './encrypt.js'
+  import item from '@/utils/cursor-item.js'
   import Typed from 'typed.js'
 
   export default {
@@ -71,7 +72,7 @@
     computed: {
       encrypt() {
         //return this.$t("components.Index.encrypt.firstText")
-        return this.$t('components.Index.encrypt.firstText.a')
+        return this.$t('components.Index.encrypt.firstText')
       }
     }
   }
