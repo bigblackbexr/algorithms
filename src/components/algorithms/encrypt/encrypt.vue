@@ -43,7 +43,6 @@
 <script>
   import { RouterLink } from 'vue-router'
   import defEncrypt from './encrypt.js'
-  import item from '@/utils/type.js'
   import Typed from 'typed.js'
 
   export default {
