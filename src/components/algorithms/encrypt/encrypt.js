@@ -1,7 +1,10 @@
+import joinProperties from '@/utils/join-properties'
+
 const classes = {
   paddingP2: 'px-12 max-md:px-6',
   textColorP2: 'text-red dark:text-pink',
   cP2: 'px-12 max-md:px-6 text-red dark:text-pink',
+  cp3: 'px-14 max-md:px-2 text-center text-red-dark dark:text-pink-light'
 }
 
 const p1 = {
@@ -29,29 +32,32 @@ const p2 = {
     This type of encryption is commonly used in user authentication, digital signatures, and secure online transactions. </p> <br>`,
 }
 
-function joinProperties(obj, separator = ' ') {
-  return Object.keys(obj).map(key => obj[key]).join(separator);
+const p3 = {
+  a:
+    `Encryption algorithms are used in a wide variety of use cases, including: <br> <br>`,
+  b:
+    `<p class="${classes.cp3}">1.User Data Protection</p>`,
+  c:
+    `<p class="${classes.cp3}">2.Secure Communications</p>`,
+  d:
+    `<p class="${classes.cp3}">3.Online Payment Systems</p>`,
+  e:
+    `<p class="${classes.cp3}">4.File and Disk Protection</p> <br>`
 }
 
-const encrypt = {
-  h: 'Encryption algorithms are used in a wide variety of use cases, including: <br> <br>',
-  i: '<p class="px-14 max-md:px-2 text-center text-red-dark dark:text-pink-light">1.User Data Protection</p>',
-  j: '<p class="px-14 max-md:px-2 text-center text-red-dark dark:text-pink-light">2.Secure Communications</p>',
-  k: '<p class="px-14 max-md:px-2 text-center text-red-dark dark:text-pink-light">3.Online Payment Systems</p>',
-  l: '<p class="px-14 max-md:px-2 text-center text-red-dark dark:text-pink-light">4.File and Disk Protection</p> <br>',
+const p4 = {
+  a:
+    `Overall, encryption algorithms are an important part of information security today, and their use is critical to protecting
+    privacy and confidentiality of online data.`
+}
 
-  m: 'Overall, encryption algorithms are an important part of information security today, and their use is critical to protecting privacy and confidentiality of online data.',
-
+const defineEncrypt = {
   textA: joinProperties(p1),
   textB: joinProperties(p2),
-  //this.a + this.b + this.c,
-  //textB: () => this.d + this.e + this.f + this.g,
-  textC: () => this.h + this.i + this.j + this.k + this.l,
-  textD: () => this.m,
-
-  get whatIs() {
-    return this.textA + this.textB + this.textC + this.textD
-  }
+  textC: joinProperties(p3),
+  textD: joinProperties(p4),
 }
 
-export default encrypt;
+const defEncrypt = joinProperties(defineEncrypt);
+
+export default defEncrypt;
