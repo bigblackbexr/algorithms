@@ -14,7 +14,6 @@ export default {
   base,
   encrypt,
   graph,
-  index: 'indexAlgorithms',
   list,
   math,
   no,
