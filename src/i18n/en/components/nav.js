@@ -1,3 +1,20 @@
+const title = 'Algorithms';
+const menu = 'Menu';
+const about = 'About';
+const contact = 'Contact';
+const more = 'More';
+const options = {
+  one: {
+    title: 'Optione one',
+    description: 'Description of option one'
+  },
+}
+
 export default {
-  nav: 'nav'
+  title,
+  menu,
+  about,
+  contact,
+  more,
+  options
 };
