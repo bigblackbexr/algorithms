@@ -52,10 +52,10 @@ const p4 = {
 }
 
 const defineEncrypt = {
-  textA: joinProperties(p1),
-  textB: joinProperties(p2),
-  textC: joinProperties(p3),
-  textD: joinProperties(p4),
+  a: joinProperties(p1),
+  b: joinProperties(p2),
+  c: joinProperties(p3),
+  d: joinProperties(p4),
 }
 
 const defEncrypt = joinProperties(defineEncrypt);

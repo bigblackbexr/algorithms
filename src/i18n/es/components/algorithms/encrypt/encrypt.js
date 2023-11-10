@@ -50,10 +50,10 @@ const p4 = {
 }
 
 const definirCifrado = {
-  textoA: joinProperties(p1),
-  textoB: joinProperties(p2),
-  textoC: joinProperties(p3),
-  textoD: joinProperties(p4),
+  a: joinProperties(p1),
+  b: joinProperties(p2),
+  c: joinProperties(p3),
+  d: joinProperties(p4),
 }
 
 const defCifrado = joinProperties(definirCifrado);
