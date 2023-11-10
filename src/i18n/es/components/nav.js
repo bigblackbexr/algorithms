@@ -1,3 +1,13 @@
+const title = 'Algoritmos';
+const menu = 'Menu';
+const about = 'Nosotros';
+const contact = 'Contacto';
+const more = 'Más';
+
 export default {
-  nav: 'nav'
+  title,
+  menu,
+  about,
+  contact,
+  more
 };

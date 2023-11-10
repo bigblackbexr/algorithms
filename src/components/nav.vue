@@ -4,7 +4,7 @@
 			<!-- Logo & Button -->
 			<div class="flex flex-row items-center justify-between m-2 p-2">
 				<a class="ml-9 max-md:text-xl" href="#">
-					Algorithms {{ $t("message.hello") }}
+					{{ nav.title }}
 				</a>
 				<button class="md:hidden" @click="open = !open">
 					<svg :class="{'hidden': open}" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -32,7 +32,7 @@
 					max-md:my-2 max-md:mx-4 max-md:p-3 max-md:rounded-lg
 					"
 					href="#">
-						Menu
+          {{ nav.menu }}
 				</a>
 				<a class="
 					bg-orange-light text-orange-dark hover:underline focus:underline decoration-2 underline-offset-8 md:py-4 md:px-9
@@ -40,7 +40,7 @@
 					max-md:my-2 max-md:mx-4 max-md:p-3 max-md:rounded-lg
 					"
 					href="#">
-						About
+          {{ nav.about }}
 				</a>
 				<a class="
 					bg-orange-light text-orange-dark hover:underline focus:underline decoration-2 underline-offset-8 md:py-4 md:px-9
@@ -48,7 +48,7 @@
 					max-md:my-2 max-md:mx-4 max-md:p-3 max-md:rounded-lg
 					"
 					href="#">
-						Contact
+          {{ nav.contact }}
 				</a>
 				<a class="
 					rounded-r-lg bg-orange-light text-orange-dark hover:underline focus:underline decoration-2 underline-offset-8 md:py-4 md:px-9
@@ -56,7 +56,7 @@
 					max-md:my-2 max-md:mx-4 max-md:p-3 max-md:rounded-lg
 					"
 					href="#">
-						More
+          {{ nav.more }}
 				</a>
 
 				<a class="
@@ -124,6 +124,11 @@ export default {
 			open: false,
 			openSubMore: false
 		}
-	}
+	},
+  computed: {
+    nav () {
+      return this.$tm('components.nav', 'en')
+    }
+  }
 }
 </script>
