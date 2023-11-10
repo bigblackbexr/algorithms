@@ -1,20 +1,30 @@
 import { createI18n } from 'vue-i18n';
-import es from '../i18n/es'
+import language from './getUserLocale';
 import en from '../i18n/en';
+import es from '../i18n/es'
 
-console.log(es, 'ES');
-console.log(en, 'EN');
+const messages = {};
 
-const messages = {
-  en,
-  es,
-  ja: {
-    message: {
-      hello: 'こんにちは、世界'
-    }
-  },
-};
+let english = 'en'
+let spanish = 'es'
 
+switch (spanish) {
+  // Spanish
+  case 'es':
+    console.log(es, 'Spanish');
+    messages.es = es;
+    break;
+
+  // English
+  case 'en':
+    console.log(en, 'English');
+    messages.en = en;
+    break;
+
+  default:
+    console.log('Language not supported');
+    break;
+}
 
 const i18n = createI18n({
   locale: 'es', // set locale
