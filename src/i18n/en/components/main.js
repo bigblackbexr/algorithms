@@ -1,3 +1,7 @@
+const title = 'Algorithms'
+const version = 'v0.0'
+
 export default {
-  main: 'main'
+  title,
+  version
 };

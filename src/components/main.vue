@@ -7,10 +7,10 @@
             &nbsp
           </div>
           <p class="text-4xl text-center">
-            Algorithms
+            {{ main.title }}
           </p>
           <p class="text-md max-md:text-lg text-center mb-32 animate-pulse text-orange-dark dark:text-purple-light">
-            v0.0
+            {{ main.version }}
           </p>
         </div>
       </nav>
@@ -49,7 +49,12 @@
           'tree'
         ],
       }
+    },
+    computed: {
+      main () {
+        return this.$tm('components.main')
+      }
     }
   }
-  
+
 </script>
