@@ -1,3 +1,5 @@
+const index = 'Home';
+
 export default {
-  algorithm: 'algorithm'
+  index
 };

@@ -12,7 +12,7 @@
                   <div class="inline-flex items-center text-sm">
                     <svg aria-hidden="true" class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path></svg>
                     <p class="max-md:mt-1">
-                      Home
+                      {{ algorithm.index }}
                     </p>
                   </div>
                 </li>
@@ -97,16 +97,16 @@
 </template>
 
 <script>
-	import Encrypt from './algorithms/encrypt/encrypt.vue'
-	import Graph from './algorithms/graph/graph.vue'
-	import List from './algorithms/list/list.vue'
-	import Math from './algorithms/math/math.vue'
-	import No from './algorithms/no/no.vue'
-	import Search from './algorithms/search/search.vue'
-	import Set from './algorithms/set/set.vue'
-	import Sort from './algorithms/sort/sort.vue'
-	import String from './algorithms/string/string.vue'
-	import Tree from './algorithms/tree/tree.vue'
+	import Encrypt from './algorithms/encrypt/encrypt.vue';
+	import Graph from './algorithms/graph/graph.vue';
+	import List from './algorithms/list/list.vue';
+	import Math from './algorithms/math/math.vue';
+	import No from './algorithms/no/no.vue';
+	import Search from './algorithms/search/search.vue';
+	import Set from './algorithms/set/set.vue';
+	import Sort from './algorithms/sort/sort.vue';
+	import String from './algorithms/string/string.vue';
+	import Tree from './algorithms/tree/tree.vue';
 
   export default {
     components: {
@@ -136,6 +136,11 @@
     },
     mounted () {
       this.getFolder()
+    },
+    computed: {
+      algorithm () {
+        return this.$tm('components.algorithm')
+      }
     }
   }
 
