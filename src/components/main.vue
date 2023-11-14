@@ -7,18 +7,18 @@
             &nbsp
           </div>
           <p class="text-4xl text-center">
-            Algorithms
+            {{ main.title }}
           </p>
           <p class="text-md max-md:text-lg text-center mb-32 animate-pulse text-orange-dark dark:text-purple-light">
-            v0.0
+            {{ main.version }}
           </p>
         </div>
       </nav>
 
       <main>
         <div class="columns-5 max-md:flex max-md:flex-col">
-          <div v-for="folder in folders" class="max-md:py-1 py-2 grid place-items-center">
-            <RouterLink :to="`${folder}`" class="w-full max-md:p-2 py-6 rounded-lg text-center bg-orange-light text-orange-dark dark:bg-purple-light dark:text-purple-dark">
+          <div v-for="(folder, key) in main.folders" class="max-md:py-1 py-2 grid place-items-center">
+            <RouterLink :to="`${key}`" class="w-full max-md:p-2 py-6 rounded-lg text-center bg-orange-light text-orange-dark dark:bg-purple-light dark:text-purple-dark">
               <p class="capitalize">
                 {{ folder }}
               </p>
@@ -49,7 +49,12 @@
           'tree'
         ],
       }
+    },
+    computed: {
+      main () {
+        return this.$tm('components.main')
+      }
     }
   }
-  
+
 </script>

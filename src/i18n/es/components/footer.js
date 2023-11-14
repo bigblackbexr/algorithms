@@ -1,3 +1,7 @@
+const title = 'Algoritmos'
+const rights = 'Todos los derechos reservados.';
+
 export default {
-  footer: 'footer'
+  title,
+  rights
 };

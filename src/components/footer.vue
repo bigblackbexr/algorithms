@@ -4,9 +4,9 @@
       <!-- Author -->
       <span class="pl-4">
         ®{{ new Date().getFullYear() }}
-          Algorithms™.
+          {{ footer.title }}™.
         <span class="flex text-sm max-md:text-[10px]">
-          All Rights Reserved.
+          {{ footer.rights }}
           <span class="text-xs leading-[22px] max-md:leading-[20px] max-md:text-[8px]">
             David C.
           </span>
@@ -29,10 +29,21 @@
   </div>
 </template>
 
-<script setup>
-  const socialMedia ={
-    buyMeACoffe: 'https://www.buymeacoffee.com/davidCort3s',
-    gitHub: 'https://github.com/david-Cort3s',
-    linkedIn: 'https://www.linkedin.com/in/david-Cort3s'
+<script>
+  export default {
+    data () {
+      return {
+        socialMedia: {
+          buyMeACoffe: 'https://www.buymeacoffee.com/davidCort3s',
+          gitHub: 'https://github.com/david-Cort3s',
+          linkedIn: 'https://www.linkedin.com/in/david-Cort3s'
+        }
+      }
+    },
+    computed: {
+      footer () {
+        return this.$tm('components.footer')
+      }
+    }
   }
 </script>

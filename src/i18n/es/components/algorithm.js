@@ -1,3 +1,5 @@
+const index = 'Inicio';
+
 export default {
-  algorithm: 'algorithm'
+  index
 };
