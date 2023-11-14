@@ -13,6 +13,8 @@
       </pre>
     </h1>
 
+    {{ defGraph }}
+
     <div class="text-orange-dark dark:text-purple-light mx-10 max-md:mx-6 my-5 text-xl max-md:text-base text-justify">
       <span class="defineGraph" />
 
@@ -38,8 +40,9 @@
 </template>
 
 <script>
+  import { RouterLink } from 'vue-router';
+  import item from '@/utils/cursor-item.js';
   import typed from 'typed.js';
-  import { RouterLink } from 'vue-router'
 
   export default {
     data () {
@@ -61,13 +64,9 @@
           'traveler-problem',
           'width-search',
         ],
-        item: null,
-        items: ['🌕','🌖','🌗','🌘','🌑','🌒','🌓','🌔'],
       }
     },
     mounted () {
-      this.item = this.items[Math.floor(Math.random()*this.items.length)]
-      console.log(this.item);
 
       let a = 'Un algoritmo de tipo gráfico es un conjunto de reglas y procedimientos matemáticos diseñados para analizar y manipular datos representados en forma de grafo. Un grafo es una estructura compuesta por nodos (vértices) y conexiones (aristas) que representan relaciones entre estos nodos. <br> <br>'
       let b = 'Estos algoritmos son esenciales en una variedad de campos y aplicaciones donde se manejan datos con estructura de grafo. <br> <br>'
@@ -95,7 +94,7 @@
       new typed('.defineGraph', {
         strings: [firstText + secondText + threeText + fourText],
         typeSpeed: 0,
-        cursorChar: this.item,
+        cursorChar: item,
         loop: false,
 
         onComplete: () => {
@@ -103,6 +102,11 @@
           show.classList.remove('hidden')
         }
       })
+    },
+    computed: {
+      defGraph () {
+        return this.$tm('components.index.graph')
+      }
     }
   }
 

@@ -1,3 +1,4 @@
+import graph from "./graph";
 import bellmanFord from "./algorithms/bellman-ford";
 import bridges from "./algorithms/bridges";
 import depthSearch from "./algorithms/depth-search";
@@ -15,6 +16,7 @@ import travelerProblem from "./algorithms/traveler-problem";
 import widthSearch from "./algorithms/width-search";
 
 export default {
+  graph,
   bellmanFord,
   bridges,
   depthSearch,
