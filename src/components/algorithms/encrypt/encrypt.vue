@@ -54,17 +54,17 @@
      mounted () {
       const encryptDefinition = [this.defEncrypt.encrypt]
 
-        new Typed('.defineEncrypt', {
-          strings: encryptDefinition,
-          typeSpeed: 25,
-          cursorChar: item,
-          loop: false,
+      new Typed('.defineEncrypt', {
+        strings: encryptDefinition,
+        typeSpeed: 25,
+        cursorChar: item,
+        loop: false,
 
-          onComplete: () => {
-            let show = document.getElementById('showEncrypt')
-            show.classList.remove('hidden')
-          }
-        })
+        onComplete: () => {
+          let show = document.getElementById('showEncrypt')
+          show.classList.remove('hidden')
+        }
+      })
     },
     computed: {
       defEncrypt() {
