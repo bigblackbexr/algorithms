@@ -15,41 +15,43 @@ const p1 = {
   b:
     'Estos algoritmos son esenciales en una variedad de campos y aplicaciones donde se manejan datos con estructura de grafo. <br> <br>',
   c:
-    'Existen dos categorías principales de algoritmos de tipo gráfico: <br> <br>',
+    'Existen dos categorías principales de algoritmos de tipo gráfico: <br> <br>'
 }
 
 const p2 = {
-  a:
-    `<p class="${classes.cP2}">Symmetric Encryption</p>`,
+  a: `
+    <p class="${classes.cP2}">Búsqueda y Exploración</p>`,
   b:
-    `<p class="${classes.paddingP2}"> Also known as secret-key cryptography, uses the same key to encrypt and decrypt information.
-    This type of encryption is commonly used in file storage and communication systems where both parties share a secret key,
-    such as passwords or personal data. </p> <br>`,
+    `<p class="${classes.paddingP2}">Estos algoritmos se utilizan para buscar caminos, relaciones o características específicas dentro de
+    un grafo. Pueden emplearse para determinar si existe una ruta entre dos nodos, encontrar el camino más corto entre nodos, o explorar
+    la estructura completa del grafo. </p> <br>`,
   c:
-    `<p class="${classes.cP2}">Asymmetric Encryption</p>`,
+    `<p class="${classes.cP2}">Procesamiento y Análisis</p>`,
   d:
-    `<p class="${classes.paddingP2}"> Also known as public-key cryptography, uses a public key and a private key to encrypt and decrypt information.
-    The public key is widely shared and used to encrypt the data, while the private key is kept secure and used to decrypt the data.
-    This type of encryption is commonly used in user authentication, digital signatures, and secure online transactions. </p> <br>`,
+    `<p class="${classes.paddingP2}">Estos algoritmos se centran en extraer información significativa de los datos del grafo. Pueden incluir
+    algoritmos de detección de comunidades para identificar grupos de nodos con conexiones fuertes, algoritmos de análisis de centralidad
+    para encontrar nodos clave en el grafo, o algoritmos de clustering para agrupar nodos similares. </p> <br>`
 }
 
 const p3 = {
   a:
-    `Encryption algorithms are used in a wide variety of use cases, including: <br> <br>`,
+    `Los algoritmos de tipo gráfico se aplican en diversas áreas, incluyendo: <br> <br>`,
   b:
-    `<p class="${classes.cp3}">1.User Data Protection</p>`,
+    `<p class="${classes.cp3}">1.Redes Sociales</p>`,
   c:
-    `<p class="${classes.cp3}">2.Secure Communications</p>`,
+    `<p class="${classes.cp3}">2.Transporte y Logística</p>`,
   d:
-    `<p class="${classes.cp3}">3.Online Payment Systems</p>`,
+    `<p class="${classes.cp3}">3.Biología Computacional</p>`,
   e:
-    `<p class="${classes.cp3}">4.File and Disk Protection</p> <br>`
+    `<p class="${classes.cp3}">4.Recomendación de Contenido</p>`,
+  f:
+    `<p class="${classes.cp3}">5.Análisis de Redes</p> <br>`
 }
 
 const p4 = {
   a:
-    `Overall, encryption algorithms are an important part of information security today, and their use is critical to protecting
-    privacy and confidentiality of online data.`
+    `En general, los algoritmos de tipo gráfico son herramientas esenciales para analizar y comprender datos representados en forma de grafo,
+    y su versatilidad los convierte en elementos fundamentales en una amplia variedad de aplicaciones y disciplinas.`
 }
 
 const defineGraph = {

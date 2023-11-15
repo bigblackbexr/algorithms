@@ -13,8 +13,6 @@
       </pre>
     </h1>
 
-    {{ defGraph }}
-
     <div class="text-orange-dark dark:text-purple-light mx-10 max-md:mx-6 my-5 text-xl max-md:text-base text-justify">
       <span class="defineGraph" />
 
@@ -80,41 +78,6 @@
           show.classList.remove('hidden')
         }
       })
-
-      // let a = 'Un algoritmo de tipo gráfico es un conjunto de reglas y procedimientos matemáticos diseñados para analizar y manipular datos representados en forma de grafo. Un grafo es una estructura compuesta por nodos (vértices) y conexiones (aristas) que representan relaciones entre estos nodos. <br> <br>'
-      // let b = 'Estos algoritmos son esenciales en una variedad de campos y aplicaciones donde se manejan datos con estructura de grafo. <br> <br>'
-      // let c = 'Existen dos categorías principales de algoritmos de tipo gráfico: <br> <br>'
-
-      // let d = '<p class="px-12 max-md:px-6 text-red dark:text-pink">Algoritmos de Búsqueda y Exploración</p>'
-      // let e = '<p class="px-12 max-md:px-6">Estos algoritmos se utilizan para buscar caminos, relaciones o características específicas dentro de un grafo. Pueden emplearse para determinar si existe una ruta entre dos nodos, encontrar el camino más corto entre nodos, o explorar la estructura completa del grafo. </p> <br>'
-      // let f = '<p class="px-12 max-md:px-6 text-red dark:text-pink">Algoritmos de Procesamiento y Análisis</p>'
-      // let g = '<p class="px-12 max-md:px-6">Estos algoritmos se centran en extraer información significativa de los datos del grafo. Pueden incluir algoritmos de detección de comunidades para identificar grupos de nodos con conexiones fuertes, algoritmos de análisis de centralidad para encontrar nodos clave en el grafo, o algoritmos de clustering para agrupar nodos similares. </p> <br>'
-
-      // let h = 'Los algoritmos de tipo gráfico se aplican en diversas áreas, incluyendo: <br> <br>'
-      // let i = '<p class="px-14 max-md:px-2 text-center text-red-dark dark:text-pink-light">1.Redes Sociales</p>'
-      // let j = '<p class="px-14 max-md:px-2 text-center text-red-dark dark:text-pink-light">2.Transporte y Logística</p>'
-      // let k = '<p class="px-14 max-md:px-2 text-center text-red-dark dark:text-pink-light">3.Biología Computacional</p>'
-      // let l = '<p class="px-14 max-md:px-2 text-center text-red-dark dark:text-pink-light">4.Recomendación de Contenido</p>'
-      // let m = '<p class="px-14 max-md:px-2 text-center text-red-dark dark:text-pink-light">5.Análisis de Redes</p> <br>'
-
-      // let n = 'En resumen, los algoritmos de tipo gráfico son herramientas esenciales para analizar y comprender datos representados en forma de grafo, y su versatilidad los convierte en elementos fundamentales en una amplia variedad de aplicaciones y disciplinas.'
-
-      // const firstText = a + b + c
-      // const secondText = d + e + f + g
-      // const threeText = h + i + j + k + l + m
-      // const fourText = n
-
-      // new typed('.defineGraph', {
-      //   strings: [firstText + secondText + threeText + fourText],
-      //   typeSpeed: 0,
-      //   cursorChar: item,
-      //   loop: false,
-
-      //   onComplete: () => {
-      //     let show = document.getElementById('showGraph')
-      //     show.classList.remove('hidden')
-      //   }
-      // })
     },
     computed: {
       defGraph () {
