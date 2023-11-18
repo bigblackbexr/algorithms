@@ -9,46 +9,48 @@ const classes = {
 
 const p1 = {
   a:
-    `An encryption algorithm is a set of mathematical instructions used to encode information to make it unreadable for anyone without
-    the decryption key. <br> <br>`,
+    `A graph algorithm is a set of rules and mathematical procedures designed to analyze and manipulate data
+    represented in the form of a graph. A graph is a structure composed of nodes (vertices) and connections (edges) that represent
+    relationships between these nodes. <br> <br>`,
   b:
-    'Encryption algorithms are widely used in information security to protect confidential data from unauthorized access. <br> <br>',
+    'These algorithms are essential in a variety of fields and applications where data with a graph structure is handled. <br> <br>',
   c:
-    'There are two main types of encryption algorithms: <br> <br>',
+    'There are two main categories of graph algorithms: <br> <br>'
 }
 
 const p2 = {
-  a:
-    `<p class="${classes.cP2}">Symmetric Encryption</p>`,
+  a: `
+    <p class="${classes.cP2}">Search and Exploration</p>`,
   b:
-    `<p class="${classes.paddingP2}"> Also known as secret-key cryptography, uses the same key to encrypt and decrypt information.
-    This type of encryption is commonly used in file storage and communication systems where both parties share a secret key,
-    such as passwords or personal data. </p> <br>`,
+    `<p class="${classes.paddingP2}">These algorithms are used to search for paths, relationships, or specific features within
+    a graph. They can be used to determine if there is a path between two nodes, find the shortest path between nodes, or explore
+    the complete structure of the graph. </p> <br>`,
   c:
-    `<p class="${classes.cP2}">Asymmetric Encryption</p>`,
+    `<p class="${classes.cP2}">Processing and Analysis</p>`,
   d:
-    `<p class="${classes.paddingP2}"> Also known as public-key cryptography, uses a public key and a private key to encrypt and decrypt information.
-    The public key is widely shared and used to encrypt the data, while the private key is kept secure and used to decrypt the data.
-    This type of encryption is commonly used in user authentication, digital signatures, and secure online transactions. </p> <br>`,
+    `<p class="${classes.paddingP2}">These algorithms focus on extracting meaningful information from graph data. They may include
+    community detection algorithms to identify groups of nodes with strong connections, centrality analysis algorithms to find key nodes in the graph, or clustering algorithms to group similar nodes. </p> <br>`
 }
 
 const p3 = {
   a:
-    `Encryption algorithms are used in a wide variety of use cases, including: <br> <br>`,
+    `Graph algorithms are applied in various areas, including: <br> <br>`,
   b:
-    `<p class="${classes.cp3}">1.User Data Protection</p>`,
+    `<p class="${classes.cp3}">1. Social Networks</p>`,
   c:
-    `<p class="${classes.cp3}">2.Secure Communications</p>`,
+    `<p class="${classes.cp3}">2. Transportation and Logistics</p>`,
   d:
-    `<p class="${classes.cp3}">3.Online Payment Systems</p>`,
+    `<p class="${classes.cp3}">3. Computational Biology</p>`,
   e:
-    `<p class="${classes.cp3}">4.File and Disk Protection</p> <br>`
+    `<p class="${classes.cp3}">4. Content Recommendation</p>`,
+  f:
+    `<p class="${classes.cp3}">5. Network Analysis</p> <br>`
 }
 
 const p4 = {
   a:
-    `Overall, encryption algorithms are an important part of information security today, and their use is critical to protecting
-    privacy and confidentiality of online data.`
+    `In general, graph algorithms are essential tools for analyzing and understanding data represented in the form of a graph,
+    and their versatility makes them fundamental elements in a wide variety of applications and disciplines.`
 }
 
 const defineGraph = {
