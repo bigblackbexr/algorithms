@@ -1,3 +1,5 @@
+const index = 'Home'
+
 export default {
-  base: 'base'
+  index
 };
