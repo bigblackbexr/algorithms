@@ -21,7 +21,7 @@
       <div id="showGraph" class="hidden">
 
         <div class="grid grid-cols-2 gap-4 max-md:gap-2 place-content-stretch justify-items-center
-                  max-md:flex max-md:flex-col text-center">
+                    max-md:flex max-md:flex-col text-center">
           <RouterLink :to="`graph/${algorithm}`" v-for="algorithm in algorithms"
             class="w-full rounded-lg max-md:text-sm p-4 max-md:p-2 bg-orange-light text-orange-dark dark:bg-purple-light dark:text-vampire-dark
                   hover:animate-pulse">
@@ -32,6 +32,7 @@
         </div>
 
       </div>
+
     </div>
 
   </div>
