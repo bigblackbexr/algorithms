@@ -9,48 +9,49 @@ const classes = {
 
 const p1 = {
   a:
-    `A graph algorithm is a set of rules and mathematical procedures designed to analyze and manipulate data
-    represented in the form of a graph. A graph is a structure composed of nodes (vertices) and connections (edges) that represent
-    relationships between these nodes. <br> <br>`,
+    `Un algoritmo de listas consiste en un conjunto de reglas y procedimientos matemáticos diseñados para analizar y manipular datos
+    representados en forma de lista. Una lista es una estructura lineal compuesta por elementos, cada uno identificado por su índice
+    o posición. <br> <br>`,
   b:
-    'These algorithms are essential in a variety of fields and applications where data with a graph structure is handled. <br> <br>',
+    'Estos algoritmos son fundamentales en diversas áreas y aplicaciones donde los datos presentan una estructura de lista. <br> <br>',
   c:
-    'There are two main categories of graph algorithms: <br> <br>'
+    'Existen dos categorías principales de algoritmos de listas: <br> <br>'
 }
 
 const p2 = {
   a: `
-    <p class="${classes.cP2}">Search and Exploration</p>`,
+    <p class="${classes.cP2}">Exploración e Identificación</p>`,
   b:
-    `<p class="${classes.paddingP2}">These algorithms are used to search for paths, relationships, or specific features within
-    a graph. They can be used to determine if there is a path between two nodes, find the shortest path between nodes, or explore
-    the complete structure of the graph. </p> <br>`,
+    `<p class="${classes.paddingP2}">Estos algoritmos tienen como objetivo buscar elementos o características específicas dentro de
+    una lista dada. Pueden determinar la presencia de un elemento, señalar su posición dentro de la lista o extraer elementos que
+    cumplan con criterios predefinidos. </p> <br>`,
   c:
-    `<p class="${classes.cP2}">Processing and Analysis</p>`,
+    `<p class="${classes.cP2}">Organización y Transformación</p>`,
   d:
-    `<p class="${classes.paddingP2}">These algorithms focus on extracting meaningful information from graph data. They may include
-    community detection algorithms to identify groups of nodes with strong connections, centrality analysis algorithms to find key nodes in the graph, or clustering algorithms to group similar nodes. </p> <br>`
+    `<p class="${classes.paddingP2}">Esta categoría se centra en la organización sistemática de elementos o en la ejecución de operaciones
+    en la lista. Los algoritmos de ordenación, por ejemplo, facilitan la disposición de elementos en orden ascendente o descendente.
+    Mientras tanto, los algoritmos de transformación pueden incluir tareas como la adición o eliminación de elementos. </p> <br>`
 }
 
 const p3 = {
   a:
-    `Graph algorithms are applied in various areas, including: <br> <br>`,
+    `Los algoritmos de listas encuentran aplicaciones prácticas en diversas áreas, como: <br> <br>`,
   b:
-    `<p class="${classes.cp3}">1. Social Networks</p>`,
+    `<p class="${classes.cp3}">1. Sistemas de Gestión de Datos</p>`,
   c:
-    `<p class="${classes.cp3}">2. Transportation and Logistics</p>`,
+    `<p class="${classes.cp3}">2. Recuperación de Información</p>`,
   d:
-    `<p class="${classes.cp3}">3. Computational Biology</p>`,
+    `<p class="${classes.cp3}">3. Automatizada de Tareas y Programación</p>`,
   e:
-    `<p class="${classes.cp3}">4. Content Recommendation</p>`,
+    `<p class="${classes.cp3}">4. Procesamiento y Análisis de Texto</p>`,
   f:
-    `<p class="${classes.cp3}">5. Network Analysis</p> <br>`
+    `<p class="${classes.cp3}">5. Gestión de Inventarios</p> <br>`
 }
 
 const p4 = {
   a:
-    `In general, graph algorithms are essential tools for analyzing and understanding data represented in the form of a graph,
-    and their versatility makes them fundamental elements in a wide variety of applications and disciplines.`
+    `En resumen, los algoritmos de listas representan herramientas indispensables para analizar y dar forma a datos representados en forma
+    de lista. Su adaptabilidad los posiciona como componentes esenciales en una variedad de aplicaciones que abarcan diferentes disciplinas.`
 }
 
 const defineList = {
