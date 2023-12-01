@@ -1,11 +1,5 @@
-import joinProperties from '@/utils/join-properties'
-
-const classes = {
-  paddingP2: 'px-12 max-md:px-6',
-  textColorP2: 'text-red dark:text-pink',
-  cP2: 'px-12 max-md:px-6 text-red dark:text-pink',
-  cp3: 'px-14 max-md:px-2 text-center text-red-dark dark:text-pink-light'
-}
+import joinProperties from '@/utils/join-properties';
+import classes from '@/utils/classes-definition';
 
 const p1 = {
   a:
@@ -16,7 +10,7 @@ const p1 = {
     'Estos algoritmos son fundamentales en diversas áreas y aplicaciones donde los datos presentan una estructura de lista. <br> <br>',
   c:
     'Existen dos categorías principales de algoritmos de listas: <br> <br>'
-}
+};
 
 const p2 = {
   a: `
@@ -31,7 +25,7 @@ const p2 = {
     `<p class="${classes.paddingP2}">Esta categoría se centra en la organización sistemática de elementos o en la ejecución de operaciones
     en la lista. Los algoritmos de ordenación, por ejemplo, facilitan la disposición de elementos en orden ascendente o descendente.
     Mientras tanto, los algoritmos de transformación pueden incluir tareas como la adición o eliminación de elementos. </p> <br>`
-}
+};
 
 const p3 = {
   a:
@@ -46,20 +40,20 @@ const p3 = {
     `<p class="${classes.cp3}">4. Procesamiento y Análisis de Texto</p>`,
   f:
     `<p class="${classes.cp3}">5. Gestión de Inventarios</p> <br>`
-}
+};
 
 const p4 = {
   a:
     `En resumen, los algoritmos de listas representan herramientas indispensables para analizar y dar forma a datos representados en forma
     de lista. Su adaptabilidad los posiciona como componentes esenciales en una variedad de aplicaciones que abarcan diferentes disciplinas.`
-}
+};
 
 const defineList = {
   a: joinProperties(p1),
   b: joinProperties(p2),
   c: joinProperties(p3),
   d: joinProperties(p4),
-}
+};
 
 const defList = joinProperties(defineList);
 
