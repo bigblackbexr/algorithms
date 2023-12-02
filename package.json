@@ -1,7 +1,7 @@
 {
   "name": "algorithms",
   "private": true,
-  "version": "00.000.27",
+  "version": "00.000.28",
   "type": "module",
   "scripts": {
     "dev": "vite",
