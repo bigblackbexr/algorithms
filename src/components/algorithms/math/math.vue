@@ -67,7 +67,6 @@
     },
     mounted () {
       const mathDefinition = [this.defMath.math];
-      // const mathDefinition = ['Math Definition'];
 
       new Typed('.defineMath', {
         strings: mathDefinition,
