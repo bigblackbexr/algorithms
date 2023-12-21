@@ -1,3 +1,4 @@
+import math from "./math";
 import bitManipulation from "./algorithms/bit-manipulation";
 import complexNumbers from "./algorithms/complex-numbers";
 import discreteFourierTransform from "./algorithms/discrete-fourier-transform";
@@ -15,6 +16,7 @@ import radiansAndDegrees from "./algorithms/radians-and-degrees";
 import sieveEratosthenes from "./algorithms/sieve-eratosthenes";
 
 export default {
+  math,
   bitManipulation,
   complexNumbers,
   discreteFourierTransform,

@@ -1,11 +1,5 @@
-import joinProperties from '@/utils/join-properties'
-
-const classes = {
-  paddingP2: 'px-12 max-md:px-6',
-  textColorP2: 'text-red dark:text-pink',
-  cP2: 'px-12 max-md:px-6 text-red dark:text-pink',
-  cp3: 'px-14 max-md:px-2 text-center text-red-dark dark:text-pink-light'
-}
+import joinProperties from '@/utils/join-properties';
+import classes from '@/utils/classes-definition';
 
 const p1 = {
   a:
@@ -16,7 +10,7 @@ const p1 = {
     'These algorithms are essential in a variety of fields and applications where data with a graph structure is handled. <br> <br>',
   c:
     'There are two main categories of graph algorithms: <br> <br>'
-}
+};
 
 const p2 = {
   a: `
@@ -30,7 +24,7 @@ const p2 = {
   d:
     `<p class="${classes.paddingP2}">These algorithms focus on extracting meaningful information from graph data. They may include
     community detection algorithms to identify groups of nodes with strong connections, centrality analysis algorithms to find key nodes in the graph, or clustering algorithms to group similar nodes. </p> <br>`
-}
+};
 
 const p3 = {
   a:
@@ -51,14 +45,14 @@ const p4 = {
   a:
     `In general, graph algorithms are essential tools for analyzing and understanding data represented in the form of a graph,
     and their versatility makes them fundamental elements in a wide variety of applications and disciplines.`
-}
+};
 
 const defineGraph = {
   a: joinProperties(p1),
   b: joinProperties(p2),
   c: joinProperties(p3),
   d: joinProperties(p4),
-}
+};
 
 const defGraph = joinProperties(defineGraph);
 
