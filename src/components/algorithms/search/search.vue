@@ -1,55 +1,76 @@
 <template>
   <div>
-
-    <br>
+    <br />
     <h1>
-      <pre class="grid place-content-center -mt-18 max-md:-mt-0 text-xl max-md:text-[8px] max-md:leading-[10px]">
+      <pre class="-mt-18 grid place-content-center text-xl max-md:-mt-0 max-md:text-[8px] max-md:leading-[10px]">
 ███████╗███████╗ █████╗ ██████╗  ██████╗██╗  ██╗
 ██╔════╝██╔════╝██╔══██╗██╔══██╗██╔════╝██║  ██║
 ███████╗█████╗  ███████║██████╔╝██║     ███████║
 ╚════██║██╔══╝  ██╔══██║██╔══██╗██║     ██╔══██║
 ███████║███████╗██║  ██║██║  ██║╚██████╗██║  ██║
 ╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝
-      </pre>    
+      </pre>
     </h1>
 
-    <div class="text-orange-dark dark:text-purple-light mx-10 max-md:mx-6 my-5 text-xl max-md:text-base text-justify">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis recusandae labore sit eius voluptates molestiae eligendi, reiciendis, hic nisi dolores doloremque quasi cupiditate explicabo rem quidem veniam nulla vel molestias.
-      </p>
+    <div class="mx-10 my-5 text-justify text-xl text-orange-dark dark:text-purple-light max-md:mx-6 max-md:text-base">
+      <span class="defineSearch" />
 
-      <br>
+      <br />
+      <br />
 
-      <div class="grid grid-cols-2 gap-4 max-md:gap-2 place-content-stretch justify-items-center
-                  max-md:flex max-md:flex-col text-center">
-        <RouterLink :to="`search/${algorithm}`" v-for="algorithm in algorithms" 
-          class="w-full rounded-lg max-md:text-sm p-4 max-md:p-2 bg-orange-light text-orange-dark dark:bg-purple-light dark:text-vampire-dark
-                 hover:animate-pulse">
+      <div
+        id="showSearch"
+        class="hidden"
+      >
+        <div
+          class="grid grid-cols-2 place-content-stretch justify-items-center gap-4 text-center max-md:flex max-md:flex-col max-md:gap-2"
+        >
+          <RouterLink
+            :to="`search/${algorithm}`"
+            v-for="algorithm in algorithms"
+            class="w-full rounded-lg bg-orange-light p-4 text-orange-dark hover:animate-pulse dark:bg-purple-light dark:text-vampire-dark max-md:p-2 max-md:text-sm"
+          >
             <p class="capitalize">
               {{ algorithm }}
             </p>
-        </RouterLink >
+          </RouterLink>
+        </div>
       </div>
     </div>
-
   </div>
 </template>
 
 <script>
-
-  import { RouterLink } from 'vue-router'
+  import { RouterLink } from "vue-router";
+  import item from "@/utils/cursor-item.js";
+  import Typed from "typed.js";
 
   export default {
-    data () {
+    data() {
       return {
-        algorithms: [
-          'binary',
-          'interpolation',
-          'jump',
-          'linear',
-        ]
-      }
-    }
-  }
+        algorithms: ["binary", "interpolation", "jump", "linear"],
+      };
+    },
+    computed: {
+      defSearch() {
+        return this.$tm("components.index.search");
+      },
+    },
+    mounted() {
+      console.log(this.defSearch);
+      const searchDefinition = ["Aqui va la data"];
 
+      new Typed(".defineSearch", {
+        strings: searchDefinition,
+        typeSpeed: 25,
+        cursorChar: item,
+        loop: false,
+
+        onComplete: () => {
+          let show = document.getElementById("showDefinition");
+          show.classList.remove("hidden");
+        },
+      });
+    },
+  };
 </script>
