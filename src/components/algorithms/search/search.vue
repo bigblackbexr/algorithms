@@ -12,7 +12,7 @@
       </pre>
     </h1>
 
-    <div class="mx-10 my-5 text-justify text-xl text-orange-dark dark:text-purple-light max-md:mx-6 max-md:text-base">
+    <div class="mx-10 my-5 text-justify text-xl text-orange-dark max-md:mx-6 max-md:text-base dark:text-purple-light">
       <span class="defineSearch" />
 
       <br />
@@ -28,7 +28,7 @@
           <RouterLink
             :to="`search/${algorithm}`"
             v-for="algorithm in algorithms"
-            class="w-full rounded-lg bg-orange-light p-4 text-orange-dark hover:animate-pulse dark:bg-purple-light dark:text-vampire-dark max-md:p-2 max-md:text-sm"
+            class="w-full rounded-lg bg-orange-light p-4 text-orange-dark hover:animate-pulse max-md:p-2 max-md:text-sm dark:bg-purple-light dark:text-vampire-dark"
           >
             <p class="capitalize">
               {{ algorithm }}
@@ -57,8 +57,7 @@
       },
     },
     mounted() {
-      console.log(this.defSearch);
-      const searchDefinition = ["Aqui va la data"];
+      const searchDefinition = [this.defSearch.search];
 
       new Typed(".defineSearch", {
         strings: searchDefinition,
@@ -67,7 +66,7 @@
         loop: false,
 
         onComplete: () => {
-          let show = document.getElementById("showDefinition");
+          let show = document.getElementById("showSearch");
           show.classList.remove("hidden");
         },
       });
