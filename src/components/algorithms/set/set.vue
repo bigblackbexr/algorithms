@@ -59,7 +59,7 @@
           "maximum-subarray",
           "permutations",
           "set-power",
-          "shortest-common-supersequence.",
+          "shortest-common-supersequence",
         ],
       };
     },
