@@ -65,11 +65,11 @@
     },
     computed: {
       defSet() {
-        return "Hola";
+        return this.$tm("components.index.set");
       },
     },
     mounted() {
-      const setDefinition = [this.defSearch];
+      const setDefinition = [this.defSet.set];
 
       new Typed(".defineSet", {
         strings: setDefinition,
