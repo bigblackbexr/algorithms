@@ -1,3 +1,4 @@
+import set from "./set";
 import backpackProblem from "./algorithms/backpack-problem";
 import cartesianProduct from "./algorithms/cartesian-product";
 import combinations from "./algorithms/combinations";
@@ -11,6 +12,7 @@ import setPower from "./algorithms/set-power";
 import shortestCommonSupersequence from "./algorithms/shortest-common-supersequence";
 
 export default {
+  set,
   backpackProblem,
   cartesianProduct,
   combinations,
