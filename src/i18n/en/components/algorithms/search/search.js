@@ -37,11 +37,11 @@ const p2 = {
 
 const p3 = {
   a: `These search algorithms find practical applications in various areas, such as: <br> <br>`,
-  b: `<p class="${classes.cp3}">1. Information Retrieval</p>`,
-  c: `<p class="${classes.cp3}">2. Data Mining</p>`,
-  d: `<p class="${classes.cp3}">3. Database Querying</p>`,
-  e: `<p class="${classes.cp3}">4. Artificial Intelligence</p>`,
-  f: `<p class="${classes.cp3}">5. Network Routing</p> <br>`,
+  b: `<p class="${classes.cP3}">1. Information Retrieval</p>`,
+  c: `<p class="${classes.cP3}">2. Data Mining</p>`,
+  d: `<p class="${classes.cP3}">3. Database Querying</p>`,
+  e: `<p class="${classes.cP3}">4. Artificial Intelligence</p>`,
+  f: `<p class="${classes.cP3}">5. Network Routing</p> <br>`,
 };
 
 const p4 = {
