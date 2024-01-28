@@ -43,11 +43,11 @@ const p2 = {
 
 const p3 = {
   a: `Estos algoritmos de búsqueda encuentran aplicaciones prácticas en diversas áreas, tales como: <br> <br>`,
-  b: `<p class="${classes.cp3}">1. Recuperación de Información</p>`,
-  c: `<p class="${classes.cp3}">2. Minería de Datos</p>`,
-  d: `<p class="${classes.cp3}">3. Consultas de Bases de Datos</p>`,
-  e: `<p class="${classes.cp3}">4. Inteligencia Artificial</p>`,
-  f: `<p class="${classes.cp3}">5. Enrutamiento de Redes</p> <br>`,
+  b: `<p class="${classes.cP3}">1. Recuperación de Información</p>`,
+  c: `<p class="${classes.cP3}">2. Minería de Datos</p>`,
+  d: `<p class="${classes.cP3}">3. Consultas de Bases de Datos</p>`,
+  e: `<p class="${classes.cP3}">4. Inteligencia Artificial</p>`,
+  f: `<p class="${classes.cP3}">5. Enrutamiento de Redes</p> <br>`,
 };
 
 const p4 = {
