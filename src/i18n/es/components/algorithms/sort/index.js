@@ -1,3 +1,4 @@
+import sort from "./sort";
 import accounts from "./algorithms/accounts";
 import bubble from "./algorithms/bubble";
 import heap from "./algorithms/heap";
@@ -9,6 +10,7 @@ import selection from "./algorithms/selection";
 import shellsort from "./algorithms/shellsort";
 
 export default {
+  sort,
   accounts,
   bubble,
   heap,
