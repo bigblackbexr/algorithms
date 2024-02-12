@@ -1,3 +1,4 @@
+import string from "./string";
 import hamming from "./algorithms/hamming";
 import knuthMorrisPratt from "./algorithms/knuth-morris-pratt";
 import levenshtein from "./algorithms/levenshtein";
@@ -7,6 +8,7 @@ import regularExpressions from "./algorithms/regular-expressions";
 import z from "./algorithms/z";
 
 export default {
+  string,
   hamming,
   knuthMorrisPratt,
   levenshtein,
